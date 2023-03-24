@@ -2943,6 +2943,33 @@
         "name": "images\\10_chaperon_rouge\\etiquette8.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/10_chaperon_rouge/Loup_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\10_chaperon_rouge\\Loup_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/10_chaperon_rouge/Loup_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\10_chaperon_rouge\\Loup_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/bloctexte.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\bloctexte.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3327,93 +3354,6 @@
                 {
                   "hasCustomCollisionMask": false,
                   "image": "images\\00_interface\\bulle_erreur_2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "cadreTemps2",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "images\\01-foret\\temps3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "cadreTemps",
-      "tags": "",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": false,
-                  "image": "images\\01-foret\\temps0.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -11760,7 +11700,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5437880351086481,
+        "zoomFactor": 0.5621247471461963,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11855,6 +11795,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "loup",
+          "persistentUuid": "2d5ce556-2216-496e-934f-75df351a672b",
+          "width": 0,
+          "x": -23,
+          "y": 165,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "chaperon",
+          "persistentUuid": "f66e33c7-b637-4388-9120-8ad9961d8ff9",
+          "width": 0,
+          "x": 88,
+          "y": 219,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -11920,6 +11890,105 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\10_chaperon_rouge\\album.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "loup",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\Loup_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\Loup_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "chaperon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\Chaperon_rouge_100.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12153,7 +12222,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6006739811226749,
+        "zoomFactor": 0.6418668337046632,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12526,6 +12595,21 @@
           "x": 1141,
           "y": 590,
           "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "validation",
+          "persistentUuid": "69b54d4e-69be-45ae-aaca-d7de589922e0",
+          "width": 0,
+          "x": 1046,
+          "y": 636,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12909,9 +12993,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -12956,9 +13040,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -13003,9 +13087,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -13050,9 +13134,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -13097,9 +13181,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -13144,9 +13228,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -13191,9 +13275,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -13238,9 +13322,9 @@
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -14904,16 +14988,6 @@
             },
             {
               "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableChat",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
@@ -15022,45 +15096,6 @@
                 "erreur",
                 "+",
                 "1"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableChat",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"Le meunier a produit 660 kg de farine. Il doit partager, répartir, sa production en 3 afin de pouvoir la vendre à 3 boulangers. Mais il dispose uniquement de sacs de 10 kg.\n\n1. Combien de sacs de farine va-t-il devoir préparer ?\n\n2. Combien de sacs doit-il préparer pour 1 boulanger ?\""
               ]
             }
           ]
@@ -31309,7 +31344,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 142,
+          "height": 194,
           "layer": "",
           "name": "BlocConsigne",
           "persistentUuid": "77508596-73e5-4323-8a14-d27c8462f2ad",
@@ -31324,7 +31359,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 112,
+          "height": 105,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "08990481-1e11-48a2-bbc2-4dfd8c1506ef",
@@ -31359,8 +31394,8 @@
           "name": "validation",
           "persistentUuid": "605442e5-9e5e-425f-91cc-34cbcd77100d",
           "width": 0,
-          "x": 894,
-          "y": 472,
+          "x": 893,
+          "y": 557,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -31389,7 +31424,7 @@
           "name": "horloge",
           "persistentUuid": "34119183-1954-4dce-b90d-9c21fd12f48d",
           "width": 0,
-          "x": 1067,
+          "x": 855,
           "y": 8,
           "zOrder": 8,
           "numberProperties": [],
@@ -31404,8 +31439,8 @@
           "name": "reponse",
           "persistentUuid": "902dc0cd-aa3c-441f-b4bc-4ab3e96ccdc8",
           "width": 139,
-          "x": 597,
-          "y": 473,
+          "x": 590,
+          "y": 560,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -31419,8 +31454,8 @@
           "name": "Phrase_reponse",
           "persistentUuid": "a9227d5c-f590-43ee-bd4f-2a7da8c252c6",
           "width": 372,
-          "x": 269,
-          "y": 477,
+          "x": 263,
+          "y": 561,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -31434,8 +31469,8 @@
           "name": "Phrase_reponse2",
           "persistentUuid": "6c69bdf8-59e8-444a-8008-c5b145f5b7d3",
           "width": 0,
-          "x": 736,
-          "y": 478,
+          "x": 739,
+          "y": 562,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -31461,12 +31496,42 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "cendrillon",
-          "persistentUuid": "c1a8f5f3-4975-48a6-a38c-a541afe29480",
+          "name": "cendrillon2",
+          "persistentUuid": "380f1c83-a71f-4d71-a90f-787e5258f92f",
           "width": 0,
-          "x": 2,
-          "y": 139,
-          "zOrder": 12,
+          "x": 22,
+          "y": 138,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 162,
+          "layer": "indice",
+          "name": "indiceCendrillon",
+          "persistentUuid": "f54dd713-8f32-45cd-b9c3-ae9ced34a37f",
+          "width": 549,
+          "x": 363,
+          "y": 251,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "df108e76-bbf0-4c0d-b1c3-4ea800e96af4",
+          "width": 403,
+          "x": 431,
+          "y": 262,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31475,13 +31540,28 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "name": "cendrillon2",
-          "persistentUuid": "380f1c83-a71f-4d71-a90f-787e5258f92f",
+          "layer": "erreur",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "06865d93-8851-493e-81fa-04915ae3ace1",
           "width": 0,
-          "x": 119,
-          "y": 136,
-          "zOrder": 13,
+          "x": 223,
+          "y": 196,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 166,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "e433a33e-b3b7-425e-b64d-ce68a10d76a3",
+          "width": 526,
+          "x": 363,
+          "y": 354,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -31634,47 +31714,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "cendrillon",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\15_cendrillon\\Cendrillon_fond_blanc-150.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
           "name": "cendrillon2",
           "tags": "",
           "type": "Sprite",
@@ -31713,6 +31752,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 12,
+          "height": 32,
+          "leftMargin": 12,
+          "name": "indiceCendrillon",
+          "rightMargin": 12,
+          "tags": "",
+          "texture": "images\\00_interface\\bloctexte.png",
+          "tiled": true,
+          "topMargin": 12,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -31754,6 +31810,38 @@
                 "reponse",
                 "=",
                 "ToLowerCase(reponse.Text())"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceCendrillon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
               ]
             }
           ]
@@ -31880,51 +31968,52 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "Montre"
               },
               "parameters": [
-                "consigne",
-                "=",
-                "\"Non\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
+                "bulleErreurGauche",
                 ""
               ]
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "Montre"
               },
               "parameters": [
-                "GBL_Enigmes.VariableCendrillon",
-                "=",
-                "0"
+                "TexteErreur",
+                ""
               ]
-            }
-          ],
-          "actions": [
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "600",
+                "300",
+                ""
+              ]
+            },
             {
               "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"Cendrillon a regardé l’horloge en arrivant au bal. \nLe cadran indiquait 20h00.\nElle doit repartir à minuit. \n\nCombien de temps va-t-elle rester au bal ?\""
+                "\"Tu t’es trompé, réfléchis et donne-moi une autre réponse.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -31966,12 +32055,265 @@
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "590",
+                "245",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"Fais attention, la réponse est attendue en lettres.\""
+                "\"Attention, la réponse attendue est en lettres.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "erreur",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "LightBulb",
+                "LightBulb",
+                "1200",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "LightBulb",
+                "*",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\"Trouve l’heure affichée par l’horloge et compte le nombre d’heure qu’il y a entre son arrivée et son départ.\n\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceCendrillon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "860",
+                "260",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceCendrillon"
               ]
             }
           ]
@@ -46569,20 +46911,7 @@
           "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "",
-                "cadreTemps",
-                "10",
-                "10",
-                ""
-              ]
-            }
-          ]
+          "actions": []
         },
         {
           "disabled": true,
@@ -46609,16 +46938,6 @@
                 "CompteRebours",
                 "-",
                 "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeWidth"
-              },
-              "parameters": [
-                "cadreTemps2",
-                "=",
-                "GlobalVariable(CompteRebours)*250/540"
               ]
             },
             {
