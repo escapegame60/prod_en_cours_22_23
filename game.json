@@ -2970,6 +2970,15 @@
         "name": "images\\00_interface\\bloctexte.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/bloc3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\bloc3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3483,7 +3492,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -14615,21 +14629,6 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "erreur",
-          "name": "CloseButton",
-          "persistentUuid": "0d306a9a-3e98-4be7-bc08-8c54bcc303cc",
-          "width": 0,
-          "x": 588,
-          "y": 239,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 247,
           "layer": "erreur",
@@ -14886,23 +14885,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "CloseButton2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "bulleErreurGauche"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "CloseButton"
               ]
             },
             {
@@ -15071,11 +15054,14 @@
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "Create"
               },
               "parameters": [
                 "CloseButton",
-                ""
+                "CloseButton",
+                "600",
+                "240",
+                "\"erreur\""
               ]
             },
             {
@@ -15143,10 +15129,11 @@
             },
             {
               "type": {
-                "value": "Cache"
+                "value": "Delete"
               },
               "parameters": [
-                "CloseButton"
+                "CloseButton",
+                ""
               ]
             }
           ]
@@ -15258,11 +15245,14 @@
             },
             {
               "type": {
-                "value": "Montre"
+                "value": "Create"
               },
               "parameters": [
                 "CloseButton2",
-                ""
+                "CloseButton2",
+                "750",
+                "200",
+                "\"indice\""
               ]
             }
           ]
@@ -15297,14 +15287,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "CloseButton2"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
                 "TexteIndice"
               ]
             },
@@ -15314,6 +15296,15 @@
               },
               "parameters": [
                 "indiceAlice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
               ]
             }
           ]
@@ -26433,7 +26424,7 @@
           "layer": "",
           "name": "BlocConsigne",
           "persistentUuid": "8bd2b4a9-5f39-4a45-9813-c288925648b2",
-          "width": 932,
+          "width": 888,
           "x": 280,
           "y": 10,
           "zOrder": 3,
@@ -26444,11 +26435,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 122,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "79085ca1-53d1-40ba-9f60-ca3d7081efb1",
-          "width": 881,
+          "width": 847,
           "x": 293,
           "y": 14,
           "zOrder": 4,
@@ -26464,7 +26455,7 @@
           "name": "clavier",
           "persistentUuid": "c52b84e4-c5fa-4978-a2a8-8c85aecb171d",
           "width": 790,
-          "x": 220,
+          "x": 320,
           "y": 153,
           "zOrder": 5,
           "numberProperties": [],
@@ -26479,7 +26470,7 @@
           "name": "note1",
           "persistentUuid": "c8cd7ce3-37f4-43b1-8cc8-e7a3c173ebb2",
           "width": 0,
-          "x": 229,
+          "x": 330,
           "y": 154,
           "zOrder": 6,
           "numberProperties": [],
@@ -26494,7 +26485,7 @@
           "name": "note2",
           "persistentUuid": "214c1206-932d-4c66-b827-fe7bbbcaba59",
           "width": 0,
-          "x": 325,
+          "x": 425,
           "y": 154,
           "zOrder": 7,
           "numberProperties": [],
@@ -26509,7 +26500,7 @@
           "name": "note3",
           "persistentUuid": "3446a86f-08b5-450a-aeaa-08b49ebd1e78",
           "width": 0,
-          "x": 460,
+          "x": 560,
           "y": 154,
           "zOrder": 8,
           "numberProperties": [],
@@ -26524,7 +26515,7 @@
           "name": "note4",
           "persistentUuid": "2e19f999-45b5-496f-ace2-6dbee9812321",
           "width": 0,
-          "x": 574,
+          "x": 674,
           "y": 154,
           "zOrder": 9,
           "numberProperties": [],
@@ -26539,7 +26530,7 @@
           "name": "note5",
           "persistentUuid": "aefe4b7e-2527-415a-9d8e-959895141fe7",
           "width": 0,
-          "x": 674,
+          "x": 774,
           "y": 154,
           "zOrder": 10,
           "numberProperties": [],
@@ -26554,7 +26545,7 @@
           "name": "note6",
           "persistentUuid": "15498e88-8d5e-4cd0-a555-5e10c67e169e",
           "width": 0,
-          "x": 795,
+          "x": 895,
           "y": 154,
           "zOrder": 11,
           "numberProperties": [],
@@ -26569,7 +26560,7 @@
           "name": "note7",
           "persistentUuid": "ba3a4a38-ce1d-4c1b-bb5b-d02a71892274",
           "width": 0,
-          "x": 912,
+          "x": 1012,
           "y": 154,
           "zOrder": 12,
           "numberProperties": [],
@@ -26719,7 +26710,7 @@
           "name": "n1",
           "persistentUuid": "6a228139-6061-41a2-8968-475d45f63d1d",
           "width": 0,
-          "x": 249,
+          "x": 349,
           "y": 330,
           "zOrder": 23,
           "numberProperties": [],
@@ -26734,7 +26725,7 @@
           "name": "n2",
           "persistentUuid": "20c6f723-7fa4-44e2-a8d6-7534ca89f5f8",
           "width": 0,
-          "x": 369,
+          "x": 469,
           "y": 330,
           "zOrder": 24,
           "numberProperties": [],
@@ -26749,7 +26740,7 @@
           "name": "n3",
           "persistentUuid": "1cfc1a13-9afc-4531-8fc8-86f6d2fdfe1e",
           "width": 0,
-          "x": 504,
+          "x": 604,
           "y": 330,
           "zOrder": 25,
           "numberProperties": [],
@@ -26764,7 +26755,7 @@
           "name": "n4",
           "persistentUuid": "2398c6c2-43de-484f-8d55-d55c8331a552",
           "width": 0,
-          "x": 589,
+          "x": 689,
           "y": 330,
           "zOrder": 26,
           "numberProperties": [],
@@ -26779,7 +26770,7 @@
           "name": "n5",
           "persistentUuid": "3790b4b2-ecf5-4a5f-aff9-cc7e8324935a",
           "width": 0,
-          "x": 718,
+          "x": 818,
           "y": 330,
           "zOrder": 27,
           "numberProperties": [],
@@ -26794,7 +26785,7 @@
           "name": "n6",
           "persistentUuid": "5606cefe-84cb-41b4-a6f2-124c3178b8fb",
           "width": 0,
-          "x": 836,
+          "x": 936,
           "y": 330,
           "zOrder": 28,
           "numberProperties": [],
@@ -26809,7 +26800,7 @@
           "name": "n7",
           "persistentUuid": "7d221333-2d03-4167-b716-25ddc52a7a4d",
           "width": 0,
-          "x": 962,
+          "x": 1062,
           "y": 330,
           "zOrder": 29,
           "numberProperties": [],
@@ -26824,8 +26815,8 @@
           "name": "PlayButton",
           "persistentUuid": "fcf16960-55a0-4915-ba2f-8466c7ffd9cf",
           "width": 0,
-          "x": 80,
-          "y": 286,
+          "x": 149,
+          "y": 316,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -26857,6 +26848,81 @@
           "x": 53,
           "y": 611,
           "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "nains",
+          "persistentUuid": "03538c94-ab0f-4e85-8e8c-95e894f91930",
+          "width": 0,
+          "x": -6,
+          "y": 140,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 341,
+          "layer": "erreur",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "91574ae1-a349-4565-8350-218850c68c83",
+          "width": 612,
+          "x": 349,
+          "y": 78,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 217,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "201aee8b-c58f-42cd-bdad-a45cd1a0208d",
+          "width": 498,
+          "x": 437,
+          "y": 197,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 210,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "5d36cfc5-0b43-4cc0-8d21-906bb1d7792b",
+          "width": 763,
+          "x": 368,
+          "y": 180,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "indiceNains",
+          "persistentUuid": "1bc48f5c-4508-499b-be36-c210c7d03a4e",
+          "width": 0,
+          "x": 351,
+          "y": 156,
+          "zOrder": 38,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27659,6 +27725,93 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "nains",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\14_nains\\compagnie_7nains150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceNains",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -27760,13 +27913,153 @@
               "parameters": [
                 "n7"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceNains"
+              ]
             }
           ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "PlayButton",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note6",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "note7",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -30707,12 +31000,52 @@
             },
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "630",
+                "120",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"NON\""
+                "\"Nooooon, ce n'est pas tout \nà fait la même chose, réécoute bien la mélodie.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -30722,11 +31055,10 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "CloseButton",
                 "",
                 "",
                 ""
@@ -30734,27 +31066,217 @@
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "GBL_Enigmes.Variable7nains",
-                "=",
-                "0"
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "Cache"
               },
               "parameters": [
-                "consigne",
-                "=",
-                "\"Mon instrument est complètement ensorcelé et il joue des notes bizarres. Aide moi à lever le sortilège.\nEcoute la mélodie en cliquant sur le bouton « lecture ». Essaye de la reconstituer à l’aide des touches du piano.\nEcris le numéro de chaque note dans les cases.\n\""
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "erreur",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "LightBulb",
+                "LightBulb",
+                "1200",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "LightBulb",
+                "*",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceNains",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\"Voici un petit indice pour t'aider : \n\n- La note 1 et la note 2 sont identiques ;\n- La note 3 et la note 4 sont identiques ;\n- La note 5 et la note 6 sont identiques ;\n- La note 7 et la note 8 sont identiques.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "1120",
+                "160",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceNains"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -31335,7 +31857,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6895873134716796,
+        "zoomFactor": 0.5288893261860952,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -31454,8 +31976,8 @@
           "name": "Phrase_reponse",
           "persistentUuid": "a9227d5c-f590-43ee-bd4f-2a7da8c252c6",
           "width": 372,
-          "x": 263,
-          "y": 561,
+          "x": 261,
+          "y": 563,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -31470,7 +31992,7 @@
           "persistentUuid": "6c69bdf8-59e8-444a-8008-c5b145f5b7d3",
           "width": 0,
           "x": 739,
-          "y": 562,
+          "y": 568,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -31538,14 +32060,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 373,
           "layer": "erreur",
           "name": "bulleErreurGauche",
           "persistentUuid": "06865d93-8851-493e-81fa-04915ae3ace1",
-          "width": 0,
-          "x": 223,
-          "y": 196,
+          "width": 669,
+          "x": 287,
+          "y": 191,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -31559,8 +32081,8 @@
           "name": "TexteErreur",
           "persistentUuid": "e433a33e-b3b7-425e-b64d-ce68a10d76a3",
           "width": 526,
-          "x": 363,
-          "y": 354,
+          "x": 385,
+          "y": 307,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -31992,8 +32514,8 @@
                 "CloseButton",
                 "CloseButton",
                 "600",
-                "300",
-                ""
+                "240",
+                "\"erreur\""
               ]
             },
             {
@@ -32370,7 +32892,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "indice",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -47168,6 +47690,63 @@
           },
           "comment": "Bouton curseur",
           "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "erreur",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "LightBulb",
+                "LightBulb",
+                "1200",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "LightBulb",
+                "*",
+                "1.5"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
