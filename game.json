@@ -2979,6 +2979,24 @@
         "name": "images\\00_interface\\bloc3.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/17_belle_bete/fond_belle_bete.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\17_belle_bete\\fond_belle_bete.jpg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/17_belle_bete/enigmeCP.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\17_belle_bete\\enigmeCP.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3283,7 +3301,7 @@
       "behaviors": [],
       "string": "00:00:00",
       "font": "polices\\DS-DIGIT.TTF",
-      "textAlignment": "left",
+      "textAlignment": "right",
       "characterSize": 40,
       "color": {
         "b": 0,
@@ -31214,7 +31232,7 @@
               "parameters": [
                 "CloseButton2",
                 "CloseButton2",
-                "1120",
+                "1100",
                 "160",
                 "\"indice\""
               ]
@@ -36395,7 +36413,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.7370816317994029,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -36404,14 +36422,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 305,
+          "height": 213,
           "layer": "",
           "name": "BlocConsigne",
           "persistentUuid": "a6aafc5f-4af1-4162-acac-85926700b1c1",
-          "width": 725,
+          "width": 840,
           "x": 280,
           "y": 10,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36419,12 +36437,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 256,
+          "height": 230,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0570b728-0a2d-4916-a5bd-392c1ae442c4",
-          "width": 641,
-          "x": 319,
+          "width": 790,
+          "x": 303,
           "y": 19,
           "zOrder": 2,
           "numberProperties": [],
@@ -36450,12 +36468,12 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "curseur",
           "name": "curseurLoupe",
           "persistentUuid": "790680f6-4097-4681-ae83-5c2937d27907",
           "width": 0,
-          "x": 987,
-          "y": 386,
+          "x": 1139,
+          "y": 494,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -36469,8 +36487,8 @@
           "name": "validation",
           "persistentUuid": "bf9ea675-2a55-477e-ac95-e8c24a8f3090",
           "width": 0,
-          "x": 738,
-          "y": 490,
+          "x": 1162,
+          "y": 417,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -36484,9 +36502,864 @@
           "name": "reponse",
           "persistentUuid": "ffeffa56-5861-42ac-a741-560a220bfac8",
           "width": 178,
-          "x": 517,
-          "y": 467,
+          "x": 965,
+          "y": 394,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "fond",
+          "persistentUuid": "1906bdac-f756-4f36-a5b3-52253c0aa1c9",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Belle",
+          "persistentUuid": "1f9528eb-96e1-4095-b75a-fe249b22e652",
+          "width": 0,
+          "x": 36,
+          "y": 159,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "e3f17653-996d-43a0-b9ab-86c2bf666bd2",
+          "width": 0,
+          "x": 246,
+          "y": 175,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 247,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "69b32c41-3ff2-4d24-b9a3-4e99bc91752d",
+          "width": 490,
+          "x": 395,
+          "y": 335,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 101,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "9c1b1d66-843b-412e-bd54-b5ee616f7811",
+          "width": 721,
+          "x": 281,
+          "y": 366,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 162,
+          "layer": "indice",
+          "name": "indiceBelle",
+          "persistentUuid": "336fe341-3b32-4312-8307-cc2f0cc8c298",
+          "width": 606,
+          "x": 342,
+          "y": 318,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "enigmeBelle",
+          "persistentUuid": "59c5d037-5e34-4bc7-901a-51191ee9eaf2",
+          "width": 0,
+          "x": 288,
+          "y": 225,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "5675f351-36d8-4ab3-b35b-b58c5c909921",
+          "width": 50,
+          "x": 293,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "54d2948d-9681-4a78-9cbf-cfc3976baa3c",
+          "width": 50,
+          "x": 345,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "361cc120-37f3-41e1-9cc2-1e9512550cbc",
+          "width": 50,
+          "x": 397,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "68d53782-f640-4474-a120-39fdb893bfac",
+          "width": 50,
+          "x": 450,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "1183131e-bdb0-4fce-80c7-5b16e46cd165",
+          "width": 50,
+          "x": 502,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "8f2cecfc-ce88-4a8d-a967-fd64749eaa8f",
+          "width": 50,
+          "x": 554,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "30ddf9cf-3afb-4230-8f8f-6bfbb8cdf110",
+          "width": 50,
+          "x": 605,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "3229f79b-f671-44b4-9aaa-96fb9f440d0f",
+          "width": 50,
+          "x": 657,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "ae683c02-9da3-49f5-8092-eecb5e94d182",
+          "width": 50,
+          "x": 710,
+          "y": 234,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "33b9909c-567e-4532-aead-cc88533bffb3",
+          "width": 50,
+          "x": 294,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "4fbc81d5-b294-494f-b46b-88913c6be067",
+          "width": 50,
+          "x": 345,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "7d0bf13b-3b31-40dc-9025-1db980233aff",
+          "width": 50,
+          "x": 397,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "0da4070a-c944-4751-9df0-03c6f1bfc0b2",
+          "width": 50,
+          "x": 450,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "dfbff35d-1054-4b0a-ab9c-2bdb240e2441",
+          "width": 50,
+          "x": 501,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "4633df39-91bc-4faf-bbca-6508f63a020a",
+          "width": 50,
+          "x": 554,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "9f1929ac-e099-4308-b8dd-8c8769a5f156",
+          "width": 50,
+          "x": 606,
+          "y": 286,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "4217913c-39ba-4dee-9c29-683ebe5bb1d5",
+          "width": 50,
+          "x": 294,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "f3ec0fc7-c44a-4da1-be2e-7d778e4fe08b",
+          "width": 50,
+          "x": 345,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "c8ba3462-0aef-43fc-ad02-164a876f8793",
+          "width": 50,
+          "x": 397,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "12673365-71d5-441b-af59-c9d2209cb045",
+          "width": 50,
+          "x": 449,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "279085c7-3e5a-431b-9335-d965181c67eb",
+          "width": 50,
+          "x": 502,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "ae2700a7-f7b9-4a86-aafc-93f78d12c5b6",
+          "width": 50,
+          "x": 554,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "6ffebdfd-447c-40ce-baa9-ed4e90dc9e6e",
+          "width": 50,
+          "x": 606,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "09f2f376-28e5-49a1-b157-2f99c6fc16df",
+          "width": 50,
+          "x": 658,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "b5628380-3f92-4cf3-b15f-2598f14644b4",
+          "width": 50,
+          "x": 710,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "cae72fdc-651c-42ad-8a52-c316b4f169c5",
+          "width": 50,
+          "x": 762,
+          "y": 338,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "24a66826-6e12-4fc0-b3c9-564ced9db218",
+          "width": 50,
+          "x": 294,
+          "y": 390,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "469a10aa-ade4-4807-b946-1a7f31f362cb",
+          "width": 50,
+          "x": 345,
+          "y": 390,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "4b688ef6-c905-4763-81ac-43cc87ce3419",
+          "width": 50,
+          "x": 398,
+          "y": 390,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "bebe0d4e-bf08-45f7-83ad-b7bf30cfeb70",
+          "width": 50,
+          "x": 450,
+          "y": 390,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "57bc790b-9141-4ca6-9a9e-7b10305c8742",
+          "width": 50,
+          "x": 502,
+          "y": 390,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "8dfac9ac-f201-445d-8ccc-fc490eda3324",
+          "width": 50,
+          "x": 553,
+          "y": 390,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "9313e437-6bd3-4da9-9aa3-97fd199f2a4d",
+          "width": 50,
+          "x": 293,
+          "y": 442,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "e2ff709d-c980-494a-b981-6d9e3f7d973b",
+          "width": 50,
+          "x": 346,
+          "y": 442,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "f3b83cd3-2137-4353-82ae-f52065801947",
+          "width": 50,
+          "x": 397,
+          "y": 442,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "77d03433-da14-452c-bb91-f36299f5f02d",
+          "width": 50,
+          "x": 450,
+          "y": 442,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "449516b0-e836-40f6-896b-2cb8d7b7d395",
+          "width": 50,
+          "x": 502,
+          "y": 442,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "1b670909-714c-4214-a70a-c874c157f7e0",
+          "width": 50,
+          "x": 293,
+          "y": 494,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "3e155210-f482-4c56-8fac-9c7db502f2aa",
+          "width": 50,
+          "x": 346,
+          "y": 494,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "e1e77d7b-9162-44ba-99e0-a25b386eda27",
+          "width": 50,
+          "x": 397,
+          "y": 494,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "005bf330-b932-4dac-927a-26e485ecaf79",
+          "width": 50,
+          "x": 450,
+          "y": 494,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "0fc30cbc-5f8f-4c5b-9ff2-c1b368bb5f25",
+          "width": 50,
+          "x": 501,
+          "y": 494,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "62fd8e6e-aae6-468b-8aaf-fd3ca885d965",
+          "width": 50,
+          "x": 553,
+          "y": 494,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "75f84b86-72e2-4436-95eb-8a3ef3c68281",
+          "width": 50,
+          "x": 294,
+          "y": 546,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "e715ab3e-7e25-414d-a005-7b931943c3d2",
+          "width": 50,
+          "x": 346,
+          "y": 546,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "0fa87ac4-a4b7-4c53-91d6-10b9d98a1813",
+          "width": 50,
+          "x": 397,
+          "y": 546,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "32a9b18c-ee02-4df8-bea4-e8314ae792e8",
+          "width": 50,
+          "x": 450,
+          "y": 546,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "85d44f4a-4919-48db-af9a-946417147525",
+          "width": 50,
+          "x": 501,
+          "y": 546,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "2c5e0b55-1ba3-4ca3-ae08-41c0c7a11e72",
+          "width": 50,
+          "x": 554,
+          "y": 546,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "name": "caseLettre",
+          "persistentUuid": "1ca4516d-7fbe-4c1e-88e7-293c5b00acf2",
+          "width": 50,
+          "x": 606,
+          "y": 546,
+          "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36512,6 +37385,194 @@
             "fillOpacity": 130,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\fond_belle_bete.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Belle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\belle_150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceBelle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "enigmeBelle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\enigmeCP.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "caseLettre",
+          "tags": "",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": " ",
+            "fontResourceName": "polices\\Fredoka-Medium.ttf",
+            "fontSize": 20,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 0,
+            "borderColor": "0;0;0",
+            "borderOpacity": 0,
             "borderWidth": 1,
             "readOnly": false,
             "disabled": false
@@ -36546,7 +37607,65 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"[b]Voici un extrait du conte La Belle et la Bête.[/b]\nSes deux sœurs, au contraire, s’ennuyaient à la mort ; elles se levaient à dix heures du matin, se promenaient toute la journée et s’amusaient à regretter leurs beaux habits et les compagnies. « Voyez notre cadette, disaient-elles entre elles ; elle a l’âme basse, et si stupide, qu’elle est contente de sa malheureuse situation. »\n\n[b]De qui parlent les deux sœurs ?[/b]\""
+                "\"Pour résoudre cette énigme, vous devez placer le nom des fleurs dans la grille ci-dessous.\nIl faudra ensuite remettre les lettres des cases vertes en ordre pour former le nom d'un lieu important du conte et obtenir l'objet magique.\n\nLILAS – COQUELICOT – CHARDON – JONQUILLE – TULIPE – LAVANDE – BLEUET\n\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceBelle"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "caseLettre",
+                "=",
+                "ToUpperCase(caseLettre.Text())"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "reponse",
+                "=",
+                "ToUpperCase(reponse.Text())"
               ]
             }
           ]
@@ -36576,44 +37695,26 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "TextInput::TextInputObject::Text"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "TextInput::TextInputObject::Text"
-                  },
-                  "parameters": [
-                    "reponse",
-                    "=",
-                    "\"Belle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextInput::TextInputObject::Text"
-                  },
-                  "parameters": [
-                    "reponse",
-                    "=",
-                    "\"La Belle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextInput::TextInputObject::Text"
-                  },
-                  "parameters": [
-                    "reponse",
-                    "=",
-                    "\"la Belle\""
-                  ]
-                }
+              "parameters": [
+                "reponse",
+                "=",
+                "\"CHATEAU\""
               ]
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"bellebete\"",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "ModVarGlobal"
@@ -36661,52 +37762,64 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "TextInput::TextInputObject::Text"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "TextInput::TextInputObject::Text"
-                  },
-                  "parameters": [
-                    "reponse",
-                    "!=",
-                    "\"Belle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextInput::TextInputObject::Text"
-                  },
-                  "parameters": [
-                    "reponse",
-                    "!=",
-                    "\"La Belle\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextInput::TextInputObject::Text"
-                  },
-                  "parameters": [
-                    "reponse",
-                    "!=",
-                    "\"la Belle\""
-                  ]
-                }
+              "parameters": [
+                "reponse",
+                "!=",
+                "\"CHATEAU\""
               ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "590",
+                "230",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"Non, ce n'est pas la bonne réponse\""
+                "\"Ce n'est pas la bonne réponse. Vous n'avez peut-être pas bien disposé le nom des fleurs dans les bonnes cases.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -36716,11 +37829,10 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "CloseButton",
                 "",
                 "",
                 ""
@@ -36728,27 +37840,217 @@
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "GBL_Enigmes.VariableBelleBete",
-                "=",
-                "0"
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "Cache"
               },
               "parameters": [
-                "consigne",
-                "=",
-                "\"[b]Voici un extrait du conte La Belle et la Bête.[/b]\nSes deux sœurs, au contraire, s’ennuyaient à la mort ; elles se levaient à dix heures du matin, se promenaient toute la journée et s’amusaient à regretter leurs beaux habits et les compagnies. « Voyez notre cadette, disaient-elles entre elles ; elle a l’âme basse, et si stupide, qu’elle est contente de sa malheureuse situation. »\n\n[b]De qui parlent les deux sœurs ?[/b]\""
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "erreur",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "LightBulb",
+                "LightBulb",
+                "1200",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "LightBulb",
+                "*",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceBelle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\"La réponse figure dans le titre du conte.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "980",
+                "345",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceBelle"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -36772,6 +38074,39 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 14779872,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 15340712,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "erreur",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 15340712,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "indice",
+          "visibility": false,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 14458496,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 15340712,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "curseur",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -36811,14 +38146,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 305,
+          "height": 250,
           "layer": "",
           "name": "BlocConsigne",
           "persistentUuid": "a6aafc5f-4af1-4162-acac-85926700b1c1",
           "width": 725,
           "x": 280,
           "y": 10,
-          "zOrder": 1,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36826,7 +38161,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 256,
+          "height": 230,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0570b728-0a2d-4916-a5bd-392c1ae442c4",
@@ -36861,8 +38196,8 @@
           "name": "curseurLoupe",
           "persistentUuid": "790680f6-4097-4681-ae83-5c2937d27907",
           "width": 0,
-          "x": 987,
-          "y": 386,
+          "x": 1139,
+          "y": 494,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -36876,8 +38211,8 @@
           "name": "validation",
           "persistentUuid": "bf9ea675-2a55-477e-ac95-e8c24a8f3090",
           "width": 0,
-          "x": 738,
-          "y": 490,
+          "x": 743,
+          "y": 600,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -36891,9 +38226,99 @@
           "name": "reponse",
           "persistentUuid": "ffeffa56-5861-42ac-a741-560a220bfac8",
           "width": 178,
-          "x": 517,
-          "y": 467,
+          "x": 550,
+          "y": 582,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "fond",
+          "persistentUuid": "1906bdac-f756-4f36-a5b3-52253c0aa1c9",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Belle",
+          "persistentUuid": "1f9528eb-96e1-4095-b75a-fe249b22e652",
+          "width": 0,
+          "x": 36,
+          "y": 159,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "e3f17653-996d-43a0-b9ab-86c2bf666bd2",
+          "width": 0,
+          "x": 246,
+          "y": 175,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 247,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "69b32c41-3ff2-4d24-b9a3-4e99bc91752d",
+          "width": 490,
+          "x": 395,
+          "y": 335,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 101,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "9c1b1d66-843b-412e-bd54-b5ee616f7811",
+          "width": 721,
+          "x": 281,
+          "y": 366,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 178,
+          "layer": "",
+          "name": "indiceBelle",
+          "persistentUuid": "336fe341-3b32-4312-8307-cc2f0cc8c298",
+          "width": 806,
+          "x": 241,
+          "y": 318,
+          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -36923,6 +38348,129 @@
             "readOnly": false,
             "disabled": false
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\fond_belle_bete.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Belle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\belle_150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceBelle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -36954,6 +38502,38 @@
                 "consigne",
                 "=",
                 "\"[b]Voici un extrait du conte La Belle et la Bête.[/b]\nSes deux sœurs, au contraire, s’ennuyaient à la mort ; elles se levaient à dix heures du matin, se promenaient toute la journée et s’amusaient à regretter leurs beaux habits et les compagnies. « Voyez notre cadette, disaient-elles entre elles ; elle a l’âme basse, et si stupide, qu’elle est contente de sa malheureuse situation. »\n\n[b]De qui parlent les deux sœurs ?[/b]\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceBelle"
               ]
             }
           ]
@@ -37118,12 +38698,52 @@
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "590",
+                "230",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"Non, ce n'est pas la bonne réponse\""
+                "\"Ce n'est pas la bonne réponse, peut-être avez-vous oublié une majuscule ?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -37133,11 +38753,10 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "CloseButton",
                 "",
                 "",
                 ""
@@ -37145,27 +38764,222 @@
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "GBL_Enigmes.VariableBelleBete",
-                "=",
-                "0"
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "Cache"
               },
               "parameters": [
-                "consigne",
-                "=",
-                "\"[b]Voici un extrait du conte La Belle et la Bête.[/b]\nSes deux sœurs, au contraire, s’ennuyaient à la mort ; elles se levaient à dix heures du matin, se promenaient toute la journée et s’amusaient à regretter leurs beaux habits et les compagnies. « Voyez notre cadette, disaient-elles entre elles ; elle a l’âme basse, et si stupide, qu’elle est contente de sa malheureuse situation. »\n\n[b]De qui parlent les deux sœurs ?[/b]\""
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "erreur",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "LightBulb",
+                "LightBulb",
+                "1200",
+                "30",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeScale"
+              },
+              "parameters": [
+                "LightBulb",
+                "*",
+                "1.5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceBelle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\"La réponse figure dans le titre du conte.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "980",
+                "345",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceBelle"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -47345,6 +49159,15 @@
                 "TexteChrono",
                 "=",
                 "TimeFormatter::SecondsToHHMMSS(GlobalVariable(CompteRebours))"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextObject::SetTextAlignment"
+              },
+              "parameters": [
+                "TexteChrono",
+                "\"right\""
               ]
             },
             {
