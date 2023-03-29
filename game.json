@@ -3079,6 +3079,159 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/10_chaperon_rouge/chaperon_rouge_75_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\10_chaperon_rouge\\chaperon_rouge_75_ombre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/11_chat_botte/Chat_botte_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\11_chat_botte\\Chat_botte_ombre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/12_trois_petits_cochons/3cochons_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\12_trois_petits_cochons\\3cochons_ombre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/13_hansel_gretel/hansel_gretel_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\13_hansel_gretel\\hansel_gretel_ombre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/14_nains/Compagnie_7nains_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\14_nains\\Compagnie_7nains_ombre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/16_alice/Alice_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\16_alice\\Alice_ombre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/19_belle_bois_dormant/belle_boisdormant_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\19_belle_bois_dormant\\belle_boisdormant_ombre.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/18_petit_poucet/Poucet_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\18_petit_poucet\\Poucet_ombre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/17_belle_bete/Belle_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\17_belle_bete\\Belle_ombre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/11_chat_botte/Chat_botte_fond_blanc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\11_chat_botte\\Chat_botte_fond_blanc.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/Bulle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\Bulle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/Bulle820.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\Bulle820.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/13_hansel_gretel/hansel_gretel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\13_hansel_gretel\\hansel_gretel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/baluchon.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\baluchon.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/sorciere150_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\sorciere150_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/sorciere150_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\sorciere150_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/19_belle_bois_dormant/fond_belle_bois_dormant_3.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\19_belle_bois_dormant\\fond_belle_bois_dormant_3.jpg",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4569,8 +4722,8 @@
           "name": "bulle1",
           "persistentUuid": "d155a5fc-4558-470e-9b70-bd877d9c46a4",
           "width": 0,
-          "x": 210,
-          "y": 347,
+          "x": 88,
+          "y": 402,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -4599,8 +4752,8 @@
           "name": "bulle3",
           "persistentUuid": "dfd9b213-803b-4659-8525-5d1ae6dc2bd7",
           "width": 0,
-          "x": 1063,
-          "y": 413,
+          "x": 1070,
+          "y": 515,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -4610,12 +4763,12 @@
           "angle": 0,
           "customSize": true,
           "height": 534,
-          "layer": "",
+          "layer": "sorciere",
           "name": "parchemin",
           "persistentUuid": "48cd86aa-b9b7-40ca-b0d1-d0d354d85374",
           "width": 712,
-          "x": 247,
-          "y": 94,
+          "x": 285,
+          "y": 110,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -4625,12 +4778,12 @@
           "angle": 0,
           "customSize": true,
           "height": 400,
-          "layer": "",
+          "layer": "sorciere",
           "name": "ParcheminTexte",
           "persistentUuid": "4b8f7c01-b2ff-47d5-b94f-682788f908f6",
           "width": 657,
-          "x": 270,
-          "y": 158,
+          "x": 303,
+          "y": 178,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -4646,7 +4799,67 @@
           "width": 0,
           "x": 0,
           "y": 0,
-          "zOrder": 17,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "sorciere",
+          "name": "persoSorciere",
+          "persistentUuid": "fe9b55d5-34c1-4607-81a9-eb23781f5a9f",
+          "width": 0,
+          "x": -164,
+          "y": 443,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso4",
+          "persistentUuid": "c3c64940-087a-4782-8976-04aeed45621c",
+          "width": 0,
+          "x": 734,
+          "y": 285,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso6",
+          "persistentUuid": "b30598e5-f101-4cb9-bec4-22e10d8ef9ca",
+          "width": 0,
+          "x": 719,
+          "y": 422,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "brouillard",
+          "name": "brouillard",
+          "persistentUuid": "d60df477-0bec-4a5f-8f92-eead28f090a0",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5082,7 +5295,25 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\hansel_gretel_ombre.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             }
@@ -5156,7 +5387,25 @@
                 {
                   "looping": false,
                   "timeBetweenFrames": 0.08,
-                  "sprites": []
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\15_cendrillon\\Cendrillon -75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
                 }
               ]
             }
@@ -5360,6 +5609,69 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\19_belle_bois_dormant\\belle_bois_dormant_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "persoSorciere",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\sorciere150_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\sorciere150_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6055,6 +6367,21 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "persoSorciere",
+                "Tween",
+                "\"deplacement\"",
+                "1280",
+                "300",
+                "\"easeInSine\"",
+                "3000",
+                ""
+              ]
             }
           ]
         },
@@ -6069,7 +6396,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "5"
+                "6"
               ]
             }
           ],
@@ -6237,8 +6564,14 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "6"
+                "7"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -6248,6 +6581,21 @@
               },
               "parameters": [
                 "brouillard",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectPositionTween"
+              },
+              "parameters": [
+                "persoSorciere",
+                "Tween",
+                "\"deplacement\"",
+                "-100",
+                "500",
+                "\"easeInSine\"",
+                "2000",
                 ""
               ]
             }
@@ -6594,6 +6942,28 @@
             }
           ],
           "effects": []
+        },
+        {
+          "ambientLightColorB": 12361344,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 10056504,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "brouillard",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 10056504,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "sorciere",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -6623,7 +6993,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7540273844314006,
+        "zoomFactor": 0.7794534367239666,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -6637,8 +7007,8 @@
           "name": "curseurLoupe",
           "persistentUuid": "406e939f-7463-4a39-ae2d-52c33ac84a5a",
           "width": 0,
-          "x": 875,
-          "y": 185,
+          "x": 82,
+          "y": 282,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -6652,8 +7022,8 @@
           "name": "zoneclicable",
           "persistentUuid": "74e5e906-a18a-4db3-90a8-2a3b38e632a8",
           "width": 164,
-          "x": 1117,
-          "y": 83,
+          "x": 1042,
+          "y": 66,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6667,8 +7037,8 @@
           "name": "BBDormant",
           "persistentUuid": "109e100a-8c3c-4175-aa92-8746581de2d7",
           "width": 51,
-          "x": 795,
-          "y": 363,
+          "x": 810,
+          "y": 364,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -6682,8 +7052,8 @@
           "name": "nain",
           "persistentUuid": "ed3c9a83-27e8-4efb-9923-3b0172c8a405",
           "width": 47,
-          "x": 1119,
-          "y": 65,
+          "x": 1038,
+          "y": 54,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -6697,8 +7067,8 @@
           "name": "zoneclicable",
           "persistentUuid": "903ed17f-a8c0-4648-be4a-a6c03a61c3a2",
           "width": 52,
-          "x": 1194,
-          "y": 615,
+          "x": 1174,
+          "y": 628,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -6727,8 +7097,8 @@
           "name": "HanselGretel",
           "persistentUuid": "0a70dca5-c2fd-42df-851c-843a5862e5b5",
           "width": 0,
-          "x": 842,
-          "y": 611,
+          "x": 918,
+          "y": 612,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -6742,8 +7112,8 @@
           "name": "zoneclicable",
           "persistentUuid": "932bbb02-29f3-4eb6-aa08-d0b0c2615350",
           "width": 64,
-          "x": 839,
-          "y": 617,
+          "x": 921,
+          "y": 618,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -6752,13 +7122,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 69,
+          "height": 74,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "c19d9850-ab56-48c5-9258-1b50837492c7",
-          "width": 108,
+          "width": 118,
           "x": 416,
-          "y": 632,
+          "y": 635,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -6787,8 +7157,8 @@
           "name": "sac",
           "persistentUuid": "7281b5ba-0ebe-4ddf-bb11-1eb9fb40894d",
           "width": 300,
-          "x": -27,
-          "y": 431,
+          "x": -39,
+          "y": 422,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -6818,7 +7188,7 @@
           "persistentUuid": "889c7783-d990-4211-9ee8-7a4d8f07c31d",
           "width": 22,
           "x": 67,
-          "y": 690,
+          "y": 688,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -6832,8 +7202,8 @@
           "name": "montre",
           "persistentUuid": "ef1bb604-bbc9-47bf-a20d-9fd8c2cbbe69",
           "width": 41,
-          "x": 85,
-          "y": 515,
+          "x": 102,
+          "y": 529,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -6847,8 +7217,8 @@
           "name": "pioche",
           "persistentUuid": "8eac08c5-4a15-4a2a-acc2-cf296bfcb974",
           "width": 56,
-          "x": 20,
-          "y": 627,
+          "x": 19,
+          "y": 608,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -6862,8 +7232,8 @@
           "name": "brique",
           "persistentUuid": "1f1b30ea-6bd3-4542-b728-fb3146543a37",
           "width": 67,
-          "x": 76,
-          "y": 550,
+          "x": 154,
+          "y": 613,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -6877,8 +7247,8 @@
           "name": "panier",
           "persistentUuid": "c25906be-e7af-444a-8f14-3b2eb623f96d",
           "width": 67,
-          "x": 153,
-          "y": 624,
+          "x": 92,
+          "y": 646,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -6892,8 +7262,8 @@
           "name": "fuseau",
           "persistentUuid": "d7b50657-2cef-4d73-9c07-7cd0e91f34eb",
           "width": 0,
-          "x": 94,
-          "y": 603,
+          "x": 42,
+          "y": 597,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -6907,8 +7277,8 @@
           "name": "bottes",
           "persistentUuid": "429dbc4a-a682-4d9b-9b2a-7b1585b8af47",
           "width": 66,
-          "x": 141,
-          "y": 535,
+          "x": 135,
+          "y": 564,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -6922,8 +7292,8 @@
           "name": "Rose",
           "persistentUuid": "54f98797-546d-4c5c-9fce-264c12bb4e6f",
           "width": 54,
-          "x": 56,
-          "y": 445,
+          "x": 106,
+          "y": 567,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -6937,8 +7307,8 @@
           "name": "sucre",
           "persistentUuid": "4c40f916-c344-4be1-b659-2fed30db2adf",
           "width": 0,
-          "x": 132,
-          "y": 507,
+          "x": 36,
+          "y": 542,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -6952,8 +7322,8 @@
           "name": "pantoufle",
           "persistentUuid": "536f721c-93ec-4417-a6db-ae7980b46d95",
           "width": 72,
-          "x": 113,
-          "y": 491,
+          "x": 56,
+          "y": 580,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -6967,8 +7337,8 @@
           "name": "cochons",
           "persistentUuid": "b0a52b1d-1731-4169-8a01-47a443b2c351",
           "width": 57,
-          "x": 413,
-          "y": 624,
+          "x": 422,
+          "y": 635,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -6982,8 +7352,8 @@
           "name": "Chaperon",
           "persistentUuid": "3082e230-8c83-4ada-9ebe-6ee858df6895",
           "width": 100,
-          "x": 291,
-          "y": 377,
+          "x": 294,
+          "y": 385,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -6997,8 +7367,8 @@
           "name": "chat",
           "persistentUuid": "547abd27-6602-44fe-b01e-c7036cb6ef0e",
           "width": 76,
-          "x": 550,
-          "y": 22,
+          "x": 533,
+          "y": 55,
           "zOrder": 29,
           "numberProperties": [],
           "stringProperties": [],
@@ -7012,8 +7382,8 @@
           "name": "zoneclicable",
           "persistentUuid": "00f7f4eb-eb66-48d2-8b35-9ed74f20b382",
           "width": 51,
-          "x": 298,
-          "y": 380,
+          "x": 295,
+          "y": 389,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -7022,13 +7392,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 81,
+          "height": 73,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "6315705b-bab4-4681-ad22-bbeed621ac5c",
-          "width": 59,
-          "x": 552,
-          "y": 22,
+          "width": 46,
+          "x": 528,
+          "y": 58,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -7072,8 +7442,8 @@
           "name": "BelleBete",
           "persistentUuid": "069a85d1-affa-4b61-b6d3-b7b18c363bb9",
           "width": 71,
-          "x": 326,
-          "y": 124,
+          "x": 327,
+          "y": 133,
           "zOrder": 34,
           "numberProperties": [],
           "stringProperties": [],
@@ -7082,12 +7452,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 67,
+          "height": 73,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "33d81425-560b-4c57-b180-72e660adbde2",
-          "width": 58,
-          "x": 337,
+          "width": 51,
+          "x": 327,
           "y": 137,
           "zOrder": 35,
           "numberProperties": [],
@@ -7102,8 +7472,8 @@
           "name": "Alice",
           "persistentUuid": "e284cd43-1ccb-4088-9da5-6c5a0f5911b6",
           "width": 0,
-          "x": 1185,
-          "y": 608,
+          "x": 1176,
+          "y": 627,
           "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
@@ -7139,8 +7509,8 @@
           "name": "brouillard1",
           "persistentUuid": "cac6f8a2-ab47-4b85-a4b6-a132677b0c60",
           "width": 0,
-          "x": 1113,
-          "y": 496,
+          "x": 1108,
+          "y": 503,
           "zOrder": 39,
           "numberProperties": [],
           "stringProperties": [],
@@ -8712,7 +9082,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\belle_bois_dormant_75.png",
+                      "image": "images\\19_belle_bois_dormant\\belle_boisdormant_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8753,7 +9123,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\16_alice\\alice_75.png",
+                      "image": "images\\16_alice\\Alice_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8794,7 +9164,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\14_nains\\compagnie_7nains_75.png",
+                      "image": "images\\14_nains\\Compagnie_7nains_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8835,7 +9205,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Flag Blue.png",
+                      "image": "images\\13_hansel_gretel\\hansel_gretel_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8876,41 +9246,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\18_petit_poucet\\petitpoucet75_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\18_petit_poucet\\petitpoucet75_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\18_petit_poucet\\petitpoucet75_3.png",
+                      "image": "images\\18_petit_poucet\\Poucet_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -8992,7 +9328,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\12_trois_petits_cochons\\3cochons_75.png",
+                      "image": "images\\12_trois_petits_cochons\\3cochons_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9033,58 +9369,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\11_chat_botte\\chat_botte_75_1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\11_chat_botte\\chat_botte_75_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\11_chat_botte\\chat_botte_75_3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\11_chat_botte\\chat_botte_75_4.png",
+                      "image": "images\\11_chat_botte\\Chat_botte_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9125,7 +9410,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\chaperon_rouge_75.png",
+                      "image": "images\\10_chaperon_rouge\\chaperon_rouge_75_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9166,7 +9451,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\17_belle_bete\\belle_75.png",
+                      "image": "images\\17_belle_bete\\Belle_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -9207,7 +9492,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\01-foret\\sac1.png",
+                      "image": "images\\01-foret\\baluchon.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10042,7 +10327,7 @@
               "parameters": [
                 "NombreObjets",
                 "=",
-                "9"
+                "10"
               ]
             }
           ],
@@ -11627,7 +11912,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Zones clicables",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -11638,7 +11923,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Brouillard",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -14612,7 +14897,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.546875,
+        "zoomFactor": 0.6672773998329973,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14621,28 +14906,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 219,
-          "layer": "",
-          "name": "BlocConsigne",
-          "persistentUuid": "c3a5829b-d5b1-4c62-bb2b-db161e894e52",
-          "width": 820,
-          "x": 280,
-          "y": 10,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 193,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "154583ac-8369-44b1-af89-a004ac0352dc",
-          "width": 764,
-          "x": 307,
-          "y": 23,
+          "width": 661,
+          "x": 394,
+          "y": 45,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14779,6 +15049,66 @@
           "x": 241,
           "y": 195,
           "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "chat_blanc",
+          "persistentUuid": "a0df173f-3d15-4861-9b66-1bf788440b97",
+          "width": 0,
+          "x": 131,
+          "y": 164,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "bulleconsigne",
+          "persistentUuid": "bf47a8eb-4fa4-4ac4-a5b1-8fd8e2dc0a1a",
+          "width": 0,
+          "x": 280,
+          "y": 10,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceChat",
+          "persistentUuid": "ea621d2c-c5aa-454e-984c-ad17f868d980",
+          "width": 0,
+          "x": 234,
+          "y": 281,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 163,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "c222e207-5e86-4ed7-b30e-f8e232f8e7e5",
+          "width": 619,
+          "x": 354,
+          "y": 362,
+          "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14965,6 +15295,129 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "chat_blanc",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\Chat_botte_fond_blanc.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bulleconsigne",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\Bulle820.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceChat",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -15003,7 +15456,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "indiceAlice"
+                "indiceChat"
               ]
             },
             {
@@ -15282,72 +15735,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -15384,7 +15771,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Fais attention aux signes des opérations.\nPour mélanger les couleurs, tu peux t’aider de ce schéma.\n\""
+                "\"Indice pour t'aider.\n\""
               ]
             },
             {
@@ -15392,7 +15779,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "indiceAlice",
+                "indiceChat",
                 ""
               ]
             },
@@ -15403,8 +15790,8 @@
               "parameters": [
                 "CloseButton2",
                 "CloseButton2",
-                "750",
-                "200",
+                "628",
+                "305",
                 "\"indice\""
               ]
             }
@@ -15448,7 +15835,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "indiceAlice"
+                "indiceChat"
               ]
             },
             {
@@ -20288,72 +20675,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -22203,6 +22524,81 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "HanselGretel",
+          "persistentUuid": "0347953a-8ff7-4f4c-8cbb-041b3a7c237e",
+          "width": 0,
+          "x": 65,
+          "y": 91,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "638763d4-566a-489a-a5a2-217ce4b8b6e6",
+          "width": 0,
+          "x": 215,
+          "y": 139,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 172,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "746d897c-6a62-46a6-943a-a123a8405335",
+          "width": 476,
+          "x": 374,
+          "y": 269,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceHG",
+          "persistentUuid": "eea99732-7025-444a-a572-b8b7fe232905",
+          "width": 0,
+          "x": 222,
+          "y": 208,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "ef67b335-11cb-458b-80b6-4fe7cf93dcb7",
+          "width": 761,
+          "x": 266,
+          "y": 270,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -22721,6 +23117,88 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "HanselGretel",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\hansel_gretel.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceHG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -22765,6 +23243,151 @@
                 "consigne",
                 "=",
                 "\"Consigne.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceHG"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Angleterre",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Ecosse",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Irelande",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Suede",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Norvege",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Suisse",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Islande",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "PaysGalles",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -23246,12 +23869,52 @@
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "575",
+                "190",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"NON\""
+                "\"Oh non !! \""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -23261,11 +23924,10 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "CloseButton",
                 "",
                 "",
                 ""
@@ -23273,24 +23935,175 @@
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "GBL_Enigmes.VariableHanselGretel",
-                "=",
-                "0"
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteIndice",
                 "=",
-                "\"Consigne.\""
+                "\" Indice de Hansel et Gretel\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceHG",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "980",
+                "230",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceHG"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
               ]
             }
           ]
@@ -31825,45 +32638,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -32636,8 +33410,8 @@
           "name": "curseurLoupe",
           "persistentUuid": "7a691a89-45ab-49a1-840d-0a0bf282cb36",
           "width": 0,
-          "x": 877,
-          "y": 385,
+          "x": 113,
+          "y": 525,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -32736,28 +33510,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 162,
-          "layer": "indice",
-          "name": "indiceCendrillon",
-          "persistentUuid": "f54dd713-8f32-45cd-b9c3-ae9ced34a37f",
-          "width": 549,
-          "x": 363,
-          "y": 251,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 132,
           "layer": "indice",
           "name": "TexteIndice",
           "persistentUuid": "df108e76-bbf0-4c0d-b1c3-4ea800e96af4",
-          "width": 403,
-          "x": 431,
-          "y": 262,
+          "width": 658,
+          "x": 314,
+          "y": 277,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -32789,6 +33548,21 @@
           "x": 385,
           "y": 307,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceCendrillon2",
+          "persistentUuid": "5ab5bc1b-62e8-49b7-9cc5-e2677ecabf3b",
+          "width": 0,
+          "x": 231,
+          "y": 218,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32982,20 +33756,44 @@
         },
         {
           "assetStoreId": "",
-          "bottomMargin": 12,
-          "height": 32,
-          "leftMargin": 12,
-          "name": "indiceCendrillon",
-          "rightMargin": 12,
+          "name": "indiceCendrillon2",
           "tags": "",
-          "texture": "images\\00_interface\\bloctexte.png",
-          "tiled": true,
-          "topMargin": 12,
-          "type": "PanelSpriteObject::PanelSprite",
-          "width": 32,
+          "type": "Sprite",
+          "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -33044,7 +33842,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "indiceCendrillon"
+                "indiceCendrillon2"
               ]
             },
             {
@@ -33392,72 +34190,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -33502,7 +34234,7 @@
                 "value": "Montre"
               },
               "parameters": [
-                "indiceCendrillon",
+                "indiceCendrillon2",
                 ""
               ]
             },
@@ -33513,8 +34245,8 @@
               "parameters": [
                 "CloseButton2",
                 "CloseButton2",
-                "860",
-                "260",
+                "980",
+                "230",
                 "\"indice\""
               ]
             }
@@ -33567,7 +34299,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "indiceCendrillon"
+                "indiceCendrillon2"
               ]
             }
           ]
@@ -33624,7 +34356,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "indice",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -36944,72 +37676,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -39615,72 +40281,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -40590,8 +41190,8 @@
           "name": "validation",
           "persistentUuid": "0f6bc5e8-3b53-4240-a9b0-869e743b2cf2",
           "width": 0,
-          "x": 745,
-          "y": 442,
+          "x": 1174,
+          "y": 575,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -40619,9 +41219,9 @@
           "layer": "",
           "name": "saisiereponse",
           "persistentUuid": "4deca2c3-1100-418d-8b56-114aef24132c",
-          "width": 100,
-          "x": 602,
-          "y": 433,
+          "width": 111,
+          "x": 1042,
+          "y": 566,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -40683,6 +41283,81 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "petitpoucet",
+          "persistentUuid": "c14b31f7-0629-4106-b81a-2f4732a40b4a",
+          "width": 0,
+          "x": 1188,
+          "y": 236,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurDroite",
+          "persistentUuid": "33ecab18-d3f7-4404-8b54-071f8976372f",
+          "width": 0,
+          "x": 321,
+          "y": 282,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 205,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "e3876b48-840c-4e58-a2ea-12fddac0926a",
+          "width": 550,
+          "x": 440,
+          "y": 409,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indicePetitpoucet",
+          "persistentUuid": "1e5c194c-076f-426c-9a16-d09ca41d15ae",
+          "width": 0,
+          "x": 267,
+          "y": 322,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "33c7746c-6573-48ab-8c28-f4476f2d3296",
+          "width": 746,
+          "x": 306,
+          "y": 380,
+          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -40973,6 +41648,134 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "petitpoucet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet150_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet150_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet150_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "NewTiledSprite",
+          "tags": "",
+          "texture": "",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "indicePetitpoucet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -41017,6 +41820,38 @@
                 "consigne",
                 "=",
                 "\"Le petit Poucet, en chaussant les bottes de l’ogre, parcours 7 lieues, à chaque fois qu’il fait un pas.\nEn combien de pas rejoindra-t-il sa maison, sachant que celle-ci se trouve à 420 kilomètres de sa position ?\n\nPour t'aider tu peux consulter la page :\n\n\n\nTu utiliseras la correspondance avec la lieue métrique.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indicePetitpoucet"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
               ]
             }
           ]
@@ -41135,51 +41970,52 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
+                "value": "Montre"
               },
               "parameters": [
-                "consigne",
-                "=",
-                "\"Ce n’est pas la bonne réponse. Cherche encore !\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
+                "bulleErreurDroite",
                 ""
               ]
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "Montre"
               },
               "parameters": [
-                "GBL_Enigmes.VariablePetitPoucet",
-                "=",
-                "0"
+                "TexteErreur",
+                ""
               ]
-            }
-          ],
-          "actions": [
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "655",
+                "335",
+                "\"erreur\""
+              ]
+            },
             {
               "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"Le petit Poucet, en chaussant les bottes de l’ogre, parcours 7 lieues, à chaque fois qu’il fait un pas.\nEn combien de pas rejoindra-t-il sa maison, sachant que celle-ci se trouve à 420 kilomètres de sa position ?\n\nPour t'aider tu peux consulter la page :\n\n\n\nTu utiliseras la correspondance avec la lieue métrique.\""
+                "\"Oh non !! \""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -41219,6 +42055,195 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\" Indice du Petit Poucet.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indicePetitpoucet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "1025",
+                "345",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indicePetitpoucet"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -44043,7 +45068,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\fond_belle_bois_dormant.jpg",
+                      "image": "images\\19_belle_bois_dormant\\fond_belle_bois_dormant_3.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -45055,72 +46080,6 @@
           },
           "comment": "Indice",
           "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -49765,6 +50724,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "fond",
+          "persistentUuid": "2c7808c0-1a5f-48ce-aa9b-703bc3b833ae",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -49858,6 +50832,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\fond_belle_bois_dormant_3.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -49897,7 +50912,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"42;45;168\""
+                "\"155;155;155\""
               ]
             },
             {
@@ -50828,73 +51843,6 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Barre de temps",
-          "comment2": ""
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Timer\"",
-                ">",
-                "10"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "CompteRebours",
-                "-",
-                "10"
-              ]
-            },
-            {
-              "type": {
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"sauvegarde\"",
-                "\"timer\"",
-                "GlobalVariable(CompteRebours)"
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"Timer\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
           "comment": "Bouton retour carte",
           "comment2": ""
         },
@@ -51090,24 +52038,6 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Bouton curseur",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
           "comment": "Indice",
           "comment2": ""
         },
@@ -51133,7 +52063,7 @@
               "parameters": [
                 "LightBulb",
                 "LightBulb",
-                "1200",
+                "1180",
                 "30",
                 ""
               ]
@@ -51145,10 +52075,42 @@
               "parameters": [
                 "LightBulb",
                 "*",
-                "1.5"
+                "2.5"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sons\\14_nains\\ding.mp3",
+                    "",
+                    "40",
+                    ""
+                  ]
+                }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
