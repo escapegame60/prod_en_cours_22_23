@@ -3232,6 +3232,53 @@
         "name": "images\\19_belle_bois_dormant\\fond_belle_bois_dormant_3.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/16_alice/chat_alice_75_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\16_alice\\chat_alice_75_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/16_alice/chat_alice_60.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\16_alice\\chat_alice_60.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/17_belle_bete/Bete_ombre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\17_belle_bete\\Bete_ombre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sons/00-general/isarus.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\00-general\\isarus.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sons/15_cendrillon/le_danube_strauss.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\15_cendrillon\\le_danube_strauss.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -14867,6 +14914,997 @@
               "width": 0
             }
           ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_491_45Chat_32Bott_233_32CP2",
+      "name": "11-Chat Botté CP2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6672773998329973,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 193,
+          "layer": "",
+          "name": "consigne",
+          "persistentUuid": "154583ac-8369-44b1-af89-a004ac0352dc",
+          "width": 661,
+          "x": 394,
+          "y": 45,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "curseur",
+          "name": "curseurLoupe",
+          "persistentUuid": "e7236b7c-dfbf-4383-8dff-dff0be235a3f",
+          "width": 0,
+          "x": 1154,
+          "y": 269,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "retour",
+          "persistentUuid": "7b316ebe-50c9-4b62-b88c-fde9b19f7880",
+          "width": 0,
+          "x": 35,
+          "y": 616,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "Reponse1",
+          "persistentUuid": "39ea599a-d0f1-46a0-b0cc-fae87eeb7d03",
+          "width": 200,
+          "x": 523,
+          "y": 604,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "validation",
+          "persistentUuid": "c6327c24-ac4d-4064-8775-b1551a239fcd",
+          "width": 0,
+          "x": 757,
+          "y": 613,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 807,
+          "layer": "",
+          "name": "fond11",
+          "persistentUuid": "130dd5b0-5b4d-4f30-910e-4b49a186600b",
+          "width": 1309,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "chat2",
+          "persistentUuid": "0d9af3b8-60c2-4a5b-a2ab-0e523749eb06",
+          "width": 0,
+          "x": 49,
+          "y": 161,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 247,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "d9c8ca2e-0941-4d99-9135-fd20a91bdb3c",
+          "width": 441,
+          "x": 421,
+          "y": 327,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "3de471f6-a323-4620-8c6a-863f93317d3d",
+          "width": 0,
+          "x": 241,
+          "y": 195,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "chat_blanc",
+          "persistentUuid": "a0df173f-3d15-4861-9b66-1bf788440b97",
+          "width": 0,
+          "x": 131,
+          "y": 164,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "bulleconsigne",
+          "persistentUuid": "bf47a8eb-4fa4-4ac4-a5b1-8fd8e2dc0a1a",
+          "width": 0,
+          "x": 280,
+          "y": 10,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceChat",
+          "persistentUuid": "ea621d2c-c5aa-454e-984c-ad17f868d980",
+          "width": 0,
+          "x": 234,
+          "y": 281,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 163,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "c222e207-5e86-4ed7-b30e-f8e232f8e7e5",
+          "width": 619,
+          "x": 354,
+          "y": 362,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "Reponse1",
+          "tags": "",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Réponse",
+            "fontResourceName": "polices\\Fredoka-Medium.ttf",
+            "fontSize": 36,
+            "inputType": "number",
+            "textColor": "0;0;0",
+            "fillColor": "80;150;195",
+            "fillOpacity": 130,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Reponse2",
+          "tags": "",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "",
+            "placeholder": "Question 2",
+            "fontResourceName": "polices\\Fredoka-Medium.ttf",
+            "fontSize": 36,
+            "inputType": "number",
+            "textColor": "0;0;0",
+            "fillColor": "80;150;195",
+            "fillOpacity": 130,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond11",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\fond_pont.JPG",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "chat2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_150_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_150_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_150_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_150_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "chat_blanc",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\Chat_botte_fond_blanc.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bulleconsigne",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\Bulle820.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceChat",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Événements externes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "consigne",
+                "=",
+                "\"Le meunier a produit 90 kg de farine. \nIl doit maintenant répartir sa production de farine dans des sacs de 10 kg.\n\nCombien de sacs doit-il prévoir ?\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceChat"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "Reponse1",
+                "=",
+                "\"9\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"chat\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"BRAVO-Chat\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::Text"
+              },
+              "parameters": [
+                "Reponse1",
+                "!=",
+                "\"9\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "600",
+                "240",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteErreur",
+                "=",
+                "\"Oh non !! \""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\"Indice pour t'aider.\n\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceChat",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "628",
+                "305",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceChat"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 16777216,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 14861960,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "erreur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 14861960,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "indice",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 28,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 14861960,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "curseur",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -33441,7 +34479,7 @@
           "persistentUuid": "902dc0cd-aa3c-441f-b4bc-4ab3e96ccdc8",
           "width": 139,
           "x": 590,
-          "y": 560,
+          "y": 550,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -33456,7 +34494,7 @@
           "persistentUuid": "a9227d5c-f590-43ee-bd4f-2a7da8c252c6",
           "width": 372,
           "x": 261,
-          "y": 563,
+          "y": 560,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -33471,7 +34509,7 @@
           "persistentUuid": "6c69bdf8-59e8-444a-8008-c5b145f5b7d3",
           "width": 0,
           "x": 739,
-          "y": 568,
+          "y": 560,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -33500,8 +34538,8 @@
           "name": "cendrillon2",
           "persistentUuid": "380f1c83-a71f-4d71-a90f-787e5258f92f",
           "width": 0,
-          "x": 22,
-          "y": 138,
+          "x": 13,
+          "y": 244,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -33867,6 +34905,31 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\15_cendrillon\\le_danube_strauss.mp3",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -34303,11 +35366,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -46365,7 +47423,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7415868448174373,
+        "zoomFactor": 0.5322693287369537,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -46454,8 +47512,8 @@
           "name": "perso7",
           "persistentUuid": "d268b03f-aca5-49cb-a1fa-ec84081fc39a",
           "width": 0,
-          "x": 732,
-          "y": 513,
+          "x": 735,
+          "y": 521,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -46469,8 +47527,8 @@
           "name": "perso8",
           "persistentUuid": "7061da3a-912c-4e27-b4b2-c139e3254cfc",
           "width": 0,
-          "x": 598,
-          "y": 542,
+          "x": 587,
+          "y": 563,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -46484,8 +47542,8 @@
           "name": "perso9",
           "persistentUuid": "e2f49c69-a15f-4b68-a989-7a9372800267",
           "width": 0,
-          "x": 495,
-          "y": 498,
+          "x": 498,
+          "y": 541,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -46559,8 +47617,8 @@
           "name": "perso6",
           "persistentUuid": "b30598e5-f101-4cb9-bec4-22e10d8ef9ca",
           "width": 0,
-          "x": 820,
-          "y": 450,
+          "x": 857,
+          "y": 418,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -46568,15 +47626,45 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "height": 263,
+          "customSize": false,
+          "height": 0,
           "layer": "",
-          "name": "TexteErreur",
-          "persistentUuid": "290f8b0d-3cb3-431b-bfa8-f5759db0a81f",
-          "width": 696,
-          "x": 343,
-          "y": 238,
+          "name": "PersoAliceChat",
+          "persistentUuid": "3fc2a9fc-9e6b-4cc4-9ca3-485cdb755da3",
+          "width": 0,
+          "x": 783,
+          "y": 545,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PersoBete",
+          "persistentUuid": "2a6a1ae1-0d5a-40d8-a535-009e4df11d34",
+          "width": 0,
+          "x": 631,
+          "y": 565,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "generique",
+          "name": "TexteGenerique",
+          "persistentUuid": "4df55f12-980d-47ba-a955-1b39a0194dc3",
+          "width": 680,
+          "x": 300,
+          "y": 742,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -47199,7 +48287,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\17_belle_bete\\belle_75.png",
+                      "image": "images\\17_belle_bete\\Belle_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47326,6 +48414,88 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\19_belle_bois_dormant\\belle_bois_dormant_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PersoAliceChat",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\16_alice\\chat_alice_60.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PersoBete",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\Bete_ombre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -47616,6 +48786,25 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "TexteGenerique",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "EscapOise \nCont'Oise\n\n\nMerci d'avoir participé et encore BRAVO.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nLe Petit Chaperon Rouge\nLe Chat botté\nBelle et la Bête\nHansel et Gretel\nLes sept nains\nCendrillon\nAlice\nLes trois petits cochons\nLe Petit Poucet\nLa Belle aux bois dormants\n\n\n\nDirection du projet : Mme Christelle GUYOT, IEN en charge de la mission numérique\n\nGraphisme : Mickaël Pellissier\nMusique : Marc Chaudet, Mickaël Pellissier \n\nProgrammation : Nicolas David, Emilie Dupraz, Pascal Geindreau, Eric Laignel, Philippe Michot\n\nScénario : Frédéric Andrieux, Guillaume Cervantes, Thomas Couque, Nicolas David, Solène Dornic, Frédéric Gondron, Philippe Michot,  Laurent Noël, Joël Nauche, Frédéric Rougemont\n\n\n© DSDEN 60 - juin 2023 - Tous droits réservés\n",
+            "opacity": 255,
+            "fontSize": 28,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -47639,6 +48828,40 @@
               "parameters": [
                 "",
                 "\"saut\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\00-general\\isarus.mp3",
+                "",
+                "",
+                ""
               ]
             }
           ]
@@ -47701,6 +48924,36 @@
                 "=",
                 "360"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "555"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "-5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "-5"
+              ]
             }
           ]
         },
@@ -47749,6 +49002,36 @@
                 "=",
                 "350"
               ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "545"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -47796,6 +49079,36 @@
                 "perso5",
                 "=",
                 "360"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "555"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "5"
               ]
             }
           ]
@@ -47848,6 +49161,36 @@
             },
             {
               "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "545"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -47859,8 +49202,33 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\"",
+                ">",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "+",
+                "1",
+                "\"generique\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -47892,28 +49260,13 @@
           "ambientLightColorR": 10056504,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "name": "brouillard",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        },
-        {
-          "ambientLightColorB": 83886080,
-          "ambientLightColorG": 6068864,
-          "ambientLightColorR": 10056504,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "sorciere",
+          "name": "generique",
           "visibility": true,
           "cameras": [],
           "effects": []
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        },
         {
           "name": "Tween",
           "type": "Tween::TweenBehavior"
