@@ -3279,6 +3279,95 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Brown_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Brown_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/8ad1971237059e7cab4d42c5a7e1bb165b0e16f8ce376c35768dbfba582cc17b_Book Brown_No Shadow.png",
+          "name": "Book Brown_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Book Brown_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Book Brown_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/a9ca4d333e599c40cc288d72b9f3ee8894c9ec3433e4bb2d06f22f26622a648c_Book Brown_Shadow.png",
+          "name": "Book Brown_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/parchemin150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\parchemin150.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/parchemin250.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\parchemin250.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Light Bulb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Light Bulb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/assets_Light Bulb.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "assets\\Light Bulb.png2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Light Bulb2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Light Bulb2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/ampoule1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\ampoule1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/ampoule2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\ampoule2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3789,7 +3878,7 @@
       "name": "LightBulb",
       "tags": "",
       "type": "Sprite",
-      "updateIfNotVisible": false,
+      "updateIfNotVisible": true,
       "variables": [],
       "effects": [],
       "behaviors": [
@@ -3805,11 +3894,28 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.025,
+              "timeBetweenFrames": 0.3,
               "sprites": [
                 {
                   "hasCustomCollisionMask": false,
-                  "image": "Light Bulb.png",
+                  "image": "images\\00_interface\\ampoule1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                },
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "images\\00_interface\\ampoule2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4355,7 +4461,7 @@
               },
               "parameters": [
                 "",
-                "\"01-Intro\"",
+                "\"00-Choix Classe\"",
                 ""
               ]
             }
@@ -4536,6 +4642,704 @@
               },
               "parameters": [
                 "XButton",
+                "Tween",
+                "\"dezoom\"",
+                "1",
+                "1",
+                "\"linear\"",
+                "300",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_480_45Choix_32Classe",
+      "name": "00-Choix Classe",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5276135089313353,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 73,
+          "layer": "",
+          "name": "CPCE1",
+          "persistentUuid": "b338a01e-6f01-46b6-b1cf-2f4012111af0",
+          "width": 163,
+          "x": 260,
+          "y": 400,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 91,
+          "layer": "",
+          "name": "CE2",
+          "persistentUuid": "237c5ce7-5edf-48c7-9db2-ec70a9601520",
+          "width": 116,
+          "x": 819,
+          "y": 400,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "TexteChoix",
+          "persistentUuid": "6f78df62-ab13-44de-a6af-af52bf42484a",
+          "width": 503,
+          "x": 331,
+          "y": 140,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 333,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "66eb035f-9ccc-434e-a144-a8237ce0aba7",
+          "width": 0,
+          "x": 227,
+          "y": 340,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 27,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "parchemin2",
+          "persistentUuid": "7abd8a52-69b2-4462-8fa2-01422237d82a",
+          "width": 0,
+          "x": 744,
+          "y": 340,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "curseurLoupe",
+          "persistentUuid": "637a0173-7e17-49e5-a1ff-9cc8fa29d1d8",
+          "width": 0,
+          "x": 1006,
+          "y": 206,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "39d34ad6279a440643832d74d1703d157659bf302faef87be033209e88880828",
+          "name": "XButton",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "X Button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CPCE1",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "[b]CP et CE1[/b]\n",
+            "opacity": 255,
+            "fontSize": 36,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "CE2",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]CE2[/b]\n",
+            "opacity": 255,
+            "fontSize": 36,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "TexteChoix",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Choisis ton niveau de classe.",
+            "opacity": 255,
+            "fontSize": 36,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "parchemin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\parchemin250.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "parchemin2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\parchemin250.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Événements externes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Accéder au jeu ",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "parchemin",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "parchemin2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"02-Forêt CE2\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "curseur",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "parchemin",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "parchemin2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Boutons",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "parchemin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "parchemin",
+                "\"145;100;100\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"dezoom\"",
+                "0.9",
+                "0.9",
+                "\"linear\"",
+                "300",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "parchemin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "parchemin",
+                "\"255;255;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"dezoom\"",
+                "1",
+                "1",
+                "\"linear\"",
+                "300",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "parchemin2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "parchemin2",
+                "\"56;132;158\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "parchemin2",
+                "Tween",
+                "\"dezoom\"",
+                "0.9",
+                "0.9",
+                "\"linear\"",
+                "300",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "parchemin2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "parchemin2",
+                "\"255;255;255\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectScaleTween"
+              },
+              "parameters": [
+                "parchemin2",
                 "Tween",
                 "\"dezoom\"",
                 "1",
@@ -15935,7 +16739,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329973,
+        "zoomFactor": 0.49508400737488867,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16087,21 +16891,6 @@
           "x": 241,
           "y": 195,
           "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "chat_blanc",
-          "persistentUuid": "a0df173f-3d15-4861-9b66-1bf788440b97",
-          "width": 0,
-          "x": 131,
-          "y": 164,
-          "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -38934,7 +39723,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7370816317994029,
+        "zoomFactor": 0.4950840073748888,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -39008,8 +39797,8 @@
           "name": "validation",
           "persistentUuid": "bf9ea675-2a55-477e-ac95-e8c24a8f3090",
           "width": 0,
-          "x": 1162,
-          "y": 417,
+          "x": 1158,
+          "y": 577,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -39023,8 +39812,8 @@
           "name": "reponse",
           "persistentUuid": "ffeffa56-5861-42ac-a741-560a220bfac8",
           "width": 178,
-          "x": 965,
-          "y": 394,
+          "x": 950,
+          "y": 550,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -39078,13 +39867,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 247,
+          "height": 192,
           "layer": "erreur",
           "name": "TexteErreur",
           "persistentUuid": "69b32c41-3ff2-4d24-b9a3-4e99bc91752d",
           "width": 490,
           "x": 395,
-          "y": 335,
+          "y": 311,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -39097,8 +39886,8 @@
           "layer": "indice",
           "name": "TexteIndice",
           "persistentUuid": "9c1b1d66-843b-412e-bd54-b5ee616f7811",
-          "width": 721,
-          "x": 281,
+          "width": 493,
+          "x": 414,
           "y": 366,
           "zOrder": 10,
           "numberProperties": [],
@@ -40318,8 +41107,8 @@
               "parameters": [
                 "CloseButton",
                 "CloseButton",
-                "590",
-                "230",
+                "784",
+                "252",
                 "\"erreur\""
               ]
             },
@@ -40415,45 +41204,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarScene"
-              },
-              "parameters": [
-                "erreur",
-                ">=",
-                "5"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Create"
-              },
-              "parameters": [
-                "LightBulb",
-                "LightBulb",
-                "1200",
-                "30",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangeScale"
-              },
-              "parameters": [
-                "LightBulb",
-                "*",
-                "1.5"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -40509,8 +41259,8 @@
               "parameters": [
                 "CloseButton2",
                 "CloseButton2",
-                "980",
-                "345",
+                "883",
+                "331",
                 "\"indice\""
               ]
             }
@@ -40604,7 +41354,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "erreur",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -55255,6 +56005,12 @@
                 ">=",
                 "5"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -55265,46 +56021,21 @@
               "parameters": [
                 "LightBulb",
                 "LightBulb",
-                "1180",
-                "30",
+                "1125",
+                "10",
                 ""
               ]
             },
             {
               "type": {
-                "value": "ChangeScale"
+                "value": "PlaySound"
               },
               "parameters": [
-                "LightBulb",
-                "*",
-                "2.5"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "sons\\14_nains\\ding.mp3",
-                    "",
-                    "40",
-                    ""
-                  ]
-                }
+                "",
+                "sons\\14_nains\\ding.mp3",
+                "",
+                "40",
+                ""
               ]
             }
           ]
