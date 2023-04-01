@@ -4262,6 +4262,45 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Vérification niveau",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "niveauclasse"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "Accéder au jeu",
           "comment2": ""
         },
@@ -4289,15 +4328,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "niveauclasse",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "niveauclasse",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -4345,6 +4429,16 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "EcrireFichierExp"
@@ -5058,12 +5152,12 @@
           "actions": [
             {
               "type": {
-                "value": "Scene"
+                "value": "EcrireFichierExp"
               },
               "parameters": [
-                "",
-                "",
-                ""
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "1"
               ]
             }
           ]
@@ -5095,11 +5189,21 @@
           "actions": [
             {
               "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "2"
+              ]
+            },
+            {
+              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"02-Forêt CE2\"",
+                "\"01-Intro CE2\"",
                 ""
               ]
             }
@@ -5392,8 +5496,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "_481_45Intro",
-      "name": "01-Intro",
+      "mangledName": "_481_45Intro_32CE2",
+      "name": "01-Intro CE2",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -7844,7 +7948,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7794534367239666,
+        "zoomFactor": 0.5235443597656387,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -12763,7 +12867,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Zones clicables",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -12774,7 +12878,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Brouillard",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
