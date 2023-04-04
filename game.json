@@ -3368,6 +3368,24 @@
         "name": "images\\00_interface\\ampoule2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/10_chaperon_rouge/album_ouvert_ce2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\10_chaperon_rouge\\album_ouvert_ce2-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/10_chaperon_rouge/punaise.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"images/10_chaperon_rouge/punaise.png\",\"extension\":\".png\"}",
+        "name": "images\\10_chaperon_rouge\\punaise.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13547,7 +13565,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6418668337046632,
+        "zoomFactor": 0.8368919612214495,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -13606,8 +13624,8 @@
           "name": "album_ouvert",
           "persistentUuid": "14b97d1c-6262-4579-8dce-ccae8b6033d2",
           "width": 0,
-          "x": 183,
-          "y": 27,
+          "x": 181,
+          "y": 16,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -13622,7 +13640,7 @@
           "persistentUuid": "86c991f0-4303-497a-8b02-3c088ef9affa",
           "width": 257,
           "x": 237,
-          "y": 79,
+          "y": 71,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13643,8 +13661,8 @@
           "name": "zoneclicable",
           "persistentUuid": "0908596b-4228-4520-b3af-f5254b6bcf90",
           "width": 101,
-          "x": 537,
-          "y": 73,
+          "x": 534,
+          "y": 68,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13664,9 +13682,9 @@
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "20cda21d-39ef-44cd-897c-4ed81c6059a3",
-          "width": 154,
-          "x": 261,
-          "y": 381,
+          "width": 138,
+          "x": 257,
+          "y": 384,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13687,8 +13705,8 @@
           "name": "zoneclicable",
           "persistentUuid": "a050e516-51df-4449-b321-be8d4657d195",
           "width": 146,
-          "x": 462,
-          "y": 387,
+          "x": 479,
+          "y": 389,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13709,8 +13727,8 @@
           "name": "zoneclicable",
           "persistentUuid": "285760a7-160d-4437-aeb6-b94694a6087c",
           "width": 135,
-          "x": 719,
-          "y": 80,
+          "x": 727,
+          "y": 61,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13726,13 +13744,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 192,
+          "height": 184,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "1acceecb-677b-4a7c-86cf-faf356425241",
-          "width": 124,
-          "x": 930,
-          "y": 81,
+          "width": 118,
+          "x": 928,
+          "y": 59,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13753,8 +13771,8 @@
           "name": "zoneclicable",
           "persistentUuid": "ce41fccc-bb47-4e38-b082-51dee446848b",
           "width": 139,
-          "x": 727,
-          "y": 364,
+          "x": 719,
+          "y": 372,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13776,7 +13794,7 @@
           "persistentUuid": "76b52610-2861-4249-a892-7ae37e076877",
           "width": 154,
           "x": 936,
-          "y": 367,
+          "y": 377,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13813,7 +13831,7 @@
           "persistentUuid": "6a3a72f1-64b5-4c00-863f-28c9e7ad3e09",
           "width": 0,
           "x": 1138,
-          "y": 76,
+          "y": 124,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13827,8 +13845,8 @@
           "name": "etiquette2",
           "persistentUuid": "e0db5386-9cae-4b2c-909f-ecaa8a1686fb",
           "width": 0,
-          "x": 1141,
-          "y": 152,
+          "x": 1138,
+          "y": 195,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -13842,8 +13860,8 @@
           "name": "etiquette4",
           "persistentUuid": "e69fa252-306c-4e98-bb83-9400b07e9799",
           "width": 0,
-          "x": 1141,
-          "y": 295,
+          "x": 1140,
+          "y": 337,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -13858,7 +13876,7 @@
           "persistentUuid": "1b728010-4c53-460a-a78c-f1845accdbea",
           "width": 0,
           "x": 1140,
-          "y": 224,
+          "y": 265,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -13872,8 +13890,8 @@
           "name": "etiquette5",
           "persistentUuid": "264875ed-7c21-4ee3-afa2-393328c098a7",
           "width": 0,
-          "x": 1142,
-          "y": 373,
+          "x": 1141,
+          "y": 408,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -13887,8 +13905,8 @@
           "name": "etiquette6",
           "persistentUuid": "b507ac08-815b-4064-a615-4f22575f3733",
           "width": 0,
-          "x": 1141,
-          "y": 446,
+          "x": 1139,
+          "y": 477,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -13902,8 +13920,8 @@
           "name": "etiquette7",
           "persistentUuid": "44a63d9e-88dd-4821-b99b-6bc567d72fb5",
           "width": 0,
-          "x": 1140,
-          "y": 519,
+          "x": 1139,
+          "y": 551,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -13917,8 +13935,8 @@
           "name": "etiquette8",
           "persistentUuid": "12748485-caa9-4507-8992-813e637d19dc",
           "width": 0,
-          "x": 1141,
-          "y": 590,
+          "x": 1139,
+          "y": 622,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -13933,8 +13951,203 @@
           "persistentUuid": "69b54d4e-69be-45ae-aaca-d7de589922e0",
           "width": 0,
           "x": 1046,
-          "y": 636,
+          "y": 620,
           "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "43b4151a-c68d-40db-9a56-f0e759981484",
+          "width": 0,
+          "x": 227,
+          "y": 261,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "c2e00333-ab65-44e5-89dd-e78ed604616d",
+          "width": 0,
+          "x": 529,
+          "y": 262,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "38b89230-b787-4e0b-a154-d7f638761d61",
+          "width": 0,
+          "x": 706,
+          "y": 254,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "839445b7-da9a-4869-9039-8ccf0293dca6",
+          "width": 0,
+          "x": 920,
+          "y": 253,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "263f5643-b9f8-4bf5-ac65-a4950715e45e",
+          "width": 0,
+          "x": 230,
+          "y": 595,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "e1349235-c03f-4456-a57d-6642ce67d0dc",
+          "width": 0,
+          "x": 455,
+          "y": 585,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "31b046de-baaf-4983-b3e8-1207b18f153c",
+          "width": 0,
+          "x": 701,
+          "y": 584,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "punaise",
+          "persistentUuid": "569c2b57-5dd7-4001-948d-48556326c557",
+          "width": 0,
+          "x": 905,
+          "y": 574,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurDroite",
+          "persistentUuid": "36cfabc2-bd7a-4594-b86b-ceb2a16de9f2",
+          "width": 0,
+          "x": 328,
+          "y": 193,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "chaperon",
+          "persistentUuid": "e77703cb-0455-4a25-8770-cd3990884a9d",
+          "width": 0,
+          "x": 1044,
+          "y": 146,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 247,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "c9b32793-83ea-4216-9bda-ae2a99af2afc",
+          "width": 546,
+          "x": 441,
+          "y": 337,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceChaperon",
+          "persistentUuid": "19fb7671-efce-4fb4-8ab7-ac73ad678f63",
+          "width": 0,
+          "x": 243,
+          "y": 269,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "4a5e03bc-daf5-4a25-8b1a-cef531cfb509",
+          "width": 751,
+          "x": 290,
+          "y": 330,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14002,7 +14215,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\album_ouvert_ce2.png",
+                      "image": "images\\10_chaperon_rouge\\album_ouvert_ce2-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14683,6 +14896,130 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "punaise",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "images\\10_chaperon_rouge\\punaise.png",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\punaise.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 27,
+                        "y": 26
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "chaperon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\Chaperon_rouge_100.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceChaperon",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -14723,6 +15060,38 @@
               "parameters": [
                 "imageAgrandie"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceChaperon"
+              ]
             }
           ]
         },
@@ -14740,6 +15109,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15356,38 +15726,1003 @@
           "conditions": [
             {
               "type": {
-                "value": "Distance"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "etiquette1",
-                "zoneclicable",
-                "40",
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "punaise",
+                    "80",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "=",
+                    "punaise.X()+30"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "=",
+                    "punaise.Y()+30"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Validation",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "=",
+                    "485"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "=",
+                    "615"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "=",
+                    "257"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "=",
+                    "291"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "=",
+                    "935"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "=",
+                    "604"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "=",
+                    "731"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "=",
+                    "614"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "=",
+                    "950"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "=",
+                    "283"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "=",
+                    "736"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "=",
+                    "284"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "=",
+                    "559"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "=",
+                    "292"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "=",
+                    "250"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "=",
+                    "625"
+                  ]
+                }
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "MettreX"
+                "value": "Scene"
               },
               "parameters": [
-                "etiquette1",
-                "=",
-                "zoneclicable.X()"
+                "",
+                "\"BRAVO-Chaperon\"",
+                ""
               ]
             },
             {
               "type": {
-                "value": "MettreY"
+                "value": "ModVarGlobal"
               },
               "parameters": [
-                "etiquette1",
+                "GBL_Enigmes.VariableChaperon",
                 "=",
-                "zoneclicable.Y()+50"
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"chaperon\"",
+                "1"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "!=",
+                    "485"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette1",
+                    "!=",
+                    "615"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "!=",
+                    "257"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette2",
+                    "!=",
+                    "291"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "!=",
+                    "935"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "!=",
+                    "604"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "!=",
+                    "731"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "!=",
+                    "614"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "!=",
+                    "950"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "!=",
+                    "283"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "!=",
+                    "736"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette6",
+                    "!=",
+                    "284"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "!=",
+                    "559"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette7",
+                    "!=",
+                    "292"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "!=",
+                    "250"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette8",
+                    "!=",
+                    "625"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurDroite",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "910",
+                "280",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteErreur",
+                "=",
+                "\"Oh non !! \""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\" Pour t'aider...\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceChaperon",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "1010",
+                "290",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceChaperon"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -15431,7 +16766,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Images",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -15442,7 +16777,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "erreur",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -15453,7 +16788,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "indice",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
