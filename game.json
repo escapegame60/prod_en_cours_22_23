@@ -32177,8 +32177,8 @@
           "name": "guitare",
           "persistentUuid": "f19e017a-7421-4f5a-a10e-00c61181d60d",
           "width": 0,
-          "x": -19,
-          "y": 356,
+          "x": -24,
+          "y": 310,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -32192,8 +32192,8 @@
           "name": "triangle",
           "persistentUuid": "7797df67-eddc-410e-b14d-a56e67646bd7",
           "width": 0,
-          "x": -26,
-          "y": 131,
+          "x": 126,
+          "y": 461,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -32218,7 +32218,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "curseur",
           "name": "curseurLoupe",
           "persistentUuid": "76f34a88-f545-4683-a4b7-3b596a125332",
           "width": 0,
@@ -32240,6 +32240,81 @@
           "x": 1180,
           "y": 406,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "nains",
+          "persistentUuid": "9d401cb1-2cb7-4888-b22b-ea895f3d2f5f",
+          "width": 0,
+          "x": -3,
+          "y": 80,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurGauche",
+          "persistentUuid": "d7f55d5a-12f7-474c-9294-05d7d0a1d1c6",
+          "width": 0,
+          "x": 290,
+          "y": 217,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 201,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "507dd96e-0f91-4d26-a2f4-ca17d4962fbf",
+          "width": 559,
+          "x": 394,
+          "y": 356,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceNains",
+          "persistentUuid": "f64bcaa0-54ee-4565-abb2-7f56602b3688",
+          "width": 0,
+          "x": 290,
+          "y": 305,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "c69c20d4-ef77-40dc-8f00-993ee0ee01c6",
+          "width": 780,
+          "x": 325,
+          "y": 377,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -32902,6 +32977,88 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "nains",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\14_nains\\compagnie_7nains150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceNains",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -32933,6 +33090,108 @@
                 "consigne",
                 "=",
                 "\"Zut, tous mes instruments sont complètement mélangés. Pour résoudre cette énigme tu vas devoir associer chaque mélodie au bon instrument en les glissant dans les bonnes cases.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "batterie",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "flute",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "piano",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "violon",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "guitare",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "triangle",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "trompette",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -33602,11 +33861,11 @@
           "actions": [
             {
               "type": {
-                "value": "ModVarGlobal"
+                "value": "EcrireFichierExp"
               },
               "parameters": [
-                "GBL_Enigmes.Variable7nains",
-                "=",
+                "\"sauvegarde\"",
+                "\"7nains\"",
                 "1"
               ]
             },
@@ -33618,6 +33877,16 @@
                 "",
                 "\"BRAVO-7nains\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GBL_Enigmes.Variable7nains",
+                "=",
+                "1"
               ]
             }
           ]
@@ -33777,12 +34046,52 @@
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurGauche",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "650",
+                "270",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"NON\""
+                "\"Nooooon, dommage ce n'est pas tout à fait ça. Réécoute bien chaque mélodie.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -33792,11 +34101,10 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "CloseButton",
                 "",
                 "",
                 ""
@@ -33804,24 +34112,170 @@
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "GBL_Enigmes.Variable7nains",
-                "=",
-                "0"
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurGauche"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceNains",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteIndice",
                 "=",
-                "\"Zut, tous mes instruments sont complètement mélangés. Pour résoudre cette énigme tu vas devoir associer chaque mélodie au bon instrument en les glissant dans les bonnes cases.\""
+                "\"Voici un petit indice pour t'aider : \n\n- La note 1 et la note 2 sont identiques ;\n- La note 3 et la note 4 sont identiques ;\n- La note 5 et la note 6 sont identiques ;\n- La note 7 et la note 8 sont identiques.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "1065",
+                "330",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceNains"
               ]
             }
           ]
@@ -33868,6 +34322,39 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12525136,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 17805608,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "erreur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 17805608,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "indice",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 17805608,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "curseur",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -36983,7 +37470,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Mon instrument est complètement ensorcelé et il joue des notes bizarres. Aide moi à lever le sortilège.\nEcoute la mélodie en cliquant sur le bouton « lecture ». Essaye de la reconstituer à l’aide des touches du piano.\nEcris le numéro de chaque note dans les cases.\n\""
+                "\"Mon instrument est complètement ensorcelé et il joue des notes bizarres. Aide moi à lever le sortilège.\nEcoute la mélodie en cliquant sur le bouton « lecture ». Essaye de la reconstituer à l’aide des touches du piano.\nEcris le numéro de chaque note dans les cases puis clique sur le bouton de validation.\n\""
               ]
             },
             {
@@ -53956,7 +54443,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5322693287369537,
+        "zoomFactor": 0.4661430473094127,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -54239,9 +54726,9 @@
           "layer": "",
           "name": "mot",
           "persistentUuid": "04be234b-873b-44df-bce2-060ddf411fe0",
-          "width": 343,
-          "x": 447,
-          "y": 508,
+          "width": 339,
+          "x": 740,
+          "y": 512,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -55386,17 +55873,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewSprite",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": []
-        },
-        {
-          "assetStoreId": "",
           "name": "mot",
           "tags": "",
           "type": "BBText::BBText",
@@ -55409,9 +55885,9 @@
             }
           ],
           "content": {
-            "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
+            "text": "\"mot magique\"",
             "opacity": 255,
-            "fontSize": 30,
+            "fontSize": 38,
             "visible": true,
             "color": "255;0;0",
             "fontFamily": "polices\\Fredoka-Medium.ttf",
@@ -55932,9 +56408,36 @@
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "ParcheminTexte",
+                "mot",
                 "=",
-                "\"Félicitations, tu as récupéré tous les objets de personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maitre pour obtenir ton diplôme. Retiens-le bien.\""
+                "\"enchantement\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "temps",
+                "<",
+                "3600"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "mot",
+                "=",
+                "\"malédiction\""
               ]
             }
           ]
@@ -55957,10 +56460,36 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
+                "value": "CompareTimer"
               },
-              "parameters": []
-            },
+              "parameters": [
+                "",
+                "\"generique\"",
+                ">",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "value": "CompareTimer"
@@ -55969,8 +56498,14 @@
                 "",
                 "\"generique\"",
                 ">",
-                "20"
+                "15"
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -55999,7 +56534,7 @@
                 "",
                 "\"generique\"",
                 ">",
-                "20"
+                "15"
               ]
             }
           ],
