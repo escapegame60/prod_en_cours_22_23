@@ -3386,6 +3386,15 @@
         "name": "images\\10_chaperon_rouge\\punaise.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/10_chaperon_rouge/album_ouvert_cp.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\10_chaperon_rouge\\album_ouvert_cp.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -13446,8 +13455,8 @@
           "name": "curseurLoupe",
           "persistentUuid": "263c21ec-bf60-44df-af88-cd2b4d2eb0a8",
           "width": 0,
-          "x": 1097,
-          "y": 547,
+          "x": 117,
+          "y": 283,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -13501,13 +13510,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 177,
+          "height": 190,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "86c991f0-4303-497a-8b02-3c088ef9affa",
-          "width": 257,
-          "x": 237,
-          "y": 71,
+          "width": 280,
+          "x": 303,
+          "y": 61,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13523,13 +13532,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 187,
+          "height": 194,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "0908596b-4228-4520-b3af-f5254b6bcf90",
-          "width": 101,
-          "x": 534,
-          "y": 68,
+          "width": 142,
+          "x": 251,
+          "y": 385,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13545,13 +13554,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 202,
+          "height": 190,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "20cda21d-39ef-44cd-897c-4ed81c6059a3",
-          "width": 138,
-          "x": 261,
-          "y": 396,
+          "width": 141,
+          "x": 464,
+          "y": 390,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13571,9 +13580,9 @@
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "a050e516-51df-4449-b321-be8d4657d195",
-          "width": 146,
-          "x": 479,
-          "y": 389,
+          "width": 144,
+          "x": 728,
+          "y": 68,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13589,13 +13598,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 173,
+          "height": 170,
           "layer": "Zones clicables",
           "name": "zoneclicable",
           "persistentUuid": "285760a7-160d-4437-aeb6-b94694a6087c",
-          "width": 135,
-          "x": 727,
-          "y": 61,
+          "width": 107,
+          "x": 745,
+          "y": 287,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13616,8 +13625,8 @@
           "name": "zoneclicable",
           "persistentUuid": "1acceecb-677b-4a7c-86cf-faf356425241",
           "width": 118,
-          "x": 928,
-          "y": 59,
+          "x": 737,
+          "y": 483,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13627,50 +13636,6 @@
               "name": "image",
               "type": "string",
               "value": "f"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 200,
-          "layer": "Zones clicables",
-          "name": "zoneclicable",
-          "persistentUuid": "ce41fccc-bb47-4e38-b082-51dee446848b",
-          "width": 139,
-          "x": 719,
-          "y": 372,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "image",
-              "type": "string",
-              "value": "g"
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 189,
-          "layer": "Zones clicables",
-          "name": "zoneclicable",
-          "persistentUuid": "76b52610-2861-4249-a892-7ae37e076877",
-          "width": 154,
-          "x": 936,
-          "y": 377,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "image",
-              "type": "string",
-              "value": "h"
             }
           ]
         },
@@ -13697,8 +13662,8 @@
           "name": "etiquette1",
           "persistentUuid": "6a3a72f1-64b5-4c00-863f-28c9e7ad3e09",
           "width": 0,
-          "x": 1138,
-          "y": 124,
+          "x": 14,
+          "y": 211,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -13712,8 +13677,8 @@
           "name": "etiquette2",
           "persistentUuid": "e0db5386-9cae-4b2c-909f-ecaa8a1686fb",
           "width": 0,
-          "x": 1138,
-          "y": 195,
+          "x": 12,
+          "y": 306,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -13727,8 +13692,8 @@
           "name": "etiquette4",
           "persistentUuid": "e69fa252-306c-4e98-bb83-9400b07e9799",
           "width": 0,
-          "x": 1140,
-          "y": 337,
+          "x": 1133,
+          "y": 312,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -13742,8 +13707,8 @@
           "name": "etiquette3",
           "persistentUuid": "1b728010-4c53-460a-a78c-f1845accdbea",
           "width": 0,
-          "x": 1140,
-          "y": 265,
+          "x": 16,
+          "y": 390,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -13757,8 +13722,8 @@
           "name": "etiquette5",
           "persistentUuid": "264875ed-7c21-4ee3-afa2-393328c098a7",
           "width": 0,
-          "x": 1141,
-          "y": 408,
+          "x": 1132,
+          "y": 393,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -13772,39 +13737,9 @@
           "name": "etiquette6",
           "persistentUuid": "b507ac08-815b-4064-a615-4f22575f3733",
           "width": 0,
-          "x": 1139,
-          "y": 477,
+          "x": 1133,
+          "y": 479,
           "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "etiquette7",
-          "persistentUuid": "44a63d9e-88dd-4821-b99b-6bc567d72fb5",
-          "width": 0,
-          "x": 1139,
-          "y": 551,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "etiquette8",
-          "persistentUuid": "12748485-caa9-4507-8992-813e637d19dc",
-          "width": 0,
-          "x": 1139,
-          "y": 622,
-          "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13817,8 +13752,8 @@
           "name": "validation",
           "persistentUuid": "69b54d4e-69be-45ae-aaca-d7de589922e0",
           "width": 0,
-          "x": 1046,
-          "y": 620,
+          "x": 1148,
+          "y": 605,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -13832,8 +13767,8 @@
           "name": "punaise",
           "persistentUuid": "43b4151a-c68d-40db-9a56-f0e759981484",
           "width": 0,
-          "x": 227,
-          "y": 261,
+          "x": 230,
+          "y": 260,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -13847,8 +13782,8 @@
           "name": "punaise",
           "persistentUuid": "c2e00333-ab65-44e5-89dd-e78ed604616d",
           "width": 0,
-          "x": 713,
-          "y": 644,
+          "x": 850,
+          "y": 320,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -13862,8 +13797,8 @@
           "name": "punaise",
           "persistentUuid": "38b89230-b787-4e0b-a154-d7f638761d61",
           "width": 0,
-          "x": 782,
-          "y": 646,
+          "x": 860,
+          "y": 530,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -13877,8 +13812,8 @@
           "name": "punaise",
           "persistentUuid": "263f5643-b9f8-4bf5-ac65-a4950715e45e",
           "width": 0,
-          "x": 533,
-          "y": 652,
+          "x": 210,
+          "y": 580,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -13892,8 +13827,8 @@
           "name": "punaise",
           "persistentUuid": "e1349235-c03f-4456-a57d-6642ce67d0dc",
           "width": 0,
-          "x": 582,
-          "y": 651,
+          "x": 460,
+          "y": 590,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -13907,8 +13842,8 @@
           "name": "punaise",
           "persistentUuid": "31b046de-baaf-4983-b3e8-1207b18f153c",
           "width": 0,
-          "x": 654,
-          "y": 655,
+          "x": 870,
+          "y": 50,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -13937,8 +13872,8 @@
           "name": "chaperon",
           "persistentUuid": "e77703cb-0455-4a25-8770-cd3990884a9d",
           "width": 0,
-          "x": 1044,
-          "y": 146,
+          "x": 1131,
+          "y": 120,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -14052,7 +13987,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\album_ouvert_ce2-2.png",
+                      "image": "images\\10_chaperon_rouge\\album_ouvert_cp.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14122,7 +14057,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\imageB.JPG",
+                      "image": "images\\10_chaperon_rouge\\imageC.JPG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14151,7 +14086,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\imageC.JPG",
+                      "image": "images\\10_chaperon_rouge\\imageD.JPG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14180,7 +14115,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\imageD.JPG",
+                      "image": "images\\10_chaperon_rouge\\imageH.JPG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14209,7 +14144,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\imageE.JPG",
+                      "image": "images\\10_chaperon_rouge\\imageF.JPG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14238,65 +14173,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\imageF.JPG",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "g",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
                       "image": "images\\10_chaperon_rouge\\imageG.JPG",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "h",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\imageH.JPG",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -14946,7 +14823,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15263,98 +15139,6 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "zoneclicable",
-                    "image",
-                    "=",
-                    "\"g\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "imageAgrandie",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "imageAgrandie",
-                    "\"g\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "imageAgrandie",
-                    "=",
-                    "500"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "VarObjetTxt"
-                  },
-                  "parameters": [
-                    "zoneclicable",
-                    "image",
-                    "=",
-                    "\"h\""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "imageAgrandie",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "imageAgrandie",
-                    "\"h\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "imageAgrandie",
-                    "=",
-                    "500"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
             }
@@ -15519,28 +15303,6 @@
                     "",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "etiquette7",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "",
-                    "",
-                    ""
-                  ]
                 }
               ]
             }
@@ -15559,6 +15321,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15803,87 +15566,6 @@
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "etiquette7",
-                    "punaise",
-                    "80",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "etiquette7",
-                    "=",
-                    "punaise.X()+30"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "etiquette7",
-                    "=",
-                    "punaise.Y()+30"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "punaise",
-                    "80",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreX"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "=",
-                    "punaise.X()+30"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "MettreY"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "=",
-                    "punaise.Y()+30"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
             }
@@ -15938,7 +15620,7 @@
                   "parameters": [
                     "etiquette1",
                     "=",
-                    "950"
+                    "880"
                   ]
                 },
                 {
@@ -15948,7 +15630,7 @@
                   "parameters": [
                     "etiquette1",
                     "=",
-                    "283"
+                    "350"
                   ]
                 },
                 {
@@ -15957,86 +15639,6 @@
                   },
                   "parameters": [
                     "etiquette2",
-                    "=",
-                    "257"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette2",
-                    "=",
-                    "291"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette3",
-                    "=",
-                    "935"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette3",
-                    "=",
-                    "604"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette4",
-                    "=",
-                    "731"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette4",
-                    "=",
-                    "614"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette5",
-                    "=",
-                    "485"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette5",
-                    "=",
-                    "615"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette6",
                     "=",
                     "260"
                   ]
@@ -16046,19 +15648,79 @@
                     "value": "PosY"
                   },
                   "parameters": [
+                    "etiquette2",
+                    "=",
+                    "290"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "=",
+                    "900"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "=",
+                    "890"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "=",
+                    "560"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "=",
+                    "490"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "=",
+                    "620"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
                     "etiquette6",
                     "=",
-                    "625"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette7",
-                    "=",
-                    "559"
+                    "240"
                   ]
                 },
                 {
@@ -16066,29 +15728,9 @@
                     "value": "PosY"
                   },
                   "parameters": [
-                    "etiquette7",
+                    "etiquette6",
                     "=",
-                    "292"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "=",
-                    "736"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "=",
-                    "284"
+                    "610"
                   ]
                 }
               ]
@@ -16168,7 +15810,7 @@
                   "parameters": [
                     "etiquette1",
                     "!=",
-                    "950"
+                    "880"
                   ]
                 },
                 {
@@ -16178,7 +15820,7 @@
                   "parameters": [
                     "etiquette1",
                     "!=",
-                    "283"
+                    "350"
                   ]
                 },
                 {
@@ -16187,86 +15829,6 @@
                   },
                   "parameters": [
                     "etiquette2",
-                    "!=",
-                    "257"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette2",
-                    "!=",
-                    "291"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette3",
-                    "!=",
-                    "935"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette3",
-                    "!=",
-                    "604"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette4",
-                    "!=",
-                    "731"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette4",
-                    "!=",
-                    "614"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette5",
-                    "!=",
-                    "485"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette5",
-                    "!=",
-                    "615"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette6",
                     "!=",
                     "260"
                   ]
@@ -16276,19 +15838,79 @@
                     "value": "PosY"
                   },
                   "parameters": [
+                    "etiquette2",
+                    "!=",
+                    "290"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "!=",
+                    "900"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette3",
+                    "!=",
+                    "80"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "!=",
+                    "890"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette4",
+                    "!=",
+                    "560"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "!=",
+                    "490"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "etiquette5",
+                    "!=",
+                    "620"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
                     "etiquette6",
                     "!=",
-                    "625"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette7",
-                    "!=",
-                    "559"
+                    "240"
                   ]
                 },
                 {
@@ -16296,29 +15918,9 @@
                     "value": "PosY"
                   },
                   "parameters": [
-                    "etiquette7",
+                    "etiquette6",
                     "!=",
-                    "292"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "!=",
-                    "736"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "etiquette8",
-                    "!=",
-                    "284"
+                    "610"
                   ]
                 }
               ]
@@ -16608,7 +16210,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "Images",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -16619,7 +16221,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "erreur",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -16630,7 +16232,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "indice",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -17431,8 +17033,8 @@
           "name": "etiquette1",
           "persistentUuid": "6a3a72f1-64b5-4c00-863f-28c9e7ad3e09",
           "width": 0,
-          "x": 1138,
-          "y": 124,
+          "x": 11,
+          "y": 204,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -17446,8 +17048,8 @@
           "name": "etiquette2",
           "persistentUuid": "e0db5386-9cae-4b2c-909f-ecaa8a1686fb",
           "width": 0,
-          "x": 1138,
-          "y": 195,
+          "x": 11,
+          "y": 298,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -17461,8 +17063,8 @@
           "name": "etiquette4",
           "persistentUuid": "e69fa252-306c-4e98-bb83-9400b07e9799",
           "width": 0,
-          "x": 1140,
-          "y": 337,
+          "x": 16,
+          "y": 477,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -17476,8 +17078,8 @@
           "name": "etiquette3",
           "persistentUuid": "1b728010-4c53-460a-a78c-f1845accdbea",
           "width": 0,
-          "x": 1140,
-          "y": 265,
+          "x": 14,
+          "y": 385,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -17491,8 +17093,8 @@
           "name": "etiquette5",
           "persistentUuid": "264875ed-7c21-4ee3-afa2-393328c098a7",
           "width": 0,
-          "x": 1141,
-          "y": 408,
+          "x": 1134,
+          "y": 271,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -17506,8 +17108,8 @@
           "name": "etiquette6",
           "persistentUuid": "b507ac08-815b-4064-a615-4f22575f3733",
           "width": 0,
-          "x": 1139,
-          "y": 477,
+          "x": 1131,
+          "y": 350,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -17521,8 +17123,8 @@
           "name": "etiquette7",
           "persistentUuid": "44a63d9e-88dd-4821-b99b-6bc567d72fb5",
           "width": 0,
-          "x": 1139,
-          "y": 551,
+          "x": 1133,
+          "y": 425,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -17536,8 +17138,8 @@
           "name": "etiquette8",
           "persistentUuid": "12748485-caa9-4507-8992-813e637d19dc",
           "width": 0,
-          "x": 1139,
-          "y": 622,
+          "x": 1135,
+          "y": 498,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -17551,8 +17153,8 @@
           "name": "validation",
           "persistentUuid": "69b54d4e-69be-45ae-aaca-d7de589922e0",
           "width": 0,
-          "x": 1046,
-          "y": 620,
+          "x": 1157,
+          "y": 616,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -17581,7 +17183,7 @@
           "name": "punaise",
           "persistentUuid": "c2e00333-ab65-44e5-89dd-e78ed604616d",
           "width": 0,
-          "x": 529,
+          "x": 500,
           "y": 262,
           "zOrder": 18,
           "numberProperties": [],
@@ -17611,7 +17213,7 @@
           "name": "punaise",
           "persistentUuid": "839445b7-da9a-4869-9039-8ccf0293dca6",
           "width": 0,
-          "x": 920,
+          "x": 910,
           "y": 253,
           "zOrder": 18,
           "numberProperties": [],
@@ -17701,8 +17303,8 @@
           "name": "chaperon",
           "persistentUuid": "e77703cb-0455-4a25-8770-cd3990884a9d",
           "width": 0,
-          "x": 1044,
-          "y": 146,
+          "x": 1130,
+          "y": 112,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
