@@ -14994,7 +14994,7 @@
                   "parameters": [
                     "imageAgrandie",
                     "=",
-                    "500"
+                    "400"
                   ]
                 }
               ]
@@ -18312,7 +18312,6 @@
           "comment2": ""
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -18530,7 +18529,7 @@
                   "parameters": [
                     "imageAgrandie",
                     "=",
-                    "500"
+                    "400"
                   ]
                 }
               ]
@@ -18925,6 +18924,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -52115,12 +52115,12 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 247,
+          "height": 258,
           "layer": "erreur",
           "name": "TexteErreur",
           "persistentUuid": "f38042e4-3f53-4cfb-8430-8ea78574b9e4",
-          "width": 530,
-          "x": 412,
+          "width": 611,
+          "x": 346,
           "y": 309,
           "zOrder": 23,
           "numberProperties": [],
@@ -53681,7 +53681,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! \""
+                "\"Vous n'avez pas réussi à remettre les images dans l'ordre. Aidez-vous du résumé de l'histoire que vous pouvez écouter avec votre maîtresse ou maître. \nBon courage.\""
               ]
             },
             {
