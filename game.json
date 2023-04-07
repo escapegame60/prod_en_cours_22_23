@@ -48179,7 +48179,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 142,
+          "height": 222,
           "layer": "",
           "name": "BlocConsigne",
           "persistentUuid": "8d8f26ac-68ad-4c03-b798-12c822e433e1",
@@ -48194,7 +48194,7 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 121,
+          "height": 197,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "843b0ecb-1916-4482-a3a4-2c9ee0d92ff2",
@@ -48229,8 +48229,8 @@
           "name": "bandepetite",
           "persistentUuid": "3bce8c4e-c17c-4f31-9387-d10ca0b72a6f",
           "width": 0,
-          "x": 124,
-          "y": 517,
+          "x": 70,
+          "y": 440,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -48244,8 +48244,8 @@
           "name": "bandepetite2",
           "persistentUuid": "f59fcee1-058c-4604-ac08-03383915f83c",
           "width": 0,
-          "x": 838,
-          "y": 358,
+          "x": 342,
+          "y": 552,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -48274,8 +48274,8 @@
           "name": "TexteBande2",
           "persistentUuid": "9db3b4c7-6987-4c08-af61-7358c88f500d",
           "width": 0,
-          "x": 316,
-          "y": 367,
+          "x": 345,
+          "y": 609,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -48289,8 +48289,8 @@
           "name": "validation",
           "persistentUuid": "0f6bc5e8-3b53-4240-a9b0-869e743b2cf2",
           "width": 0,
-          "x": 1061,
-          "y": 526,
+          "x": 1160,
+          "y": 555,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -48300,7 +48300,7 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "curseur",
           "name": "curseurLoupe",
           "persistentUuid": "f75e90a6-0ab2-474a-97ea-b52e60f1c289",
           "width": 0,
@@ -48319,8 +48319,8 @@
           "name": "saisiereponse",
           "persistentUuid": "4deca2c3-1100-418d-8b56-114aef24132c",
           "width": 100,
-          "x": 949,
-          "y": 512,
+          "x": 1052,
+          "y": 550,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -48337,6 +48337,96 @@
           "x": 20,
           "y": 625,
           "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "fond",
+          "persistentUuid": "be00f3d6-66db-45c6-8e55-14f71886d42c",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "petitpoucet",
+          "persistentUuid": "b0ccc183-7e3f-4c5d-a589-d8a1db6daa17",
+          "width": 0,
+          "x": 1174,
+          "y": 223,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurDroite",
+          "persistentUuid": "61f1cd80-fa51-49c4-b7d8-b6703b94b8e3",
+          "width": 0,
+          "x": 280,
+          "y": 194,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 247,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "7f30b417-638d-4ce6-9314-3ad20de0eaa9",
+          "width": 563,
+          "x": 398,
+          "y": 328,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indicePetitpoucet",
+          "persistentUuid": "1535e336-b568-4c00-83ee-401d8ba9518e",
+          "width": 0,
+          "x": 251,
+          "y": 263,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "0917d58f-560f-4a58-a529-bfb3253758fb",
+          "width": 721,
+          "x": 301,
+          "y": 328,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -48439,13 +48529,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "",
@@ -48491,7 +48575,7 @@
           "effects": [],
           "behaviors": [],
           "string": "Distance parcourue en 1 pas avec les bottes de 7 lieues",
-          "font": "",
+          "font": "polices\\Fredoka-Medium.ttf",
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
@@ -48513,7 +48597,7 @@
           "effects": [],
           "behaviors": [],
           "string": "Distance parcourue en 10 pas sans les bottes de 7 lieues",
-          "font": "",
+          "font": "polices\\Fredoka-Medium.ttf",
           "textAlignment": "left",
           "characterSize": 20,
           "color": {
@@ -48537,14 +48621,171 @@
             "fontSize": 20,
             "inputType": "text",
             "textColor": "0;0;0",
-            "fillColor": "255;255;255",
-            "fillOpacity": 255,
+            "fillColor": "80;150;195",
+            "fillOpacity": 135,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
             "borderWidth": 1,
             "readOnly": false,
             "disabled": false
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\fond_petitpoucet.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "petitpoucet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet150_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet150_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet150_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indicePetitpoucet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -48588,7 +48829,67 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Pour pouvoir échapper au sort de la sorcière, le petit Poucet doit chausser les bottes de 7 lieues. Pour l’aider à les ajuster, il te faut résoudre une énigme.\n\nCombien de pas doit faire le petit poucet pour parcourir la même distance que lorsqu’il fait un pas avec les bottes de 7 lieues ?\""
+                "\"Pour pouvoir échapper au sort de la sorcière, le petit Poucet doit chausser les bottes de 7 lieues. Pour l’aider à les ajuster, il te faut résoudre une énigme.\n\nCombien de pas doit faire le petit poucet pour parcourir la même distance que lorsqu’il fait un pas avec les bottes de 7 lieues ?\n\nTu peux déplacer les unités de mesure pour t'aider.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indicePetitpoucet"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "bandepetite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -48614,8 +48915,8 @@
               "parameters": [
                 "",
                 "bandepetite",
-                "120",
-                "550",
+                "70",
+                "440",
                 ""
               ]
             }
@@ -48656,16 +48957,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"BRAVO\""
-              ]
-            },
             {
               "type": {
                 "value": "ModVarGlobal"
@@ -48725,12 +49016,52 @@
           "actions": [
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurDroite",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "625",
+                "245",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteErreur",
                 "=",
-                "\"retente ta chance\""
+                "\"Ce n’est pas la\nbonne réponse. Cherche encore ! \""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
               ]
             }
           ]
@@ -48740,11 +49071,10 @@
           "conditions": [
             {
               "type": {
-                "inverted": true,
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "CloseButton",
                 "",
                 "",
                 ""
@@ -48752,24 +49082,170 @@
             },
             {
               "type": {
-                "value": "VarGlobal"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "GBL_Enigmes.VariablePetitPoucet",
-                "=",
-                "0"
+                "",
+                "Left"
               ]
             }
           ],
           "actions": [
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BBText::SetBBText"
               },
               "parameters": [
-                "consigne",
+                "TexteIndice",
                 "=",
-                "\"Pour pouvoir échapper au sort de la sorcière, le petit Poucet doit chausser les bottes de 7 lieues. Pour l’aider à les ajuster, il te faut résoudre une énigme.\n\nCombien de pas doit faire le petit poucet pour parcourir la même distance que lorsqu’il fait un pas avec les bottes de 7 lieues ?\""
+                "\" Indice du Petit Poucet :\n\n1 petite bande = 1 dizaine\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indicePetitpoucet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "1010",
+                "290",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indicePetitpoucet"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
               ]
             }
           ]
@@ -48796,6 +49272,39 @@
               "width": 0
             }
           ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12894504,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 18130384,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "erreur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 18130384,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "indice",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 83886080,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 18130384,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "curseur",
+          "visibility": true,
+          "cameras": [],
           "effects": []
         }
       ],
@@ -49034,9 +49543,9 @@
           "layer": "indice",
           "name": "TexteIndice",
           "persistentUuid": "33c7746c-6573-48ab-8c28-f4476f2d3296",
-          "width": 746,
-          "x": 306,
-          "y": 380,
+          "width": 554,
+          "x": 425,
+          "y": 402,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -49544,6 +50053,34 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
+                "lien",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
                 "validation",
                 "",
                 "",
@@ -49579,16 +50116,6 @@
                 "\"sauvegarde\"",
                 "\"poucet\"",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"BRAVO\""
               ]
             },
             {
@@ -49685,7 +50212,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! \""
+                "\"Ce n’est pas la\nbonne réponse. Cherche encore ! \""
               ]
             },
             {
@@ -49842,7 +50369,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\" Indice du Petit Poucet.\""
+                "\" Indice du Petit Poucet :\n\n1 pas = 28km \""
               ]
             },
             {
