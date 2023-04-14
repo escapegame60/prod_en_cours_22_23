@@ -3395,6 +3395,70 @@
         "name": "images\\10_chaperon_rouge\\album_ouvert_cp.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/panier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\panier.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/brique.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\brique.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/sucre_dorge.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\sucre_dorge.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/soulier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\soulier.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/montre.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\montre.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/fuseau.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\fuseau.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "sons/00-general/contoise_musique_1_02.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\00-general\\contoise_musique_1_02.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5527,7 +5591,7 @@
       "name": "01-Intro CE2",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -7043,8 +7107,26 @@
                 "=",
                 "0"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sons\\00-general\\contoise_musique_1_02.mp3",
+                "1",
+                "yes",
+                "",
+                ""
+              ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7975,7 +8057,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5235443597656387,
+        "zoomFactor": 0.6603510737085925,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -8179,13 +8261,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 34,
+          "height": 48,
           "layer": "",
           "name": "montre",
           "persistentUuid": "ef1bb604-bbc9-47bf-a20d-9fd8c2cbbe69",
-          "width": 41,
+          "width": 48,
           "x": 102,
-          "y": 529,
+          "y": 516,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -8209,13 +8291,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 63,
+          "height": 42,
           "layer": "",
           "name": "brique",
           "persistentUuid": "1f1b30ea-6bd3-4542-b728-fb3146543a37",
-          "width": 67,
-          "x": 154,
-          "y": 613,
+          "width": 71,
+          "x": 143,
+          "y": 626,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -8237,15 +8319,15 @@
           "initialVariables": []
         },
         {
-          "angle": 360,
+          "angle": 46,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "fuseau",
           "persistentUuid": "d7b50657-2cef-4d73-9c07-7cd0e91f34eb",
           "width": 0,
-          "x": 42,
-          "y": 597,
+          "x": 50,
+          "y": 603,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -10556,7 +10638,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Pocket Watch.png",
+                      "image": "images\\01-foret\\montre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10667,7 +10749,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "Isometric Voxel Dirt Brick.png",
+                      "image": "images\\01-foret\\brique.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10708,7 +10790,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\panier.png",
+                      "image": "images\\01-foret\\panier.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10749,7 +10831,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\fuseau1.png",
+                      "image": "images\\01-foret\\fuseau.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10872,7 +10954,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\13_hansel_gretel\\sucredorge.png",
+                      "image": "images\\01-foret\\sucre_dorge.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -10913,7 +10995,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\15_cendrillon\\pantoufle.png",
+                      "image": "images\\01-foret\\soulier.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11258,14 +11340,11 @@
             },
             {
               "type": {
-                "value": "PlaySound"
+                "value": "RePlaySoundCanal"
               },
               "parameters": [
                 "",
-                "sons\\01_foret\\pas_dans_les_feuilles.mp3",
-                "",
-                "",
-                ""
+                "1"
               ]
             }
           ]
@@ -57848,7 +57927,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\Isometric Voxel Dirt Brick.png",
+                      "image": "images\\01-foret\\brique.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -58354,7 +58433,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\15_cendrillon\\pantoufle.png",
+                      "image": "images\\01-foret\\soulier.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -58860,7 +58939,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "assets\\Pocket Watch.png",
+                      "image": "images\\01-foret\\montre.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -59366,7 +59445,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\13_hansel_gretel\\sucredorge.png",
+                      "image": "images\\01-foret\\sucre_dorge.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -61365,7 +61444,7 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
+          "angle": 311,
           "customSize": false,
           "height": 0,
           "layer": "",
@@ -61466,7 +61545,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\fuseau1.png",
+                      "image": "images\\01-foret\\fuseau.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
