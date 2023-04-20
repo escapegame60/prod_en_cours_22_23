@@ -7125,8 +7125,69 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "\"Il était une fois, dans une jolie forêt, des \n\npersonnages de contes très connus qui \n\nvivaient dans la joie et la bonne humeur.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "250"
+              ]
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -7139,7 +7200,53 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "1.2"
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "10.5"
               ]
             }
           ],
@@ -7166,7 +7273,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "1.4"
+                "11"
               ]
             }
           ],
@@ -7193,7 +7300,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "1.6"
+                "11.5"
               ]
             }
           ],
@@ -7220,7 +7327,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "1.8"
+                "12"
               ]
             }
           ],
@@ -7247,7 +7354,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "2"
+                "12.5"
               ]
             }
           ],
@@ -7274,7 +7381,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "2.2"
+                "13"
               ]
             }
           ],
@@ -7301,7 +7408,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "2.4"
+                "13.5"
               ]
             }
           ],
@@ -7328,7 +7435,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "2.6"
+                "14"
               ]
             }
           ],
@@ -7355,7 +7462,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "2.8"
+                "14.5"
               ]
             }
           ],
@@ -7382,7 +7489,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "3"
+                "15"
               ]
             }
           ],
@@ -7409,7 +7516,119 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "4"
+                "17"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "300"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "\"Cependant non loin de là, vivait une méchante sorcière qui décida un jour de lancer une malédiction plongeant la forêt dans un épais brouillard et empêchant ainsi nos compagnons de sortir.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "25"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "26"
               ]
             },
             {
@@ -7460,7 +7679,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "6"
+                "28"
               ]
             }
           ],
@@ -7488,8 +7707,8 @@
                 "perso2",
                 "Tween",
                 "\"deplacement\"",
-                "415",
-                "35",
+                "345",
+                "70",
                 "\"linear\"",
                 "1000",
                 ""
@@ -7518,8 +7737,8 @@
                 "perso4",
                 "Tween",
                 "\"deplacement\"",
-                "415",
-                "35",
+                "910",
+                "650",
                 "\"linear\"",
                 "1000",
                 ""
@@ -7549,7 +7768,7 @@
                 "Tween",
                 "\"deplacement\"",
                 "415",
-                "35",
+                "390",
                 "\"linear\"",
                 "1000",
                 ""
@@ -7628,7 +7847,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "7"
+                "30"
               ]
             },
             {
@@ -7676,7 +7895,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "11"
+                "35"
               ]
             },
             {
@@ -7714,7 +7933,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "13"
+                "37"
               ]
             },
             {
@@ -7752,7 +7971,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "13"
+                "37"
               ]
             },
             {
@@ -7790,7 +8009,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "15"
+                "39"
               ]
             },
             {
@@ -7828,7 +8047,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "15"
+                "39"
               ]
             },
             {
@@ -7866,7 +8085,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "17"
+                "41"
               ]
             },
             {
@@ -7904,14 +8123,8 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "19"
+                "43"
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -7942,6 +8155,26 @@
                 "1500",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "180"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "\"[i]Cherche les personnages qui sont prisonniers dans la forêt. Chacun d’eux te proposera une énigme.  \n\nLa bonne réponse t’apportera un objet à mettre dans ton sac.\n\nTu as 1h30 pour récupérer 10 objets afin de libérer les personnages.[/i]\""
+              ]
             }
           ]
         },
@@ -7961,7 +8194,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "30"
+                "55"
               ]
             }
           ],
@@ -56886,6 +57119,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -57365,6 +57599,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -57866,6 +58101,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -58372,6 +58608,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -58878,6 +59115,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -59384,6 +59622,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -59890,6 +60129,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -60396,6 +60636,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -60978,6 +61219,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
@@ -61484,6 +61726,7 @@
           "emitterForceMax": 300,
           "emitterForceMin": 80,
           "flow": 30,
+          "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 30,
           "name": "feuBRAVO",
           "particleAlpha1": 255,
