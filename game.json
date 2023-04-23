@@ -3459,6 +3459,24 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/logo_contoise_300.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\logo_contoise_300.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/logo_contoise_150.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\logo_contoise_150.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4203,8 +4221,8 @@
           "name": "XButton",
           "persistentUuid": "10dea440-2bb0-4248-878f-785755d30ab0",
           "width": 0,
-          "x": 276,
-          "y": 345,
+          "x": 510,
+          "y": 310,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -4218,8 +4236,8 @@
           "name": "validation",
           "persistentUuid": "1118f61c-610f-433c-b81a-5090c7f64064",
           "width": 0,
-          "x": 720,
-          "y": 360,
+          "x": 529,
+          "y": 472,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -4233,8 +4251,8 @@
           "name": "NewGame",
           "persistentUuid": "b338a01e-6f01-46b6-b1cf-2f4012111af0",
           "width": 267,
-          "x": 208,
-          "y": 282,
+          "x": 620,
+          "y": 327,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4248,9 +4266,24 @@
           "name": "LoadGame",
           "persistentUuid": "237c5ce7-5edf-48c7-9db2-ec70a9601520",
           "width": 288,
-          "x": 621,
-          "y": 443,
+          "x": 620,
+          "y": 480,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Logo",
+          "persistentUuid": "8712890f-ff3a-4466-9cf8-1de8486cae01",
+          "width": 0,
+          "x": 10,
+          "y": 10,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4340,6 +4373,47 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\logo_contoise_300.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -8290,7 +8364,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6603510737085925,
+        "zoomFactor": 0.5978134964040419,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10290,76 +10364,6 @@
           ]
         },
         {
-          "assetStoreId": "b6a2ce9d5e47e7e308e1ff48dca9b480ecd613a92725edfa2ce492c9b7d9ac4e",
-          "name": "Octopus",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "No Shadow",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Octopus_No Shadow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Shadow",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "Octopus_Shadow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "d5613b988376b954659339bc07eafba56eca9cac24ac9ebce0778d5474f06dab",
           "name": "BBDormant",
           "tags": "",
@@ -11825,17 +11829,6 @@
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "Octopus",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "MouseButtonPressed"
@@ -55174,6 +55167,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "logo",
+          "persistentUuid": "c9ecf882-5561-4dba-b51f-cb9ea3fc197b",
+          "width": 120,
+          "x": 313,
+          "y": 484,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -56335,6 +56343,47 @@
             "align": "center",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\logo_contoise_150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -56375,6 +56424,16 @@
               },
               "parameters": [
                 "parchemin",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "logo",
                 "=",
                 "0"
               ]
@@ -56781,6 +56840,20 @@
               },
               "parameters": [
                 "parchemin",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "logo",
                 "Tween",
                 "\"apparition\"",
                 "255",
