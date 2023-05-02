@@ -7656,7 +7656,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "25"
+                "30"
               ]
             }
           ],
@@ -7702,7 +7702,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "26"
+                "31"
               ]
             },
             {
@@ -7753,7 +7753,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "28"
+                "33"
               ]
             }
           ],
@@ -7921,7 +7921,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "30"
+                "38"
               ]
             },
             {
@@ -7955,232 +7955,16 @@
                 "3000",
                 ""
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Chrono-Intro\"",
-                ">",
-                "35"
-              ]
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "bulle1",
-                "Tween",
-                "\"apparition\"",
-                "255",
-                "\"linear\"",
-                "500",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
+                "value": "PlaySound"
               },
               "parameters": [
                 "",
-                "\"Chrono-Intro\"",
-                ">",
-                "37"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "bulle1",
-                "Tween",
-                "\"apparition\"",
-                "0",
-                "\"linear\"",
-                "500",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
+                "sons\\intro\\rire_sorciere_delay.mp3",
                 "",
-                "\"Chrono-Intro\"",
-                ">",
-                "37"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "bulle2",
-                "Tween",
-                "\"apparition\"",
-                "255",
-                "\"linear\"",
-                "500",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
                 "",
-                "\"Chrono-Intro\"",
-                ">",
-                "39"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "bulle2",
-                "Tween",
-                "\"apparition\"",
-                "0",
-                "\"linear\"",
-                "500",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Chrono-Intro\"",
-                ">",
-                "39"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "bulle3",
-                "Tween",
-                "\"apparition\"",
-                "255",
-                "\"linear\"",
-                "500",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"Chrono-Intro\"",
-                ">",
-                "41"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectOpacityTween"
-              },
-              "parameters": [
-                "bulle3",
-                "Tween",
-                "\"apparition\"",
-                "0",
-                "\"linear\"",
-                "500",
                 ""
               ]
             }
@@ -8198,6 +7982,234 @@
                 "\"Chrono-Intro\"",
                 ">",
                 "43"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "bulle1",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "45"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "bulle1",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "45"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "bulle2",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "47"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "bulle2",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "47"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "bulle3",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "49"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "bulle3",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "53"
               ]
             }
           ],
@@ -8247,15 +8259,10 @@
               "parameters": [
                 "ParcheminTexte",
                 "=",
-                "\"[i]Cherche les personnages qui sont prisonniers dans la forêt. Chacun d’eux te proposera une énigme.  \n\nLa bonne réponse t’apportera un objet à mettre dans ton sac.\n\nTu as 1h30 pour récupérer 10 objets afin de libérer les personnages.[/i]\""
+                "\"Pour lever cette malédiction, il va falloir réunir chaque objet appartenant aux personnages en résolvant des énigmes.\n\nSeuls ces objets magiques réunis ensemble pourront dissiper le brouillard et chasser la sorcière.\""
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -8268,7 +8275,81 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "55"
+                "63"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "67"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "\"[i]Cherche les personnages qui sont prisonniers dans la forêt. Chacun d’eux te proposera une énigme.  \n\nLa bonne réponse t’apportera un objet à mettre dans ton sac.\n\nTu as 1h30 pour récupérer 10 objets afin de libérer les personnages.[/i]\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "80"
               ]
             }
           ],
@@ -8284,11 +8365,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -54877,7 +54953,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4661430473094127,
+        "zoomFactor": 0.46614304730941275,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -56310,7 +56386,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "EscapOise \nCont'Oise\n\n\nMerci d'avoir participé et encore BRAVO.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nLe Petit Chaperon Rouge\nLe Chat botté\nBelle et la Bête\nHansel et Gretel\nLes sept nains\nCendrillon\nAlice\nLes trois petits cochons\nLe Petit Poucet\nLa Belle aux bois dormants\n\n\n\nDirection du projet : Mme Christelle GUYOT, IEN en charge de la mission numérique\n\nGraphisme : Mickaël Pellissier\nMusique : Marc Chaudet, Mickaël Pellissier \n\nProgrammation : Nicolas David, Emilie Dupraz, Pascal Geindreau, Eric Laignel, Philippe Michot\n\nScénario : Frédéric Andrieux, Guillaume Cervantes, Thomas Couque, Nicolas David, Solène Dornic, Frédéric Gondron, Philippe Michot,  Laurent Noël, Joël Nauche, Frédéric Rougemont\n\n\n© DSDEN 60 - juin 2023 - Tous droits réservés\n",
+            "text": "EscapOise \nCont'Oise\n\n\nMerci d'avoir participé et encore BRAVO.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nLe Petit Chaperon Rouge\nLe Chat botté\nLa Belle et la Bête\nHansel et Gretel\nLes sept nains\nCendrillon\nAlice\nLes trois petits cochons\nLe Petit Poucet\nLa Belle au bois dormant\n\n\n\nDirection du projet : Mme Christelle GUYOT, IEN en charge de la mission numérique\n\nGraphisme : Mickaël Pellissier\nMusique : Marc Chaudet, Mickaël Pellissier \n\nProgrammation : Nicolas David, Emilie Dupraz, Pascal Geindreau, Eric Laignel, Philippe Michot\n\nScénario : Frédéric Andrieux, Guillaume Cervantes, Thomas Couque, Nicolas David, Solène Dornic, Frédéric Gondron, Philippe Michot,  Laurent Noël, Joël Nauche, Frédéric Rougemont\n\n\n© DSDEN 60 - juin 2023 - Tous droits réservés\n",
             "opacity": 255,
             "fontSize": 28,
             "visible": true,
@@ -56897,7 +56973,7 @@
               "parameters": [
                 "ParcheminTexte",
                 "=",
-                "\"Félicitations, tu as récupéré tous les objets de personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maitre pour obtenir ton diplôme. Retiens-le bien.\""
+                "\"Félicitations, tu as récupéré tous les objets de personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maître pour obtenir ton diplôme. Retiens-le bien.\""
               ]
             }
           ]
