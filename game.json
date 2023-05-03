@@ -3477,6 +3477,32 @@
         "name": "images\\00_interface\\logo_contoise_150.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Bordered Hud_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Bordered Hud_all_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/998f3521bccc8b5fedee0a2f6891d6c2604964a6cb048c4858575443b3634f4d_9patch_Bordered Hud_all_32.png",
+          "name": "9patch_Bordered Hud_all_32.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Wood Hud_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Wood Hud_all_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/ed605cc2e33964e0b96fb7db7c8820117a7f385d5c67f9eb68babec4ae91d805_9patch_Wood Hud_all_32.png",
+          "name": "9patch_Wood Hud_all_32.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -4215,44 +4241,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "XButton",
-          "persistentUuid": "10dea440-2bb0-4248-878f-785755d30ab0",
-          "width": 0,
-          "x": 510,
-          "y": 310,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "validation",
-          "persistentUuid": "1118f61c-610f-433c-b81a-5090c7f64064",
-          "width": 0,
-          "x": 529,
-          "y": 472,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": true,
           "height": 73,
           "layer": "",
           "name": "NewGame",
           "persistentUuid": "b338a01e-6f01-46b6-b1cf-2f4012111af0",
           "width": 267,
-          "x": 620,
-          "y": 327,
+          "x": 585,
+          "y": 309,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -4266,7 +4262,7 @@
           "name": "LoadGame",
           "persistentUuid": "237c5ce7-5edf-48c7-9db2-ec70a9601520",
           "width": 288,
-          "x": 620,
+          "x": 578,
           "y": 480,
           "zOrder": 5,
           "numberProperties": [],
@@ -4282,8 +4278,53 @@
           "persistentUuid": "8712890f-ff3a-4466-9cf8-1de8486cae01",
           "width": 0,
           "x": 10,
-          "y": 10,
+          "y": 100,
           "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "name": "Nouveau",
+          "persistentUuid": "5015e018-e4c8-4f9d-9b93-7fc295d2d2e2",
+          "width": 500,
+          "x": 470,
+          "y": 300,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 90,
+          "layer": "",
+          "name": "Poursuivre",
+          "persistentUuid": "a0cae9e1-fb07-40d9-b86b-c1d858a7c257",
+          "width": 500,
+          "x": 470,
+          "y": 470,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "curseurLoupe",
+          "persistentUuid": "ae724881-3579-4f5f-b8ba-3ad475764775",
+          "width": 0,
+          "x": 1211,
+          "y": 118,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4349,7 +4390,7 @@
             "opacity": 255,
             "fontSize": 36,
             "visible": true,
-            "color": "0;0;0",
+            "color": "255;255;255",
             "fontFamily": "polices\\Fredoka-Medium.ttf",
             "align": "left",
             "wordWrap": true
@@ -4368,7 +4409,7 @@
             "opacity": 255,
             "fontSize": 36,
             "visible": true,
-            "color": "0;0;0",
+            "color": "255;255;255",
             "fontFamily": "polices\\Fredoka-Medium.ttf",
             "align": "left",
             "wordWrap": true
@@ -4414,6 +4455,40 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "8b0d151969a3e5a63292058f40c8cf899f8498300e85301762f1c144e19b5631",
+          "bottomMargin": 32,
+          "height": 96,
+          "leftMargin": 32,
+          "name": "Nouveau",
+          "rightMargin": 32,
+          "tags": "",
+          "texture": "9patch_Wood Hud_all_32.png",
+          "tiled": true,
+          "topMargin": 32,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "8b0d151969a3e5a63292058f40c8cf899f8498300e85301762f1c144e19b5631",
+          "bottomMargin": 32,
+          "height": 96,
+          "leftMargin": 32,
+          "name": "Poursuivre",
+          "rightMargin": 32,
+          "tags": "",
+          "texture": "9patch_Wood Hud_all_32.png",
+          "tiled": true,
+          "topMargin": 32,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 96,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -4477,7 +4552,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "Poursuivre",
                 "",
                 "",
                 ""
@@ -4577,7 +4652,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "XButton",
+                "Nouveau",
                 "",
                 "",
                 ""
@@ -4747,7 +4822,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "Poursuivre",
                 "",
                 "",
                 ""
@@ -4757,19 +4832,10 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "validation",
-                "\"145;100;100\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::AddObjectScaleTween"
               },
               "parameters": [
-                "validation",
+                "Poursuivre",
                 "Tween",
                 "\"dezoom\"",
                 "0.9",
@@ -4778,6 +4844,16 @@
                 "300",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -4791,7 +4867,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "validation",
+                "Poursuivre",
                 "",
                 "",
                 ""
@@ -4801,19 +4877,10 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "validation",
-                "\"255;255;255\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::AddObjectScaleTween"
               },
               "parameters": [
-                "validation",
+                "Poursuivre",
                 "Tween",
                 "\"dezoom\"",
                 "1",
@@ -4834,7 +4901,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "XButton",
+                "Nouveau",
                 "",
                 "",
                 ""
@@ -4844,19 +4911,10 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "XButton",
-                "\"56;132;158\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::AddObjectScaleTween"
               },
               "parameters": [
-                "XButton",
+                "Nouveau",
                 "Tween",
                 "\"dezoom\"",
                 "0.9",
@@ -4865,6 +4923,16 @@
                 "300",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -4878,7 +4946,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "XButton",
+                "Nouveau",
                 "",
                 "",
                 ""
@@ -4888,19 +4956,10 @@
           "actions": [
             {
               "type": {
-                "value": "ChangeColor"
-              },
-              "parameters": [
-                "XButton",
-                "\"255;255;255\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Tween::AddObjectScaleTween"
               },
               "parameters": [
-                "XButton",
+                "Nouveau",
                 "Tween",
                 "\"dezoom\"",
                 "1",
@@ -4909,6 +4968,109 @@
                 "300",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "curseur",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "MouseX()",
+                "=",
+                "MouseY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Poursuivre",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "Nouveau",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "0"
               ]
             }
           ]
@@ -5271,13 +5433,6 @@
       ],
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Événements externes"
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -5392,12 +5547,13 @@
           "conditions": [
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "BuiltinCommonInstructions::And"
               },
               "parameters": [],
               "subInstructions": [
                 {
                   "type": {
+                    "inverted": true,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -5409,6 +5565,7 @@
                 },
                 {
                   "type": {
+                    "inverted": true,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -5429,10 +5586,51 @@
               "parameters": [
                 "curseurLoupe",
                 "=",
-                "2"
+                "0"
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "MouseX()",
+                "=",
+                "MouseY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -5486,6 +5684,16 @@
                 "300",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -5573,6 +5781,16 @@
                 "300",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
               ]
             }
           ]
@@ -18693,6 +18911,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
