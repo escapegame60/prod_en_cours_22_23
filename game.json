@@ -4233,7 +4233,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.545404810607293,
+        "zoomFactor": 0.5828074294436583,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4331,52 +4331,6 @@
         }
       ],
       "objects": [
-        {
-          "assetStoreId": "39d34ad6279a440643832d74d1703d157659bf302faef87be033209e88880828",
-          "name": "XButton",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Tween",
-              "type": "Tween::TweenBehavior"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "X Button.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
         {
           "assetStoreId": "",
           "name": "NewGame",
@@ -4549,6 +4503,57 @@
           "conditions": [
             {
               "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "niveauclasse",
+                    "!=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "niveauclasse",
+                    "!=",
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Poursuivre"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "LoadGame"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "SourisSurObjet"
               },
               "parameters": [
@@ -4625,11 +4630,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -5146,8 +5146,8 @@
           "name": "CPCE1",
           "persistentUuid": "b338a01e-6f01-46b6-b1cf-2f4012111af0",
           "width": 163,
-          "x": 260,
-          "y": 400,
+          "x": 264,
+          "y": 410,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5161,8 +5161,8 @@
           "name": "CE2",
           "persistentUuid": "237c5ce7-5edf-48c7-9db2-ec70a9601520",
           "width": 116,
-          "x": 819,
-          "y": 400,
+          "x": 828,
+          "y": 408,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -12115,32 +12115,6 @@
               "parameters": [
                 "",
                 "\"13-2-Hansel et Gretel CE2\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"14-Les sept nains CP\"",
                 ""
               ]
             }
@@ -19869,6 +19843,7 @@
           "comment2": ""
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20095,10 +20070,63 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"BRAVO-Chaperon\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GBL_Enigmes.VariableChaperon",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"chaperon\"",
+                "1"
+              ]
+            }
+          ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21697,7 +21725,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! \""
+                "\"Ne vous découragez, recommencez, vous allez trouver. \""
               ]
             },
             {
@@ -21818,7 +21846,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Indice pour t'aider.\n\""
+                "\"Le chiffre des dizaines est important pour résoudre cette énigme.\""
               ]
             },
             {
@@ -22724,7 +22752,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! Ce n’est pas le bon mot.\n\nContinue de chercher… \n\""
+                "\"Ce n’est pas ça. Allez, on y retourne.\n\""
               ]
             },
             {
@@ -22845,7 +22873,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Indice pour t'aider.\n\""
+                "\"Le nombre de dizaines est important pour résoudre cette énigme.\""
               ]
             },
             {
