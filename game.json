@@ -15935,6 +15935,7 @@
           "comment2": ""
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15966,7 +15967,7 @@
               "parameters": [
                 "",
                 "CloseButtonImage",
-                "1105",
+                "1050",
                 "30",
                 ""
               ]
@@ -17076,7 +17077,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! \""
+                "\"Vous avez fait une ou plusieurs erreurs... \n\nRéessayez...  \""
               ]
             },
             {
@@ -17192,21 +17193,21 @@
             },
             {
               "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "TexteIndice",
-                "=",
-                "\" Pour t'aider...\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Montre"
               },
               "parameters": [
                 "indiceChaperon",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\" Regardez attentivement les images (vous pouvez cliquer dessus pour les agrandir). \nVous pouvez aussi demander de l'aide à la maîtresse ou au maître.\""
               ]
             },
             {
@@ -21147,362 +21148,6 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5236892941320324,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "curseurLoupe",
-          "persistentUuid": "fb20cbad-bc11-4283-ac22-0225f660e8c2",
-          "width": 0,
-          "x": 1084,
-          "y": 523,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 131,
-          "layer": "",
-          "name": "BlocConsigne",
-          "persistentUuid": "85a249b7-1d9a-4407-9140-ad7bf5b7e944",
-          "width": 854,
-          "x": 280,
-          "y": 10,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 96,
-          "layer": "",
-          "name": "consigne",
-          "persistentUuid": "2e54626c-c0a1-49bc-a35e-e0ddbec8446e",
-          "width": 785,
-          "x": 304,
-          "y": 24,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "retour",
-          "persistentUuid": "9d6eac07-a0c6-4342-a25c-5d3eb2d3beb1",
-          "width": 0,
-          "x": 42,
-          "y": 605,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "validation",
-          "persistentUuid": "46995ec4-f57a-4294-9dd0-1f5f2e459819",
-          "width": 0,
-          "x": 770,
-          "y": 389,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 108,
-          "layer": "",
-          "name": "Reponse",
-          "persistentUuid": "d4c8ce36-8cec-4e10-b343-0e3fcb6294ef",
-          "width": 150,
-          "x": 578,
-          "y": 373,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "Reponse",
-          "tags": "",
-          "type": "TextInput::TextInputObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "initialValue": "",
-            "placeholder": "Réponse",
-            "fontResourceName": "polices\\Fredoka-Medium.ttf",
-            "fontSize": 36,
-            "inputType": "number",
-            "textColor": "0;0;0",
-            "fillColor": "80;150;195",
-            "fillOpacity": 130,
-            "borderColor": "0;0;0",
-            "borderOpacity": 255,
-            "borderWidth": 1,
-            "readOnly": false,
-            "disabled": false
-          }
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"Le meunier a produit 90 kg de farine. \nIl doit maintenant répartir sa production de farine dans des sacs de 10 kg.\n\nCombien de sacs doit-il prévoir ?\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextInput::TextInputObject::Text"
-              },
-              "parameters": [
-                "Reponse",
-                "=",
-                "\"9\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableChat",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"BRAVO-Chat\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "TextInput::TextInputObject::Text"
-              },
-              "parameters": [
-                "Reponse",
-                "!=",
-                "\"9\""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"NON\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableChat",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"Le meunier a produit 90 kg de farine. \nIl doit maintenant répartir sa production de farine dans des sacs de 10 kg.\n\nCombien de sacs doit-il prévoir ?\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 16777216,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "_491_45Chat_32Bott_233_32CP2",
-      "name": "11-Chat Botté CP2",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
         "zoomFactor": 0.6672773998329973,
         "windowMask": false
       },
@@ -21512,13 +21157,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 193,
+          "height": 136,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "154583ac-8369-44b1-af89-a004ac0352dc",
-          "width": 661,
-          "x": 394,
-          "y": 45,
+          "width": 692,
+          "x": 318,
+          "y": 24,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -21607,8 +21252,8 @@
           "name": "chat2",
           "persistentUuid": "0d9af3b8-60c2-4a5b-a2ab-0e523749eb06",
           "width": 0,
-          "x": 49,
-          "y": 161,
+          "x": 77,
+          "y": 160,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -21648,36 +21293,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "name": "chat_blanc",
-          "persistentUuid": "a0df173f-3d15-4861-9b66-1bf788440b97",
-          "width": 0,
-          "x": 131,
-          "y": 164,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "bulleconsigne",
-          "persistentUuid": "bf47a8eb-4fa4-4ac4-a5b1-8fd8e2dc0a1a",
-          "width": 0,
-          "x": 280,
-          "y": 10,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "indice",
           "name": "indiceChat",
           "persistentUuid": "ea621d2c-c5aa-454e-984c-ad17f868d980",
@@ -21700,6 +21315,21 @@
           "x": 354,
           "y": 362,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 149,
+          "layer": "",
+          "name": "BlocConsigne",
+          "persistentUuid": "28e76b87-0d69-443b-9dbb-e5165ecae8f4",
+          "width": 781,
+          "x": 280,
+          "y": 10,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
