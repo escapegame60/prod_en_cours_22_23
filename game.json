@@ -3503,6 +3503,46 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/ed605cc2e33964e0b96fb7db7c8820117a7f385d5c67f9eb68babec4ae91d805_9patch_Wood Hud_all_32.png",
           "name": "9patch_Wood Hud_all_32.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Right arrow round button.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Right arrow round button.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/On-Screen Controls/Sprites/Line Dark/fde30f40877216475ce15f8c30255659cd2aaf7131c80acf63f8407a1416f4f0_Right arrow round button.png",
+          "name": "Right arrow round button.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/bloc_blanc.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\bloc_blanc.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/18_petit_poucet/page_wikipedia.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\18_petit_poucet\\page_wikipedia.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/18_petit_poucet/fermeture_wiki.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\18_petit_poucet\\fermeture_wiki.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6195,7 +6235,7 @@
           "name": "brouillard",
           "persistentUuid": "d60df477-0bec-4a5f-8f92-eead28f090a0",
           "width": 0,
-          "x": 0,
+          "x": 2,
           "y": 0,
           "zOrder": 19,
           "numberProperties": [],
@@ -7237,6 +7277,98 @@
             "align": "left",
             "wordWrap": true
           }
+        },
+        {
+          "assetStoreId": "8fc399b4430c5d61a6352a0ec92224596ffdf5995b0f6cfed0883520121424c5",
+          "name": "Next",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right arrow round button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "8fc399b4430c5d61a6352a0ec92224596ffdf5995b0f6cfed0883520121424c5",
+          "name": "GO",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Right arrow round button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -7416,6 +7548,224 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "curseur",
+          "comment2": ""
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "MouseX()",
+                "=",
+                "MouseY()"
+              ]
+            },
+            {
+              "type": {
+                "value": "CacheSouris"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Next",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "Next",
+                "\"50;50;50\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Next",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "Next",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "GO",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "Next",
+                "\"50;50;50\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "GO",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeColor"
+              },
+              "parameters": [
+                "Next",
+                "\"255;255;255\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Next",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Next",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Déroulement intro",
+          "comment2": ""
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7492,7 +7842,52 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "10"
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Next",
+                "895",
+                "555",
+                "\"sorciere\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "6.5"
               ]
             }
           ],
@@ -7874,7 +8269,52 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "30"
+                "20"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Next",
+                "895",
+                "555",
+                "\"sorciere\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "20.5"
               ]
             }
           ],
@@ -7920,7 +8360,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "31"
+                "24"
               ]
             },
             {
@@ -7971,7 +8411,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "33"
+                "26"
               ]
             }
           ],
@@ -8139,7 +8579,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "38"
+                "29"
               ]
             },
             {
@@ -8199,7 +8639,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "43"
+                "34"
               ]
             },
             {
@@ -8237,7 +8677,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "45"
+                "36"
               ]
             },
             {
@@ -8275,7 +8715,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "45"
+                "36"
               ]
             },
             {
@@ -8313,7 +8753,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "47"
+                "38"
               ]
             },
             {
@@ -8351,7 +8791,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "47"
+                "38"
               ]
             },
             {
@@ -8389,7 +8829,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "49"
+                "40"
               ]
             },
             {
@@ -8427,7 +8867,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "53"
+                "42"
               ]
             }
           ],
@@ -8493,7 +8933,52 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "63"
+                "46"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Next",
+                "895",
+                "555",
+                "\"sorciere\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\"",
+                ">",
+                "46.5"
               ]
             }
           ],
@@ -8525,7 +9010,7 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "67"
+                "49"
               ]
             }
           ],
@@ -8567,7 +9052,61 @@
                 "",
                 "\"Chrono-Intro\"",
                 ">",
-                "80"
+                "55"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "GO",
+                "895",
+                "555",
+                "\"sorciere\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono-Intro\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "GO",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
               ]
             }
           ],
@@ -22028,8 +22567,8 @@
           "name": "consigne",
           "persistentUuid": "154583ac-8369-44b1-af89-a004ac0352dc",
           "width": 661,
-          "x": 394,
-          "y": 45,
+          "x": 368,
+          "y": 21,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -22074,7 +22613,7 @@
           "persistentUuid": "39ea599a-d0f1-46a0-b0cc-fae87eeb7d03",
           "width": 200,
           "x": 232,
-          "y": 573,
+          "y": 570,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -22089,7 +22628,7 @@
           "persistentUuid": "47c906eb-2091-4164-94de-da93a303e502",
           "width": 200,
           "x": 792,
-          "y": 566,
+          "y": 570,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -22174,21 +22713,6 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "name": "bulleconsigne",
-          "persistentUuid": "bf47a8eb-4fa4-4ac4-a5b1-8fd8e2dc0a1a",
-          "width": 0,
-          "x": 280,
-          "y": 10,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
           "layer": "indice",
           "name": "indiceChat",
           "persistentUuid": "ea621d2c-c5aa-454e-984c-ad17f868d980",
@@ -22214,6 +22738,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 234,
+          "layer": "",
+          "name": "BlocConsigne",
+          "persistentUuid": "9d8a3bd5-2770-4261-9258-30afdfe5f526",
+          "width": 806,
+          "x": 280,
+          "y": 10,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TexteReponse1",
+          "persistentUuid": "c8d3d553-741b-4580-a7f7-088b96b8c1b6",
+          "width": 0,
+          "x": 261,
+          "y": 665,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "TexteReponse2",
+          "persistentUuid": "224a1729-92b5-489e-8faf-d87d6125d5dd",
+          "width": 0,
+          "x": 823,
+          "y": 665,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -22227,7 +22796,7 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Question 1",
+            "placeholder": "",
             "fontResourceName": "polices\\Fredoka-Medium.ttf",
             "fontSize": 36,
             "inputType": "number",
@@ -22251,7 +22820,7 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Question 2",
+            "placeholder": "",
             "fontResourceName": "polices\\Fredoka-Medium.ttf",
             "fontSize": 36,
             "inputType": "number",
@@ -22520,6 +23089,44 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "TexteReponse1",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]Réponse 1[/b] ",
+            "opacity": 255,
+            "fontSize": 28,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "TexteReponse2",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "[b]Réponse 2[/b] ",
+            "opacity": 255,
+            "fontSize": 28,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
         }
       ],
       "events": [
@@ -36430,13 +37037,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote1",
           "persistentUuid": "10733554-3184-45d7-af72-f2453604488f",
-          "width": 100,
-          "x": 50,
-          "y": 500,
+          "width": 50,
+          "x": 104,
+          "y": 515,
           "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
@@ -36445,13 +37052,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote2",
           "persistentUuid": "0e0bc12b-a58a-43f4-b19b-6da58db9c58c",
-          "width": 100,
-          "x": 180,
-          "y": 500,
+          "width": 50,
+          "x": 224,
+          "y": 514,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -36460,13 +37067,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote3",
           "persistentUuid": "5e6e7574-ecc5-45b6-a353-4b656351e6af",
-          "width": 100,
-          "x": 310,
-          "y": 500,
+          "width": 50,
+          "x": 346,
+          "y": 514,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -36475,13 +37082,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote4",
           "persistentUuid": "1c6ea0a6-6617-472a-a7b6-237b36fc0555",
-          "width": 100,
-          "x": 440,
-          "y": 500,
+          "width": 50,
+          "x": 463,
+          "y": 514,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -36490,13 +37097,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote5",
           "persistentUuid": "573b1dfa-2eec-4318-bc14-be15ff70f504",
-          "width": 100,
-          "x": 570,
-          "y": 500,
+          "width": 50,
+          "x": 586,
+          "y": 515,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -36505,13 +37112,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote6",
           "persistentUuid": "74999bda-429a-4071-852e-835229863a0a",
-          "width": 100,
+          "width": 50,
           "x": 700,
-          "y": 500,
+          "y": 514,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -36520,13 +37127,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote7",
           "persistentUuid": "791659af-ab4f-47a3-9e38-671e4f41dbd9",
-          "width": 100,
-          "x": 830,
-          "y": 500,
+          "width": 50,
+          "x": 823,
+          "y": 514,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -36535,13 +37142,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 80,
+          "height": 50,
           "layer": "",
           "name": "CaseNote8",
           "persistentUuid": "b1d0fc0a-4524-4d4f-be4e-ae91f8851a4d",
-          "width": 100,
-          "x": 960,
-          "y": 500,
+          "width": 50,
+          "x": 944,
+          "y": 515,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -36768,6 +37375,126 @@
           "x": 351,
           "y": 156,
           "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "7fda5b42-f930-45ce-84a9-37eee5b9daf2",
+          "width": 0,
+          "x": 70,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "49ab1904-2a76-4887-a3e8-63b9784ca7f2",
+          "width": 0,
+          "x": 190,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "9f546bde-5af0-41bb-a4b1-052f73bfe58c",
+          "width": 0,
+          "x": 310,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "c47c98b6-d07c-4103-8d1c-1fa40fae6d21",
+          "width": 0,
+          "x": 430,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "0894a035-0cea-4c1b-b618-00042f841a90",
+          "width": 0,
+          "x": 550,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "abb00515-2f47-4532-bc42-7987981fa113",
+          "width": 0,
+          "x": 670,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "e22f332a-b67c-48e4-b6c7-9abc5dd3e345",
+          "width": 0,
+          "x": 790,
+          "y": 500,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "CaseReponse",
+          "persistentUuid": "0b048bb2-90a6-424b-ac16-6dfe6eda0e76",
+          "width": 0,
+          "x": 910,
+          "y": 500,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -37153,16 +37880,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 1",
+            "placeholder": "1",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37177,16 +37904,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 2",
+            "placeholder": "2",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37201,16 +37928,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 3",
+            "placeholder": "3",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37225,16 +37952,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 4",
+            "placeholder": "4",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37249,16 +37976,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 5",
+            "placeholder": "5",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37273,16 +38000,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 6",
+            "placeholder": "6",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37297,16 +38024,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 7",
+            "placeholder": "7",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37321,16 +38048,16 @@
           "behaviors": [],
           "content": {
             "initialValue": "",
-            "placeholder": "Note 8",
+            "placeholder": "8",
             "fontResourceName": "",
             "fontSize": 32,
             "inputType": "text",
             "textColor": "0;0;0",
             "fillColor": "255;255;255",
-            "fillOpacity": 200,
+            "fillOpacity": 0,
             "borderColor": "0;0;0",
             "borderOpacity": 255,
-            "borderWidth": 1,
+            "borderWidth": 0,
             "readOnly": false,
             "disabled": false
           }
@@ -37638,6 +38365,47 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "CaseReponse",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc_blanc.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -44223,7 +44991,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5053446178767521,
+        "zoomFactor": 0.5964896777131852,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -44279,12 +45047,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "1e7b0a44-7202-4fda-a998-7b83f5287c5f",
           "width": 40,
-          "x": 576,
-          "y": 163,
+          "x": 582,
+          "y": 160,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44294,12 +45062,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "0a98f579-5bc4-40d5-8b1d-9f522c5a199a",
           "width": 40,
-          "x": 635,
-          "y": 161,
+          "x": 643,
+          "y": 160,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44309,12 +45077,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "edc08903-0263-461b-b421-d82b7de0a171",
           "width": 40,
-          "x": 693,
-          "y": 163,
+          "x": 702,
+          "y": 160,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44324,12 +45092,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "1cdd528e-c26e-453e-8ab1-8a89abdcd1e6",
           "width": 40,
-          "x": 753,
-          "y": 165,
+          "x": 763,
+          "y": 160,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44339,12 +45107,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "08539a18-dcf0-4a8c-950e-69186acc7621",
           "width": 40,
-          "x": 576,
-          "y": 249,
+          "x": 590,
+          "y": 250,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44354,12 +45122,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "e6e0952c-d6f3-498f-8522-70817db74ce4",
           "width": 40,
-          "x": 635,
-          "y": 251,
+          "x": 645,
+          "y": 250,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44369,12 +45137,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "17270ed0-0639-4a51-9930-f3c05fcb8b5f",
           "width": 40,
-          "x": 696,
-          "y": 249,
+          "x": 709,
+          "y": 250,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44384,12 +45152,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "afb30c98-c84d-43ac-b85d-1c8a1706d78c",
           "width": 40,
-          "x": 755,
-          "y": 249,
+          "x": 769,
+          "y": 250,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44399,12 +45167,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "673f0262-a10c-4799-a7db-fa7eeaf11f68",
           "width": 40,
-          "x": 815,
-          "y": 249,
+          "x": 828,
+          "y": 250,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44414,12 +45182,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "1ddb92eb-e5d1-42bb-887d-a2d32fcc845c",
           "width": 40,
-          "x": 874,
-          "y": 251,
+          "x": 890,
+          "y": 250,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44429,11 +45197,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "c8c757a5-6c86-4afc-a5ec-2c59260f2457",
           "width": 40,
-          "x": 574,
+          "x": 586,
           "y": 346,
           "zOrder": 8,
           "numberProperties": [],
@@ -44444,11 +45212,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "fa014be4-cb3a-44af-ae34-ae1285b3abd7",
           "width": 40,
-          "x": 637,
+          "x": 646,
           "y": 346,
           "zOrder": 8,
           "numberProperties": [],
@@ -44459,26 +45227,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "ed043ef8-63b9-4beb-82f8-2dd56f92ae42",
           "width": 40,
-          "x": 695,
-          "y": 345,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 40,
-          "layer": "",
-          "name": "case",
-          "persistentUuid": "c850769e-bcf3-4d09-b090-a10458f92e00",
-          "width": 40,
-          "x": 756,
+          "x": 703,
           "y": 346,
           "zOrder": 8,
           "numberProperties": [],
@@ -44489,11 +45242,26 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
+          "name": "case",
+          "persistentUuid": "c850769e-bcf3-4d09-b090-a10458f92e00",
+          "width": 40,
+          "x": 768,
+          "y": 346,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 40,
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "09780c94-9c3f-4017-a712-76ce5c60cf4d",
           "width": 40,
-          "x": 577,
+          "x": 586,
           "y": 430,
           "zOrder": 8,
           "numberProperties": [],
@@ -44504,11 +45272,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "0c01a97e-a4c8-4ba2-8196-86a45cfc3ad0",
           "width": 40,
-          "x": 636,
+          "x": 644,
           "y": 430,
           "zOrder": 8,
           "numberProperties": [],
@@ -44519,11 +45287,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "b2e8b7e7-6144-4569-b381-384ab2dbc989",
           "width": 40,
-          "x": 696,
+          "x": 702,
           "y": 430,
           "zOrder": 8,
           "numberProperties": [],
@@ -44534,11 +45302,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "3ea19c73-9aeb-414d-b25f-4a088ba72516",
           "width": 40,
-          "x": 756,
+          "x": 762,
           "y": 430,
           "zOrder": 8,
           "numberProperties": [],
@@ -44549,12 +45317,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "8cd79238-d3dc-4946-ba26-a8b20513ade6",
           "width": 40,
-          "x": 821,
-          "y": 431,
+          "x": 827,
+          "y": 430,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44564,11 +45332,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "c37e4964-eb66-491e-8715-4767686ef711",
           "width": 40,
-          "x": 581,
+          "x": 589,
           "y": 525,
           "zOrder": 8,
           "numberProperties": [],
@@ -44579,11 +45347,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "16407833-b683-4c5c-a31b-cb51131d1531",
           "width": 40,
-          "x": 639,
+          "x": 647,
           "y": 525,
           "zOrder": 8,
           "numberProperties": [],
@@ -44594,11 +45362,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "77db32ab-d753-40b4-ac78-12f9dd698590",
           "width": 40,
-          "x": 701,
+          "x": 707,
           "y": 524,
           "zOrder": 8,
           "numberProperties": [],
@@ -44609,11 +45377,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "8768fbd5-53b7-46dc-bb0c-dc596b5d9569",
           "width": 40,
-          "x": 759,
+          "x": 766,
           "y": 527,
           "zOrder": 8,
           "numberProperties": [],
@@ -44624,11 +45392,11 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "0fc2ac63-93c0-44a3-b8f6-25a8a831376a",
           "width": 40,
-          "x": 818,
+          "x": 826,
           "y": 527,
           "zOrder": 8,
           "numberProperties": [],
@@ -44639,12 +45407,12 @@
           "angle": 0,
           "customSize": true,
           "height": 40,
-          "layer": "",
+          "layer": "lettres",
           "name": "case",
           "persistentUuid": "b169cb1f-b234-46d3-bfcb-9e7f0605a700",
           "width": 40,
-          "x": 880,
-          "y": 524,
+          "x": 889,
+          "y": 527,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -44654,11 +45422,11 @@
           "angle": 0,
           "customSize": true,
           "height": 60,
-          "layer": "",
+          "layer": "lettres",
           "name": "case2",
           "persistentUuid": "c82ea3c8-872d-43c4-aa97-5d1c1a4e5a54",
           "width": 60,
-          "x": 470,
+          "x": 480,
           "y": 631,
           "zOrder": 9,
           "numberProperties": [],
@@ -44684,11 +45452,11 @@
           "angle": 0,
           "customSize": true,
           "height": 60,
-          "layer": "",
+          "layer": "lettres",
           "name": "case22",
           "persistentUuid": "79f00cca-b1a6-470a-b6fc-d0b58ef673fe",
           "width": 60,
-          "x": 558,
+          "x": 568,
           "y": 629,
           "zOrder": 11,
           "numberProperties": [],
@@ -44699,11 +45467,11 @@
           "angle": 0,
           "customSize": true,
           "height": 60,
-          "layer": "",
+          "layer": "lettres",
           "name": "case23",
           "persistentUuid": "a88f4eb9-23f5-477d-b1a0-2184013a352b",
           "width": 60,
-          "x": 646,
+          "x": 656,
           "y": 629,
           "zOrder": 12,
           "numberProperties": [],
@@ -44714,11 +45482,11 @@
           "angle": 0,
           "customSize": true,
           "height": 60,
-          "layer": "",
+          "layer": "lettres",
           "name": "case24",
           "persistentUuid": "3449835d-062f-4829-88d6-cb7d4fa01f22",
           "width": 60,
-          "x": 739,
+          "x": 749,
           "y": 629,
           "zOrder": 13,
           "numberProperties": [],
@@ -44729,12 +45497,12 @@
           "angle": 0,
           "customSize": true,
           "height": 60,
-          "layer": "",
+          "layer": "lettres",
           "name": "case25",
           "persistentUuid": "7c25fa56-6652-495f-a26a-4b494fbd8519",
           "width": 60,
-          "x": 830,
-          "y": 632,
+          "x": 840,
+          "y": 629,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -45885,6 +46653,15 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
+              ]
             }
           ]
         },
@@ -45935,6 +46712,15 @@
               },
               "parameters": [
                 "CloseButton"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
               ]
             }
           ]
@@ -46079,6 +46865,15 @@
                 "CloseButton2",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
+              ]
             }
           ]
         },
@@ -46129,6 +46924,15 @@
               },
               "parameters": [
                 "indiceAlice"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
               ]
             }
           ]
@@ -46191,6 +46995,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "curseur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 15896680,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 18374032,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "lettres",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -50008,7 +50823,7 @@
           "persistentUuid": "0f6bc5e8-3b53-4240-a9b0-869e743b2cf2",
           "width": 0,
           "x": 1174,
-          "y": 575,
+          "y": 606,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -50038,7 +50853,7 @@
           "persistentUuid": "4deca2c3-1100-418d-8b56-114aef24132c",
           "width": 111,
           "x": 1042,
-          "y": 566,
+          "y": 600,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -50175,6 +50990,21 @@
           "x": 425,
           "y": 402,
           "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PageWiki",
+          "persistentUuid": "9ab0c643-ef2e-4952-b5fa-9dbe8a977cb4",
+          "width": 0,
+          "x": 21,
+          "y": 70,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -50593,6 +51423,88 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PageWiki",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\page_wikipedia.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "FermeturePageWiki",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\fermeture_wiki.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -50670,6 +51582,14 @@
               "parameters": [
                 "TexteIndice"
               ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PageWiki"
+              ]
             }
           ]
         },
@@ -50682,6 +51602,34 @@
               },
               "parameters": [
                 "lien",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "FermeturePageWiki",
                 "",
                 "",
                 ""
@@ -50882,11 +51830,67 @@
           "actions": [
             {
               "type": {
-                "value": "LaunchFile"
+                "value": "Montre"
               },
               "parameters": [
-                "\"https://fr.wikipedia.org/wiki/Lieue\"",
+                "PageWiki",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "FermeturePageWiki",
+                "1171",
+                "70",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "FermeturePageWiki",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "PageWiki"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "FermeturePageWiki",
+                "FermeturePageWiki"
               ]
             }
           ]
@@ -54836,7 +55840,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Vous n'avez pas réussi à remettre les images dans l'ordre. Aidez-vous du résumé de l'histoire que vous pouvez écouter avec votre maîtresse ou maître. \nBon courage.\""
+                "\"Vous n'avez pas réussi à remettre les images dans l'ordre.  \nBon courage.\""
               ]
             },
             {
@@ -57623,7 +58627,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\10_chaperon_rouge\\panier.png",
+                      "image": "images\\01-foret\\panier.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -57740,42 +58744,8 @@
                 "panier",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "panier",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -58215,8 +59185,8 @@
                 "bottes",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -58248,40 +59218,6 @@
                     ""
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "bottes",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
               ]
             }
           ]
@@ -60180,7 +61116,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"255;255;255\""
+                "\"255;255;0\""
               ]
             },
             {
@@ -61777,7 +62713,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"255;255;255\""
+                "\"71;75;75\""
               ]
             },
             {
