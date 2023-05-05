@@ -17880,7 +17880,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7090128532801443,
+        "zoomFactor": 0.5260494732327063,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -18281,7 +18281,7 @@
           "persistentUuid": "43b4151a-c68d-40db-9a56-f0e759981484",
           "width": 0,
           "x": 227,
-          "y": 261,
+          "y": 265,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18296,7 +18296,7 @@
           "persistentUuid": "c2e00333-ab65-44e5-89dd-e78ed604616d",
           "width": 0,
           "x": 500,
-          "y": 262,
+          "y": 265,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18311,7 +18311,7 @@
           "persistentUuid": "38b89230-b787-4e0b-a154-d7f638761d61",
           "width": 0,
           "x": 706,
-          "y": 254,
+          "y": 265,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18326,7 +18326,7 @@
           "persistentUuid": "839445b7-da9a-4869-9039-8ccf0293dca6",
           "width": 0,
           "x": 910,
-          "y": 253,
+          "y": 265,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18356,7 +18356,7 @@
           "persistentUuid": "e1349235-c03f-4456-a57d-6642ce67d0dc",
           "width": 0,
           "x": 455,
-          "y": 585,
+          "y": 595,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18371,7 +18371,7 @@
           "persistentUuid": "31b046de-baaf-4983-b3e8-1207b18f153c",
           "width": 0,
           "x": 701,
-          "y": 584,
+          "y": 595,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18386,7 +18386,7 @@
           "persistentUuid": "569c2b57-5dd7-4001-948d-48556326c557",
           "width": 0,
           "x": 905,
-          "y": 574,
+          "y": 595,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -18430,8 +18430,8 @@
           "name": "TexteErreur",
           "persistentUuid": "c9b32793-83ea-4216-9bda-ae2a99af2afc",
           "width": 546,
-          "x": 441,
-          "y": 337,
+          "x": 435,
+          "y": 309,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -19456,7 +19456,7 @@
               "parameters": [
                 "",
                 "CloseButtonImage",
-                "1105",
+                "1050",
                 "30",
                 ""
               ]
@@ -20382,7 +20382,6 @@
           "comment2": ""
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20418,7 +20417,7 @@
                   "parameters": [
                     "etiquette1",
                     "=",
-                    "950"
+                    "940"
                   ]
                 },
                 {
@@ -20428,7 +20427,7 @@
                   "parameters": [
                     "etiquette1",
                     "=",
-                    "283"
+                    "295"
                   ]
                 },
                 {
@@ -20448,7 +20447,7 @@
                   "parameters": [
                     "etiquette2",
                     "=",
-                    "291"
+                    "295"
                   ]
                 },
                 {
@@ -20468,7 +20467,7 @@
                   "parameters": [
                     "etiquette3",
                     "=",
-                    "604"
+                    "625"
                   ]
                 },
                 {
@@ -20488,7 +20487,7 @@
                   "parameters": [
                     "etiquette4",
                     "=",
-                    "614"
+                    "625"
                   ]
                 },
                 {
@@ -20508,7 +20507,7 @@
                   "parameters": [
                     "etiquette5",
                     "=",
-                    "615"
+                    "625"
                   ]
                 },
                 {
@@ -20538,7 +20537,7 @@
                   "parameters": [
                     "etiquette7",
                     "=",
-                    "559"
+                    "530"
                   ]
                 },
                 {
@@ -20548,7 +20547,7 @@
                   "parameters": [
                     "etiquette7",
                     "=",
-                    "292"
+                    "295"
                   ]
                 },
                 {
@@ -20568,7 +20567,7 @@
                   "parameters": [
                     "etiquette8",
                     "=",
-                    "284"
+                    "295"
                   ]
                 }
               ]
@@ -20608,64 +20607,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"BRAVO-Chaperon\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableChaperon",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "EcrireFichierExp"
-              },
-              "parameters": [
-                "\"sauvegarde\"",
-                "\"chaperon\"",
-                "1"
-              ]
-            }
-          ]
-        },
-        {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -20701,7 +20642,7 @@
                   "parameters": [
                     "etiquette1",
                     "!=",
-                    "950"
+                    "940"
                   ]
                 },
                 {
@@ -20711,7 +20652,7 @@
                   "parameters": [
                     "etiquette1",
                     "!=",
-                    "283"
+                    "295"
                   ]
                 },
                 {
@@ -20731,7 +20672,7 @@
                   "parameters": [
                     "etiquette2",
                     "!=",
-                    "291"
+                    "295"
                   ]
                 },
                 {
@@ -20751,7 +20692,7 @@
                   "parameters": [
                     "etiquette3",
                     "!=",
-                    "604"
+                    "625"
                   ]
                 },
                 {
@@ -20771,7 +20712,7 @@
                   "parameters": [
                     "etiquette4",
                     "!=",
-                    "614"
+                    "625"
                   ]
                 },
                 {
@@ -20791,7 +20732,7 @@
                   "parameters": [
                     "etiquette5",
                     "!=",
-                    "615"
+                    "625"
                   ]
                 },
                 {
@@ -20821,7 +20762,7 @@
                   "parameters": [
                     "etiquette7",
                     "!=",
-                    "559"
+                    "530"
                   ]
                 },
                 {
@@ -20831,7 +20772,7 @@
                   "parameters": [
                     "etiquette7",
                     "!=",
-                    "292"
+                    "295"
                   ]
                 },
                 {
@@ -20851,7 +20792,7 @@
                   "parameters": [
                     "etiquette8",
                     "!=",
-                    "284"
+                    "295"
                   ]
                 }
               ]
@@ -20883,8 +20824,8 @@
               "parameters": [
                 "CloseButton",
                 "CloseButton",
-                "910",
-                "280",
+                "915",
+                "260",
                 "\"erreur\""
               ]
             },
@@ -20895,7 +20836,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! \""
+                "\"Vous avez fait une ou plusieurs erreurs... \n\nRéessayez...  \""
               ]
             },
             {
@@ -21016,7 +20957,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\" Pour t'aider...\""
+                "\" Regardez attentivement les images (vous pouvez cliquer dessus pour les agrandir). \nVous pouvez aussi demander de l'aide à la maîtresse ou au maître.\""
               ]
             },
             {
@@ -56233,8 +56174,8 @@
           "name": "perso1",
           "persistentUuid": "b6b1d0b6-5f7f-49fd-85a0-c9495ee61273",
           "width": 0,
-          "x": 305,
-          "y": 223,
+          "x": 59,
+          "y": 195,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -56248,8 +56189,8 @@
           "name": "perso2",
           "persistentUuid": "b4cfcaff-866a-473b-87f3-b100fbc18778",
           "width": 0,
-          "x": 422,
-          "y": 135,
+          "x": 188,
+          "y": 62,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -56263,8 +56204,8 @@
           "name": "perso3",
           "persistentUuid": "ef5a0480-752c-49d8-a7ae-06365745b9e1",
           "width": 0,
-          "x": 707,
-          "y": 212,
+          "x": 1085,
+          "y": 178,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -56278,8 +56219,8 @@
           "name": "perso5",
           "persistentUuid": "e8d84738-06c6-4311-88ba-1061b7de35c5",
           "width": 0,
-          "x": 953,
-          "y": 330,
+          "x": 1058,
+          "y": 339,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -56293,8 +56234,8 @@
           "name": "perso7",
           "persistentUuid": "d268b03f-aca5-49cb-a1fa-ec84081fc39a",
           "width": 0,
-          "x": 735,
-          "y": 521,
+          "x": 1029,
+          "y": 465,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -56308,8 +56249,8 @@
           "name": "perso8",
           "persistentUuid": "7061da3a-912c-4e27-b4b2-c139e3254cfc",
           "width": 0,
-          "x": 587,
-          "y": 563,
+          "x": 701,
+          "y": 631,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -56323,8 +56264,8 @@
           "name": "perso9",
           "persistentUuid": "e2f49c69-a15f-4b68-a989-7a9372800267",
           "width": 0,
-          "x": 498,
-          "y": 541,
+          "x": 332,
+          "y": 622,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -56338,8 +56279,8 @@
           "name": "perso10",
           "persistentUuid": "42fb47ce-aa39-47cb-9b72-b2e82fbeea10",
           "width": 0,
-          "x": 360,
-          "y": 446,
+          "x": 145,
+          "y": 523,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -56383,8 +56324,8 @@
           "name": "perso4",
           "persistentUuid": "c3c64940-087a-4782-8976-04aeed45621c",
           "width": 0,
-          "x": 872,
-          "y": 255,
+          "x": 1084,
+          "y": 99,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -56398,8 +56339,8 @@
           "name": "perso6",
           "persistentUuid": "b30598e5-f101-4cb9-bec4-22e10d8ef9ca",
           "width": 0,
-          "x": 857,
-          "y": 418,
+          "x": 147,
+          "y": 323,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -56413,8 +56354,8 @@
           "name": "PersoAliceChat",
           "persistentUuid": "3fc2a9fc-9e6b-4cc4-9ca3-485cdb755da3",
           "width": 0,
-          "x": 783,
-          "y": 545,
+          "x": 1083,
+          "y": 481,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -56428,8 +56369,8 @@
           "name": "PersoBete",
           "persistentUuid": "2a6a1ae1-0d5a-40d8-a535-009e4df11d34",
           "width": 0,
-          "x": 631,
-          "y": 565,
+          "x": 761,
+          "y": 627,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -56458,8 +56399,8 @@
           "name": "parchemin",
           "persistentUuid": "4ea080ec-0c8b-4beb-8f3b-465a8b946b8c",
           "width": 0,
-          "x": 282,
-          "y": 39,
+          "x": 257,
+          "y": 34,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -56473,8 +56414,8 @@
           "name": "ParcheminTexte",
           "persistentUuid": "6015e50c-42fb-4f8e-bf3d-5f357fdb2df7",
           "width": 675,
-          "x": 335,
-          "y": 112,
+          "x": 331,
+          "y": 114,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -57849,6 +57790,16 @@
             },
             {
               "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "-5"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreY"
               },
               "parameters": [
@@ -57865,6 +57816,16 @@
                 "PersoAliceChat",
                 "=",
                 "555"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "140"
               ]
             },
             {
@@ -57927,12 +57888,32 @@
             },
             {
               "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreY"
               },
               "parameters": [
                 "perso5",
                 "=",
                 "350"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "150"
               ]
             },
             {
@@ -58005,12 +57986,32 @@
             },
             {
               "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreY"
               },
               "parameters": [
                 "perso5",
                 "=",
                 "360"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "140"
               ]
             },
             {
@@ -58083,12 +58084,32 @@
             },
             {
               "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreY"
               },
               "parameters": [
                 "perso5",
                 "=",
                 "350"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "150"
               ]
             },
             {
@@ -58507,6 +58528,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "fond",
+          "persistentUuid": "a7d843a7-c808-4401-b2de-9d33a32f0cff",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -58647,6 +58683,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\fond_chaperon.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -58696,7 +58773,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"42;45;168\""
+                "\"228;228;23\""
               ]
             },
             {
@@ -58750,6 +58827,33 @@
                 "1000",
                 "",
                 ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sons\\00-general\\gagne03.mp3",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -59653,8 +59757,8 @@
                 "brique",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -59692,40 +59796,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "brique",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -60160,8 +60230,8 @@
                 "pantoufle",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -60199,40 +60269,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "pantoufle",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -60667,8 +60703,8 @@
                 "montre",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -60706,40 +60742,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "montre",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -61174,8 +61176,8 @@
                 "sucre",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -61213,40 +61215,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "sucre",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -61681,8 +61649,8 @@
                 "pioche",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -61720,40 +61688,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "pioche",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -62234,8 +62168,8 @@
                 "rose",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -62273,40 +62207,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "rose",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -62771,8 +62671,8 @@
                 "caillou",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -62810,40 +62710,6 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "caillou",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -63220,7 +63086,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"155;155;155\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -63278,8 +63144,8 @@
                 "fuseau",
                 "Tween",
                 "\"zoom\"",
-                "3",
-                "3",
+                "2",
+                "2",
                 "\"linear\"",
                 "1000",
                 "",
@@ -63311,45 +63177,6 @@
                     ""
                   ]
                 }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareTimer"
-              },
-              "parameters": [
-                "",
-                "\"chronobravo\"",
-                ">",
-                "2"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Tween::AddObjectScaleTween"
-              },
-              "parameters": [
-                "fuseau",
-                "Tween",
-                "\"zoom\"",
-                "1",
-                "1",
-                "\"linear\"",
-                "1000",
-                "",
-                ""
               ]
             }
           ]
