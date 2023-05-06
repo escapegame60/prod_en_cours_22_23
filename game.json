@@ -46993,7 +46993,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "5675f351-36d8-4ab3-b35b-b58c5c909921",
           "width": 50,
@@ -47008,7 +47008,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "54d2948d-9681-4a78-9cbf-cfc3976baa3c",
           "width": 50,
@@ -47023,7 +47023,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "361cc120-37f3-41e1-9cc2-1e9512550cbc",
           "width": 50,
@@ -47038,7 +47038,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "68d53782-f640-4474-a120-39fdb893bfac",
           "width": 50,
@@ -47053,7 +47053,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "1183131e-bdb0-4fce-80c7-5b16e46cd165",
           "width": 50,
@@ -47068,7 +47068,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "8f2cecfc-ce88-4a8d-a967-fd64749eaa8f",
           "width": 50,
@@ -47083,7 +47083,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "30ddf9cf-3afb-4230-8f8f-6bfbb8cdf110",
           "width": 50,
@@ -47098,7 +47098,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "3229f79b-f671-44b4-9aaa-96fb9f440d0f",
           "width": 50,
@@ -47113,7 +47113,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "ae683c02-9da3-49f5-8092-eecb5e94d182",
           "width": 50,
@@ -47128,7 +47128,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "33b9909c-567e-4532-aead-cc88533bffb3",
           "width": 50,
@@ -47143,7 +47143,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "4fbc81d5-b294-494f-b46b-88913c6be067",
           "width": 50,
@@ -47158,7 +47158,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "7d0bf13b-3b31-40dc-9025-1db980233aff",
           "width": 50,
@@ -47173,7 +47173,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "0da4070a-c944-4751-9df0-03c6f1bfc0b2",
           "width": 50,
@@ -47188,7 +47188,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "dfbff35d-1054-4b0a-ab9c-2bdb240e2441",
           "width": 50,
@@ -47203,7 +47203,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "4633df39-91bc-4faf-bbca-6508f63a020a",
           "width": 50,
@@ -47218,7 +47218,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "9f1929ac-e099-4308-b8dd-8c8769a5f156",
           "width": 50,
@@ -47233,7 +47233,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "4217913c-39ba-4dee-9c29-683ebe5bb1d5",
           "width": 50,
@@ -47248,7 +47248,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "f3ec0fc7-c44a-4da1-be2e-7d778e4fe08b",
           "width": 50,
@@ -47263,7 +47263,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "c8ba3462-0aef-43fc-ad02-164a876f8793",
           "width": 50,
@@ -47278,7 +47278,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "12673365-71d5-441b-af59-c9d2209cb045",
           "width": 50,
@@ -47293,7 +47293,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "279085c7-3e5a-431b-9335-d965181c67eb",
           "width": 50,
@@ -47308,7 +47308,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "ae2700a7-f7b9-4a86-aafc-93f78d12c5b6",
           "width": 50,
@@ -47323,7 +47323,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "6ffebdfd-447c-40ce-baa9-ed4e90dc9e6e",
           "width": 50,
@@ -47338,7 +47338,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "09f2f376-28e5-49a1-b157-2f99c6fc16df",
           "width": 50,
@@ -47353,7 +47353,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "b5628380-3f92-4cf3-b15f-2598f14644b4",
           "width": 50,
@@ -47368,7 +47368,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "cae72fdc-651c-42ad-8a52-c316b4f169c5",
           "width": 50,
@@ -47383,7 +47383,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "24a66826-6e12-4fc0-b3c9-564ced9db218",
           "width": 50,
@@ -47398,7 +47398,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "469a10aa-ade4-4807-b946-1a7f31f362cb",
           "width": 50,
@@ -47413,7 +47413,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "4b688ef6-c905-4763-81ac-43cc87ce3419",
           "width": 50,
@@ -47428,7 +47428,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "bebe0d4e-bf08-45f7-83ad-b7bf30cfeb70",
           "width": 50,
@@ -47443,7 +47443,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "57bc790b-9141-4ca6-9a9e-7b10305c8742",
           "width": 50,
@@ -47458,7 +47458,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "8dfac9ac-f201-445d-8ccc-fc490eda3324",
           "width": 50,
@@ -47473,7 +47473,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "9313e437-6bd3-4da9-9aa3-97fd199f2a4d",
           "width": 50,
@@ -47488,7 +47488,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "e2ff709d-c980-494a-b981-6d9e3f7d973b",
           "width": 50,
@@ -47503,7 +47503,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "f3b83cd3-2137-4353-82ae-f52065801947",
           "width": 50,
@@ -47518,7 +47518,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "77d03433-da14-452c-bb91-f36299f5f02d",
           "width": 50,
@@ -47533,7 +47533,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "449516b0-e836-40f6-896b-2cb8d7b7d395",
           "width": 50,
@@ -47548,7 +47548,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "1b670909-714c-4214-a70a-c874c157f7e0",
           "width": 50,
@@ -47563,7 +47563,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "3e155210-f482-4c56-8fac-9c7db502f2aa",
           "width": 50,
@@ -47578,7 +47578,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "e1e77d7b-9162-44ba-99e0-a25b386eda27",
           "width": 50,
@@ -47593,7 +47593,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "005bf330-b932-4dac-927a-26e485ecaf79",
           "width": 50,
@@ -47608,7 +47608,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "0fc30cbc-5f8f-4c5b-9ff2-c1b368bb5f25",
           "width": 50,
@@ -47623,7 +47623,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "62fd8e6e-aae6-468b-8aaf-fd3ca885d965",
           "width": 50,
@@ -47638,7 +47638,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "75f84b86-72e2-4436-95eb-8a3ef3c68281",
           "width": 50,
@@ -47653,7 +47653,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "e715ab3e-7e25-414d-a005-7b931943c3d2",
           "width": 50,
@@ -47668,7 +47668,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "0fa87ac4-a4b7-4c53-91d6-10b9d98a1813",
           "width": 50,
@@ -47683,7 +47683,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "32a9b18c-ee02-4df8-bea4-e8314ae792e8",
           "width": 50,
@@ -47698,7 +47698,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "85d44f4a-4919-48db-af9a-946417147525",
           "width": 50,
@@ -47713,7 +47713,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "2c5e0b55-1ba3-4ca3-ae08-41c0c7a11e72",
           "width": 50,
@@ -47728,7 +47728,7 @@
           "angle": 0,
           "customSize": true,
           "height": 50,
-          "layer": "",
+          "layer": "lettres",
           "name": "caseLettre",
           "persistentUuid": "1ca4516d-7fbe-4c1e-88e7-293c5b00acf2",
           "width": 50,
@@ -48196,6 +48196,15 @@
                 "+",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
+              ]
             }
           ]
         },
@@ -48247,6 +48256,15 @@
               "parameters": [
                 "CloseButton",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
               ]
             }
           ]
@@ -48314,7 +48332,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"La réponse figure dans le titre du conte.\""
+                "\"Rappelez-vous où habite la Bête.\""
               ]
             },
             {
@@ -48327,6 +48345,15 @@
                 "883",
                 "331",
                 "\"indice\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
               ]
             }
           ]
@@ -48380,6 +48407,15 @@
               "parameters": [
                 "indiceBelle"
               ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"lettres\""
+              ]
             }
           ]
         },
@@ -48430,7 +48466,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "indice",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -48441,6 +48477,17 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "curseur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 107,
+          "ambientLightColorG": 6069792,
+          "ambientLightColorR": 18308376,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "lettres",
           "visibility": true,
           "cameras": [],
           "effects": []
@@ -51930,1681 +51977,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5464174373123315,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "boisdormant1",
-          "persistentUuid": "2c9b7ad9-a4e0-43a0-8b64-9314e3edfa51",
-          "width": 0,
-          "x": 787,
-          "y": 131,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "boisdormant2",
-          "persistentUuid": "3462b930-b8de-4921-a19c-1eb6bf8ef9d8",
-          "width": 0,
-          "x": 789,
-          "y": 453,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "boisdormant3",
-          "persistentUuid": "b94fa4c0-67af-442c-8978-488302fcbf8b",
-          "width": 0,
-          "x": 409,
-          "y": 448,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "boisdormant4",
-          "persistentUuid": "b37aa90d-50ce-49d1-87a1-0a86f8bc71ff",
-          "width": 0,
-          "x": 26,
-          "y": 131,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "boisdormant5",
-          "persistentUuid": "8a210c52-7ce7-462c-a989-c85a34bcdaae",
-          "width": 0,
-          "x": 31,
-          "y": 454,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "boisdormant6",
-          "persistentUuid": "b7293af8-fa04-44ae-8935-5ea6d5c7f733",
-          "width": 0,
-          "x": 408,
-          "y": 130,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "validation",
-          "persistentUuid": "84269520-63eb-44ce-9295-a8ea640dcd53",
-          "width": 0,
-          "x": 1178,
-          "y": 390,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "locked": true,
-          "name": "case",
-          "persistentUuid": "57cdc4d9-e273-4289-9020-e422186461c7",
-          "width": 350,
-          "x": 25,
-          "y": 130,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "locked": true,
-          "name": "case",
-          "persistentUuid": "4bbda38a-b9ce-4088-b7bd-6b14660e5252",
-          "width": 350,
-          "x": 405,
-          "y": 130,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "locked": true,
-          "name": "case",
-          "persistentUuid": "54fac205-19df-4d24-a74c-5d7869fe3d3c",
-          "width": 350,
-          "x": 785,
-          "y": 130,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "locked": true,
-          "name": "case",
-          "persistentUuid": "0766f223-310f-4ee7-bc3f-297660a0558d",
-          "width": 350,
-          "x": 25,
-          "y": 450,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "locked": true,
-          "name": "case",
-          "persistentUuid": "66e9f477-01bf-4dcb-b292-cf28af3c8c8f",
-          "width": 350,
-          "x": 405,
-          "y": 450,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "locked": true,
-          "name": "case",
-          "persistentUuid": "ac28eb21-aec4-4568-8bbf-61b2860d1a54",
-          "width": 350,
-          "x": 785,
-          "y": 450,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 269,
-          "layer": "",
-          "name": "case",
-          "persistentUuid": "2d475b00-4300-402d-9d0f-78ac84f85cc5",
-          "width": 350,
-          "x": 25,
-          "y": 130,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 100,
-          "layer": "",
-          "name": "BlocConsigne",
-          "persistentUuid": "4ddb71c8-5742-48b2-ae79-d348afc5aa60",
-          "width": 923,
-          "x": 280,
-          "y": 10,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 77,
-          "layer": "",
-          "name": "consigne",
-          "persistentUuid": "06cf696c-0a94-4222-a7e1-f2c802d902e1",
-          "width": 860,
-          "x": 299,
-          "y": 21,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "n1",
-          "persistentUuid": "220e1e4f-6c39-4d80-b443-24d1ffe1fa9e",
-          "width": 0,
-          "x": 164,
-          "y": 109,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "n2",
-          "persistentUuid": "33197b32-3726-4a62-9125-abbb04fb5bf1",
-          "width": 0,
-          "x": 566,
-          "y": 110,
-          "zOrder": 14,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "n3",
-          "persistentUuid": "ead3f2f5-d68b-4aaf-b96c-fa9e667ee123",
-          "width": 0,
-          "x": 943,
-          "y": 108,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "n4",
-          "persistentUuid": "3c56ec27-a477-4906-b654-9c23d9dd0af1",
-          "width": 0,
-          "x": 186,
-          "y": 430,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "n5",
-          "persistentUuid": "65e5f0c2-f933-4a0e-9f05-d73d9a568dce",
-          "width": 0,
-          "x": 571,
-          "y": 431,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "n6",
-          "persistentUuid": "6fbbf50b-1d53-4549-b67a-f524c92d95b1",
-          "width": 0,
-          "x": 935,
-          "y": 432,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "curseurLoupe",
-          "persistentUuid": "4e22623b-d9fc-48f1-b26d-de8330faaf87",
-          "width": 0,
-          "x": 1188,
-          "y": 69,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "retour",
-          "persistentUuid": "b1317a41-3bf4-4b11-9b88-9de56167b71e",
-          "width": 0,
-          "x": 1178,
-          "y": 605,
-          "zOrder": 20,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "boisdormant1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\boisdormant_a.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "boisdormant2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\boisdormant_b.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "boisdormant3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\boisdormant_c.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "boisdormant4",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\boisdormant_d.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "boisdormant5",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\boisdormant_e.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "boisdormant6",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Déplaçable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\boisdormant_f.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "case",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\cadre.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "n1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "n2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "n3",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "n4",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "n5",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "n6",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\19_belle_bois_dormant\\6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Link",
-          "include": {
-            "includeConfig": 0
-          },
-          "target": "Événements externes"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Lancement",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"Remets les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis clique sur le bouton de validation quand tu auras terminé.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Association cases",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "boisdormant1",
-                    "case",
-                    "40",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "boisdormant1",
-                    "=",
-                    "case.X()",
-                    "=",
-                    "case.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "boisdormant2",
-                    "case",
-                    "40",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "boisdormant2",
-                    "=",
-                    "case.X()",
-                    "=",
-                    "case.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "boisdormant3",
-                    "case",
-                    "40",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "boisdormant3",
-                    "=",
-                    "case.X()",
-                    "=",
-                    "case.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "boisdormant4",
-                    "case",
-                    "40",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "boisdormant4",
-                    "=",
-                    "case.X()",
-                    "=",
-                    "case.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "boisdormant5",
-                    "case",
-                    "40",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "boisdormant5",
-                    "=",
-                    "case.X()",
-                    "=",
-                    "case.Y()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "boisdormant6",
-                    "case",
-                    "40",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "boisdormant6",
-                    "=",
-                    "case.X()",
-                    "=",
-                    "case.Y()"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Validation",
-          "comment2": ""
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::And"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant1",
-                    "=",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant1",
-                    "=",
-                    "130"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant2",
-                    "=",
-                    "405"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant2",
-                    "=",
-                    "130"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant3",
-                    "=",
-                    "785"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant3",
-                    "=",
-                    "130"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant4",
-                    "=",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant4",
-                    "=",
-                    "450"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant5",
-                    "=",
-                    "405"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant5",
-                    "=",
-                    "450"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant6",
-                    "=",
-                    "785"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant6",
-                    "=",
-                    "450"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"BRAVO\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ModVarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableBelleBois",
-                "=",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"BRAVO-BelleBoisDormant\"",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Or"
-              },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant1",
-                    "!=",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant1",
-                    "!=",
-                    "130"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant2",
-                    "!=",
-                    "405"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant2",
-                    "!=",
-                    "130"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant3",
-                    "!=",
-                    "785"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant3",
-                    "!=",
-                    "130"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant4",
-                    "!=",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant4",
-                    "!=",
-                    "450"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant5",
-                    "!=",
-                    "405"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant5",
-                    "!=",
-                    "450"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "boisdormant6",
-                    "!=",
-                    "785"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "boisdormant6",
-                    "!=",
-                    "450"
-                  ]
-                }
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"non\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": true,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "validation",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarGlobal"
-              },
-              "parameters": [
-                "GBL_Enigmes.VariableBelleBois",
-                "=",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"Remets les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis clique sur le bouton de validation quand tu auras terminé.\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 16777216,
-          "ambientLightColorR": 0,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "name": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Tween",
-          "type": "Tween::TweenBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "_499_452_45La_32Belle_32au_32bois_32dormant_32CE2",
-      "name": "19-2-La Belle au bois dormant CE2",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6564374748504953,
+        "zoomFactor": 0.5034645605777065,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -54029,8 +52402,8 @@
           "name": "TexteErreur",
           "persistentUuid": "f38042e4-3f53-4cfb-8430-8ea78574b9e4",
           "width": 611,
-          "x": 346,
-          "y": 309,
+          "x": 392,
+          "y": 311,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -55590,7 +53963,2357 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Vous n'avez pas réussi à remettre les images dans l'ordre.  \nBon courage.\""
+                "\"Vous n'avez pas réussi à remettre les images dans l'ordre.  \n\nBon courage.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "erreur",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Indice",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "LightBulb",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteIndice",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteIndice",
+                "=",
+                "\" Pour remettre les images dans l'ordre, tu peux t'aider en écoutant le résumé de l'histoire.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "indiceBellebois",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "lecture",
+                "lecture",
+                "600",
+                "465",
+                "\"indice\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton2",
+                "CloseButton2",
+                "1000",
+                "310",
+                "\"indice\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "lecture",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sons\\19_boisdormant\\histoire_belle_bois_dormant.mp3",
+                "19",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "CloseButton2",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceBellebois"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "CloseButton2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "lecture",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "StopSoundCanal"
+              },
+              "parameters": [
+                "",
+                "19"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 16777216,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 14873768,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 15439088,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "erreur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 15180432,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 15439088,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "indice",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 14398648,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 15439088,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "curseur",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "_499_452_45La_32Belle_32au_32bois_32dormant_32CE2",
+      "name": "19-2-La Belle au bois dormant CE2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.6564374748504953,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "boisdormant1",
+          "persistentUuid": "2c9b7ad9-a4e0-43a0-8b64-9314e3edfa51",
+          "width": 0,
+          "x": 787,
+          "y": 131,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "boisdormant2",
+          "persistentUuid": "3462b930-b8de-4921-a19c-1eb6bf8ef9d8",
+          "width": 0,
+          "x": 789,
+          "y": 453,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "boisdormant3",
+          "persistentUuid": "b94fa4c0-67af-442c-8978-488302fcbf8b",
+          "width": 0,
+          "x": 409,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "boisdormant4",
+          "persistentUuid": "b37aa90d-50ce-49d1-87a1-0a86f8bc71ff",
+          "width": 0,
+          "x": 26,
+          "y": 131,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "boisdormant5",
+          "persistentUuid": "8a210c52-7ce7-462c-a989-c85a34bcdaae",
+          "width": 0,
+          "x": 31,
+          "y": 454,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "boisdormant6",
+          "persistentUuid": "b7293af8-fa04-44ae-8935-5ea6d5c7f733",
+          "width": 0,
+          "x": 408,
+          "y": 130,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "validation",
+          "persistentUuid": "84269520-63eb-44ce-9295-a8ea640dcd53",
+          "width": 0,
+          "x": 1178,
+          "y": 390,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "locked": true,
+          "name": "case",
+          "persistentUuid": "57cdc4d9-e273-4289-9020-e422186461c7",
+          "width": 350,
+          "x": 25,
+          "y": 130,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "locked": true,
+          "name": "case",
+          "persistentUuid": "4bbda38a-b9ce-4088-b7bd-6b14660e5252",
+          "width": 350,
+          "x": 405,
+          "y": 130,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "locked": true,
+          "name": "case",
+          "persistentUuid": "54fac205-19df-4d24-a74c-5d7869fe3d3c",
+          "width": 350,
+          "x": 785,
+          "y": 130,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "locked": true,
+          "name": "case",
+          "persistentUuid": "0766f223-310f-4ee7-bc3f-297660a0558d",
+          "width": 350,
+          "x": 25,
+          "y": 450,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "locked": true,
+          "name": "case",
+          "persistentUuid": "66e9f477-01bf-4dcb-b292-cf28af3c8c8f",
+          "width": 350,
+          "x": 405,
+          "y": 450,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "locked": true,
+          "name": "case",
+          "persistentUuid": "ac28eb21-aec4-4568-8bbf-61b2860d1a54",
+          "width": 350,
+          "x": 785,
+          "y": 450,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 269,
+          "layer": "",
+          "name": "case",
+          "persistentUuid": "2d475b00-4300-402d-9d0f-78ac84f85cc5",
+          "width": 350,
+          "x": 25,
+          "y": 130,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 100,
+          "layer": "",
+          "name": "BlocConsigne",
+          "persistentUuid": "4ddb71c8-5742-48b2-ae79-d348afc5aa60",
+          "width": 856,
+          "x": 280,
+          "y": 10,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 77,
+          "layer": "",
+          "name": "consigne",
+          "persistentUuid": "06cf696c-0a94-4222-a7e1-f2c802d902e1",
+          "width": 813,
+          "x": 299,
+          "y": 21,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "n1",
+          "persistentUuid": "220e1e4f-6c39-4d80-b443-24d1ffe1fa9e",
+          "width": 0,
+          "x": 164,
+          "y": 109,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "n2",
+          "persistentUuid": "33197b32-3726-4a62-9125-abbb04fb5bf1",
+          "width": 0,
+          "x": 566,
+          "y": 110,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "n3",
+          "persistentUuid": "ead3f2f5-d68b-4aaf-b96c-fa9e667ee123",
+          "width": 0,
+          "x": 943,
+          "y": 108,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "n4",
+          "persistentUuid": "3c56ec27-a477-4906-b654-9c23d9dd0af1",
+          "width": 0,
+          "x": 186,
+          "y": 430,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "n5",
+          "persistentUuid": "65e5f0c2-f933-4a0e-9f05-d73d9a568dce",
+          "width": 0,
+          "x": 571,
+          "y": 431,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "n6",
+          "persistentUuid": "6fbbf50b-1d53-4549-b67a-f524c92d95b1",
+          "width": 0,
+          "x": 935,
+          "y": 432,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "curseur",
+          "name": "curseurLoupe",
+          "persistentUuid": "4e22623b-d9fc-48f1-b26d-de8330faaf87",
+          "width": 0,
+          "x": 1215,
+          "y": 334,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "retour",
+          "persistentUuid": "b1317a41-3bf4-4b11-9b88-9de56167b71e",
+          "width": 0,
+          "x": 1178,
+          "y": 605,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "fond_Belle_Bois_Dormant",
+          "persistentUuid": "5c7a76ef-0606-440f-9fdf-8c2519a87921",
+          "width": 0,
+          "x": 1,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Aurore",
+          "persistentUuid": "961d6820-a9b4-468e-891b-2688a6522b4b",
+          "width": 0,
+          "x": 1141,
+          "y": 117,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "erreur",
+          "name": "bulleErreurDroite",
+          "persistentUuid": "b759a0b2-da69-453e-8875-66f77a6bdb10",
+          "width": 0,
+          "x": 276,
+          "y": 187,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 258,
+          "layer": "erreur",
+          "name": "TexteErreur",
+          "persistentUuid": "f38042e4-3f53-4cfb-8430-8ea78574b9e4",
+          "width": 611,
+          "x": 389,
+          "y": 315,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceBellebois",
+          "persistentUuid": "3ece5bcb-ef01-4241-865d-b31f0e7c8fe8",
+          "width": 0,
+          "x": 223,
+          "y": 278,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 132,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "d62e8606-292b-4ac2-9e39-8ddee2c329fe",
+          "width": 673,
+          "x": 335,
+          "y": 338,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "boisdormant1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Déplaçable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\boisdormant_a.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "boisdormant2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Déplaçable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\boisdormant_b.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "boisdormant3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Déplaçable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\boisdormant_c.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "boisdormant4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Déplaçable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\boisdormant_d.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "boisdormant5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Déplaçable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\boisdormant_e.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "boisdormant6",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Déplaçable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\boisdormant_f.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "case",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\cadre.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "n1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "n2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "n3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "n4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "n5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "n6",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "fond_Belle_Bois_Dormant",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\fond_belle_bois_dormant_3.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Aurore",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\belle_bois_dormant_150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "lecture",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "assets\\Play button.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceBellebois",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Événements externes"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Lancement",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "consigne",
+                "=",
+                "\"Remets les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis clique sur le bouton de validation quand tu auras terminé.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceBellebois"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "bulleErreurDroite"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteErreur"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "TexteIndice"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "lecture",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "curseurLoupe",
+                "=",
+                "2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Association cases",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "case",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "=",
+                    "case.X()",
+                    "=",
+                    "case.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "case",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "=",
+                    "case.X()",
+                    "=",
+                    "case.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "case",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "=",
+                    "case.X()",
+                    "=",
+                    "case.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "case",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "=",
+                    "case.X()",
+                    "=",
+                    "case.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "case",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "=",
+                    "case.X()",
+                    "=",
+                    "case.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "case",
+                    "40",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "=",
+                    "case.X()",
+                    "=",
+                    "case.Y()"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Validation",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "=",
+                    "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "=",
+                    "405"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "=",
+                    "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "=",
+                    "785"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "=",
+                    "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "=",
+                    "450"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "=",
+                    "405"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "=",
+                    "450"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "=",
+                    "785"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "=",
+                    "450"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"bellebois\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "consigne",
+                "=",
+                "\"BRAVO\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "GBL_Enigmes.VariableBelleBois",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"BRAVO-BelleBoisDormant\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "validation",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "!=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant1",
+                    "!=",
+                    "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "!=",
+                    "405"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant2",
+                    "!=",
+                    "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "!=",
+                    "785"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant3",
+                    "!=",
+                    "130"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "!=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant4",
+                    "!=",
+                    "450"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "!=",
+                    "405"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant5",
+                    "!=",
+                    "450"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "!=",
+                    "785"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "boisdormant6",
+                    "!=",
+                    "450"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "bulleErreurDroite",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "TexteErreur",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "CloseButton",
+                "CloseButton",
+                "630",
+                "240",
+                "\"erreur\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "TexteErreur",
+                "=",
+                "\"Vous n'avez pas réussi à remettre les images dans l'ordre.  \n\nBon courage.\""
               ]
             },
             {
@@ -61919,7 +62642,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"0;0;0\""
+                "\"255;255;255\""
               ]
             },
             {
