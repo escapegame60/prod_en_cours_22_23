@@ -5211,8 +5211,8 @@
           "name": "CPCE1",
           "persistentUuid": "b338a01e-6f01-46b6-b1cf-2f4012111af0",
           "width": 163,
-          "x": 264,
-          "y": 410,
+          "x": 112,
+          "y": 336,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5226,8 +5226,8 @@
           "name": "CE2",
           "persistentUuid": "237c5ce7-5edf-48c7-9db2-ec70a9601520",
           "width": 116,
-          "x": 828,
-          "y": 408,
+          "x": 1008,
+          "y": 362,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -5241,8 +5241,8 @@
           "name": "TexteChoix",
           "persistentUuid": "6f78df62-ab13-44de-a6af-af52bf42484a",
           "width": 503,
-          "x": 331,
-          "y": 140,
+          "x": 394,
+          "y": 106,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -5256,8 +5256,8 @@
           "name": "parchemin",
           "persistentUuid": "66eb035f-9ccc-434e-a144-a8237ce0aba7",
           "width": 0,
-          "x": 227,
-          "y": 340,
+          "x": 75,
+          "y": 270,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -5271,8 +5271,8 @@
           "name": "parchemin2",
           "persistentUuid": "7abd8a52-69b2-4462-8fa2-01422237d82a",
           "width": 0,
-          "x": 744,
-          "y": 340,
+          "x": 920,
+          "y": 300,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -58459,6 +58459,16 @@
           "actions": [
             {
               "type": {
+                "value": "EcrireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"poucet\"",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "ModVarGlobal"
               },
               "parameters": [
@@ -67599,6 +67609,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu résoudre l'énigme.\nL’objet magique est débloqué, \ntu as récupéré [b]le panier [/b] du petit chaperon rouge.[/size=40]\""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -67737,19 +67758,64 @@
                 "",
                 "\"chronobravo\"",
                 ">",
-                "6"
+                "8"
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -68067,6 +68133,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu résoudre l'énigme.\nL’objet magique est débloqué, \ntu as récupéré [b]les bottes [/b] du chat botté.[/size=40]\""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -68209,15 +68286,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -68535,6 +68657,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu résoudre l'énigme.\nL’objet magique est débloqué,\n tu as récupéré [b]la brique [/b] de la maison des trois petits cochons.[/size=40]\""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -68682,15 +68815,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -69008,6 +69186,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu résoudre l'énigme. \nL’objet magique est débloqué, \ntu as récupéré [b]la pantoufle[/b] de Cendrillon.[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -69155,15 +69344,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -69481,6 +69715,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu résoudre l'énigme. \nL’objet magique est débloqué, \ntu as récupéré [b]la montre[/b] du pays d'Alice.[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -69628,18 +69873,68 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -69954,6 +70249,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu reconstituer le drapeau.\nL’objet magique est débloqué, \ntu as récupéré [b]le sucre d'orge[/b].[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -70101,15 +70407,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -70427,6 +70778,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu retrouver tous les instruments.\nL’objet magique est débloqué, \ntu as récupéré [b]la pioche[/b] des nains.[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -70574,15 +70936,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -70946,6 +71353,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu résoudre l'énigme.\nL’objet magique est débloqué, \ntu as récupéré [b]la rose[/b] de Belle.[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -71093,15 +71511,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -71449,6 +71912,17 @@
                 "=",
                 "\"[size=40]Bravo ! Le petit Poucet est en route vers la sortie ! \nIl t’a laissé quelques [b]cailloux[/b]. Mets les dans ton sac.[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -71596,15 +72070,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -71922,6 +72441,17 @@
                 "=",
                 "\"[size=40]Bravo, tu as pu reconstituer l'ordre de l'histoire.\nL’objet magique est débloqué, \ntu as récupéré [b]le fuseau [/b].[/size=40] \""
               ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"niveau\"",
+                "",
+                "bravoretour"
+              ]
             }
           ]
         },
@@ -72064,15 +72594,60 @@
               ]
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"02-Forêt CE2\"",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CP\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "bravoretour",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"02-Forêt CE2\"",
+                    ""
+                  ]
+                }
               ]
             }
           ]
