@@ -3552,6 +3552,33 @@
         "name": "images\\16_alice\\dico_couleurs.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/bloc_bravo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\bloc_bravo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/parchemin_bravo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\parchemin_bravo.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/parcheminbravo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\parcheminbravo.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -15735,7 +15762,7 @@
               },
               "parameters": [
                 "",
-                "\"20-2-Victoire CE2\"",
+                "\"20-Victoire CP\"",
                 ""
               ]
             }
@@ -64952,6 +64979,2339 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
+      "mangledName": "_500_45Victoire_32CP",
+      "name": "20-Victoire CP",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.46614304730941275,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 720,
+          "layer": "",
+          "name": "foret",
+          "persistentUuid": "bf89c5dd-b3e1-45a9-b33f-3734c0a3243c",
+          "width": 1280,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso1",
+          "persistentUuid": "b6b1d0b6-5f7f-49fd-85a0-c9495ee61273",
+          "width": 0,
+          "x": 59,
+          "y": 195,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso2",
+          "persistentUuid": "b4cfcaff-866a-473b-87f3-b100fbc18778",
+          "width": 0,
+          "x": 188,
+          "y": 62,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso3",
+          "persistentUuid": "ef5a0480-752c-49d8-a7ae-06365745b9e1",
+          "width": 0,
+          "x": 1085,
+          "y": 178,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso5",
+          "persistentUuid": "e8d84738-06c6-4311-88ba-1061b7de35c5",
+          "width": 0,
+          "x": 1058,
+          "y": 339,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso7",
+          "persistentUuid": "d268b03f-aca5-49cb-a1fa-ec84081fc39a",
+          "width": 0,
+          "x": 1029,
+          "y": 465,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso8",
+          "persistentUuid": "7061da3a-912c-4e27-b4b2-c139e3254cfc",
+          "width": 0,
+          "x": 701,
+          "y": 631,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso9",
+          "persistentUuid": "e2f49c69-a15f-4b68-a989-7a9372800267",
+          "width": 0,
+          "x": 332,
+          "y": 622,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso10",
+          "persistentUuid": "42fb47ce-aa39-47cb-9b72-b2e82fbeea10",
+          "width": 0,
+          "x": 145,
+          "y": 523,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 0,
+          "layer": "",
+          "name": "brouillard",
+          "persistentUuid": "480e8d62-09c9-494d-8ffd-e16557862f81",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "brouillard",
+          "persistentUuid": "c34b6cf2-153c-49e1-be65-9ec25b30ed5a",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso4",
+          "persistentUuid": "c3c64940-087a-4782-8976-04aeed45621c",
+          "width": 0,
+          "x": 1084,
+          "y": 99,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "perso6",
+          "persistentUuid": "b30598e5-f101-4cb9-bec4-22e10d8ef9ca",
+          "width": 0,
+          "x": 147,
+          "y": 323,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PersoAliceChat",
+          "persistentUuid": "3fc2a9fc-9e6b-4cc4-9ca3-485cdb755da3",
+          "width": 0,
+          "x": 1083,
+          "y": 481,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PersoBete",
+          "persistentUuid": "2a6a1ae1-0d5a-40d8-a535-009e4df11d34",
+          "width": 0,
+          "x": 761,
+          "y": 627,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 183,
+          "layer": "generique",
+          "name": "TexteGenerique",
+          "persistentUuid": "4df55f12-980d-47ba-a955-1b39a0194dc3",
+          "width": 680,
+          "x": 300,
+          "y": 742,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "4ea080ec-0c8b-4beb-8f3b-465a8b946b8c",
+          "width": 0,
+          "x": 257,
+          "y": 34,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 459,
+          "layer": "",
+          "name": "ParcheminTexte",
+          "persistentUuid": "6015e50c-42fb-4f8e-bf3d-5f357fdb2df7",
+          "width": 675,
+          "x": 331,
+          "y": 114,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 94,
+          "layer": "",
+          "name": "mot",
+          "persistentUuid": "04be234b-873b-44df-bce2-060ddf411fe0",
+          "width": 339,
+          "x": 740,
+          "y": 512,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 120,
+          "layer": "",
+          "name": "logo",
+          "persistentUuid": "c9ecf882-5561-4dba-b51f-cb9ea3fc197b",
+          "width": 120,
+          "x": 313,
+          "y": 484,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "foret",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\carte_gdev_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "brouillard",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.5,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (9).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (8).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (7).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (6).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (5).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (4).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (3).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (2).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (1).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\brouillard01 (0).png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\10_chaperon_rouge\\chaperon_rouge_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_75_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_75_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\11_chat_botte\\chat_botte_75_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\12_trois_petits_cochons\\3cochons_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso4",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\hansel_gretel_ombre.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso5",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\14_nains\\compagnie_7nains_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso6",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\15_cendrillon\\Cendrillon -75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso7",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\16_alice\\alice_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso8",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\Belle_ombre.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso9",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet75_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet75_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\18_petit_poucet\\petitpoucet75_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "perso10",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\19_belle_bois_dormant\\belle_bois_dormant_75.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PersoAliceChat",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\16_alice\\chat_alice_60.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PersoBete",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\17_belle_bete\\Bete_ombre.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "persoSorciere",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\sorciere150_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\sorciere150_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bulle1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\bulle1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bulle2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\bulle2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bulle3",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\bulle3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "parchemin",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\01-foret\\parchemin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "ParcheminTexte",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "[i]Cherche les personnages qui sont prisonniers dans la forêt. Chacun d’eux te proposera une énigme.  \n\nLa bonne réponse t’apportera un objet à mettre dans ton sac.\n\nTu as 1h30 pour récupérer 10 objets afin de libérer les personnages.[/i]\n",
+            "opacity": 255,
+            "fontSize": 32,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "left",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "TexteGenerique",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "EscapOise \nCont'Oise\n\n\nMerci d'avoir participé et encore BRAVO.\n\n\nRéalisation : Groupe ERUN de l'Oise\n\n\nCasting\nLe Petit Chaperon Rouge\nLe Chat botté\nLa Belle et la Bête\nHansel et Gretel\nLes sept nains\nCendrillon\nAlice\nLes trois petits cochons\nLe Petit Poucet\nLa Belle au bois dormant\n\n\n\nDirection du projet : Mme Christelle GUYOT, IEN en charge de la mission numérique\n\nGraphisme : Mickaël Pellissier\nMusique : Marc Chaudet, Mickaël Pellissier \n\nProgrammation : Nicolas David, Emilie Dupraz, Pascal Geindreau, Eric Laignel, Philippe Michot\n\nScénario : Frédéric Andrieux, Guillaume Cervantes, Thomas Couque, Nicolas David, Solène Dornic, Frédéric Gondron, Philippe Michot,  Laurent Noël, Joël Nauche, Frédéric Rougemont\n\n\n© DSDEN 60 - juin 2023 - Tous droits réservés\n",
+            "opacity": 255,
+            "fontSize": 28,
+            "visible": true,
+            "color": "0;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "mot",
+          "tags": "",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {
+            "text": "\"mot magique\"",
+            "opacity": 255,
+            "fontSize": 38,
+            "visible": true,
+            "color": "255;0;0",
+            "fontFamily": "polices\\Fredoka-Medium.ttf",
+            "align": "center",
+            "wordWrap": true
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "logo",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\logo_contoise_150.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"saut\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "parchemin",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "logo",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetOpacity"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetOpacity"
+              },
+              "parameters": [
+                "mot",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "LireFichierExp"
+              },
+              "parameters": [
+                "\"sauvegarde\"",
+                "\"timerCP\"",
+                "",
+                "temps"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "persos",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"saut\"",
+                ">",
+                "0.2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso1",
+                "=",
+                "-10"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso3",
+                "=",
+                "220"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "-5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso5",
+                "=",
+                "360"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "555"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "140"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "-5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "-5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"saut\"",
+                ">",
+                "0.4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso1",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso3",
+                "=",
+                "210"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso5",
+                "=",
+                "350"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "545"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"saut\"",
+                ">",
+                "0.6"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso1",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso3",
+                "=",
+                "220"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso5",
+                "=",
+                "360"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "140"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "555"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "5"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"saut\"",
+                ">",
+                "0.8"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso1",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso3",
+                "=",
+                "210"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso4",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "perso5",
+                "=",
+                "350"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreX"
+              },
+              "parameters": [
+                "perso6",
+                "=",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreY"
+              },
+              "parameters": [
+                "PersoAliceChat",
+                "=",
+                "545"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "perso8",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "PersoBete",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"saut\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Message",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\"",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "parchemin",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "logo",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "mot",
+                "Tween",
+                "\"apparition\"",
+                "255",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "=",
+                "\"Félicitations, tu as récupéré tous les objets de personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maître pour obtenir ton diplôme. Retiens-le bien.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "temps",
+                ">",
+                "1800"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "mot",
+                "=",
+                "\"merveilleux\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "temps",
+                "<",
+                "1800"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "BBText::SetBBText"
+              },
+              "parameters": [
+                "mot",
+                "=",
+                "\"chaudron\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Générique",
+          "comment2": ""
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\"",
+                ">",
+                "12"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::AddObjectOpacityTween"
+              },
+              "parameters": [
+                "ParcheminTexte",
+                "Tween",
+                "\"apparition\"",
+                "0",
+                "\"linear\"",
+                "1500",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\"",
+                ">",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\00-general\\isarus.mp3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"generique\"",
+                ">",
+                "15"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "+",
+                "1",
+                "\"generique\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 12361344,
+          "ambientLightColorG": 6068864,
+          "ambientLightColorR": 10056504,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "generique",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
       "mangledName": "_500_452_45Victoire_32CE2",
       "name": "20-2-Victoire CE2",
       "r": 209,
@@ -67333,7 +69693,7 @@
           "width": 757,
           "x": 259,
           "y": 283,
-          "zOrder": 3,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -67347,7 +69707,7 @@
           "persistentUuid": "27b88bf5-4e52-47bc-8ade-12521e2c7a60",
           "width": 0,
           "x": 614,
-          "y": 460,
+          "y": 502,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -67364,6 +69724,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 228,
+          "layer": "",
+          "name": "blocBravo",
+          "persistentUuid": "e5df84e4-9330-4233-9afc-df2f522437c1",
+          "width": 1071,
+          "x": 162,
+          "y": 235,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -67548,6 +69923,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 12,
+          "height": 32,
+          "leftMargin": 12,
+          "name": "blocBravo",
+          "rightMargin": 12,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 12,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -67597,7 +69989,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"228;228;23\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -67901,8 +70293,8 @@
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
           "width": 757,
-          "x": 259,
-          "y": 283,
+          "x": 275,
+          "y": 261,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -67934,6 +70326,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 218,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "3e748844-7e58-4e5a-8def-3c3125cca9f5",
+          "width": 910,
+          "x": 213,
+          "y": 232,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68072,6 +70479,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -68424,9 +70848,9 @@
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
-          "width": 1048,
-          "x": 135,
-          "y": 367,
+          "width": 1119,
+          "x": 89,
+          "y": 307,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -68458,6 +70882,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 244,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "d09ef531-12bd-46ce-a964-14cb2d47a6f9",
+          "width": 1241,
+          "x": 38,
+          "y": 281,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -68596,6 +71035,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -68645,7 +71101,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"248;231;28\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -68953,9 +71409,9 @@
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
-          "width": 821,
-          "x": 266,
-          "y": 294,
+          "width": 896,
+          "x": 200,
+          "y": 347,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -68969,8 +71425,8 @@
           "name": "pantoufle",
           "persistentUuid": "b0a7dafc-0e49-4a12-a3b4-471db8b6f29a",
           "width": 0,
-          "x": 577,
-          "y": 478,
+          "x": 582,
+          "y": 571,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -68987,6 +71443,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 288,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "637a298a-9b5b-4d24-abe8-1ddb245948c9",
+          "width": 1051,
+          "x": 107,
+          "y": 265,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69125,6 +71596,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -69164,7 +71652,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"248;231;28\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -69483,8 +71971,8 @@
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
           "width": 821,
-          "x": 266,
-          "y": 294,
+          "x": 259,
+          "y": 243,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -69516,6 +72004,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 242,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "ec71e54f-93f5-4afb-9d2a-e5b7b09aa74c",
+          "width": 928,
+          "x": 184,
+          "y": 212,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -69654,6 +72157,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -69693,7 +72213,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"255;255;255\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -70017,8 +72537,8 @@
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
           "width": 841,
-          "x": 279,
-          "y": 294,
+          "x": 237,
+          "y": 265,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -70050,6 +72570,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 251,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "ace93ff4-6156-4215-ac00-d75e6462d0eb",
+          "width": 959,
+          "x": 173,
+          "y": 225,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -70188,6 +72723,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -70227,7 +72779,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"255;255;0\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -70561,8 +73113,8 @@
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
           "width": 841,
-          "x": 268,
-          "y": 362,
+          "x": 241,
+          "y": 296,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -70579,6 +73131,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 277,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "2ebee45b-01ad-4009-bad9-f5e55038bda0",
+          "width": 974,
+          "x": 175,
+          "y": 254,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -70717,6 +73284,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -70756,7 +73340,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"255;255;0\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -71074,9 +73658,9 @@
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
-          "width": 841,
-          "x": 279,
-          "y": 294,
+          "width": 629,
+          "x": 335,
+          "y": 281,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -71108,6 +73692,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 257,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "afc914b6-6988-4e53-97d7-2077675e6073",
+          "width": 750,
+          "x": 256,
+          "y": 251,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -71292,6 +73891,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -71331,7 +73947,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"255;255;255\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -71645,13 +74261,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 221,
+          "height": 188,
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
-          "width": 841,
-          "x": 207,
-          "y": 363,
+          "width": 898,
+          "x": 184,
+          "y": 98,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -71713,6 +74329,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 240,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "7398766e-c733-40ba-8fee-9e21331f13b9",
+          "width": 1054,
+          "x": 119,
+          "y": 53,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -71851,6 +74482,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
@@ -71890,7 +74538,7 @@
               },
               "parameters": [
                 "consigne",
-                "\"71;75;75\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -72208,9 +74856,9 @@
           "layer": "",
           "name": "consigne",
           "persistentUuid": "0b91d501-ddc0-4918-b338-17aabcadd146",
-          "width": 874,
-          "x": 237,
-          "y": 294,
+          "width": 812,
+          "x": 217,
+          "y": 168,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -72242,6 +74890,21 @@
           "x": 0,
           "y": 0,
           "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 242,
+          "layer": "",
+          "name": "parchemin",
+          "persistentUuid": "85c7c188-367c-4d86-be2f-aa43f2897d84",
+          "width": 934,
+          "x": 167,
+          "y": 129,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -72380,6 +75043,23 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "parchemin",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "images\\00_interface\\parcheminbravo.png",
+          "tiled": false,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "events": [
