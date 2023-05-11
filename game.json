@@ -3579,6 +3579,112 @@
         "name": "images\\00_interface\\parcheminbravo.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "sons/10_chaperon_rouge/le_chaperon_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\10_chaperon_rouge\\le_chaperon_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sons/11_chat_botte/le_chat_botte_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\11_chat_botte\\le_chat_botte_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/12_3petits_cochons/les_3_petits_cochons_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\12_3petits_cochons\\les_3_petits_cochons_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/13_hansel_gretel/hansel_et_gretel_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\13_hansel_gretel\\hansel_et_gretel_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/16_alice/alice_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\16_alice\\alice_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/17_belle_bete/la__belle_et_la_bete_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\17_belle_bete\\la__belle_et_la_bete_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "file": "sons/18_petitpoucet/le_petit_poucet_norm.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sons\\18_petitpoucet\\le_petit_poucet_norm.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/13_hansel_gretel/norvege2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\13_hansel_gretel\\norvege2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/13_hansel_gretel/suede2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\13_hansel_gretel\\suede2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/13_hansel_gretel/suisse2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\13_hansel_gretel\\suisse2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/13_hansel_gretel/islande2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\13_hansel_gretel\\islande2.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5998,7 +6104,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.450937292945791,
+        "zoomFactor": 0.4818615447292943,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -7606,6 +7712,14 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MontreSouris"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ]
         },
@@ -9061,7 +9175,7 @@
               "parameters": [
                 "ParcheminTexte",
                 "=",
-                "\"[i]Cherche les personnages qui sont prisonniers dans la forêt. Chacun d’eux te proposera une énigme.  \n\nLa bonne réponse t’apportera un objet à mettre dans ton sac.\n\nTu as 1h pour récupérer 7 objets afin de libérer les personnages.[/i]\""
+                "\"[i]Cherchez les personnages qui sont prisonniers dans la forêt. Chacun d’eux vous proposera une énigme.  \n\nLa bonne réponse vous apportera un objet à mettre dans votre sac.\n\nVous avez 1h pour récupérer 7 objets afin de libérer les personnages.[/i]\""
               ]
             }
           ]
@@ -10830,6 +10944,14 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "MontreSouris"
+              },
+              "parameters": [
+                ""
+              ]
             }
           ]
         },
@@ -10845,43 +10967,6 @@
           },
           "comment": "curseur",
           "comment2": ""
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "curseurLoupe",
-                "=",
-                "MouseX()",
-                "=",
-                "MouseY()"
-              ]
-            },
-            {
-              "type": {
-                "value": "CacheSouris"
-              },
-              "parameters": [
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ChangePlan"
-              },
-              "parameters": [
-                "curseurLoupe",
-                "=",
-                "50"
-              ]
-            }
-          ]
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -12322,7 +12407,7 @@
               "parameters": [
                 "ParcheminTexte",
                 "=",
-                "\"[i]Cherche les personnages qui sont prisonniers dans la forêt. Chacun d’eux te proposera une énigme.  \n\nLa bonne réponse t’apportera un objet à mettre dans ton sac.\n\nTu as 1h30 pour récupérer 10 objets afin de libérer les personnages.[/i]\""
+                "\"[i]Cherchez les personnages qui sont prisonniers dans la forêt. Chacun d’eux vous proposera une énigme.  \n\nLa bonne réponse vous apportera un objet à mettre dans votre sac.\n\nVous avez 1h30 pour récupérer 10 objets afin de libérer les personnages.[/i]\""
               ]
             }
           ]
@@ -22568,7 +22653,19 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"En s'enfuyant, le Petit Chaperon a laissé tomber son album souvenir qu'elle voulait montrer à sa grand-mère.\n\nEt les étiquettes qui étaient collées près des images se sont décollées.\nElles sont toutes mélangées...\n\nPouvez-vous l'aider à remettre ces étiquettes à leur place ? Ce serait très gentil...\nIl faut que vous déplaciez chaque étiquette vers l'image qui lui correspond. \n\nAinsi, vous gagnerez un nouvel objet magique, qui aidera les personnages de contes à échapper à la sorcière...\n\nClique sur le livre pour l'ouvrir.\n\""
+                "\"En s'enfuyant, le Petit Chaperon a laissé tomber son album souvenir qu'elle voulait montrer à sa grand-mère.\n\nEt les étiquettes qui étaient collées près des images se sont décollées.\nElles sont toutes mélangées...\n\nPouvez-vous l'aider à remettre ces étiquettes à leur place ? Ce serait très gentil...\nIl faut que vous déplaciez chaque étiquette vers l'image qui lui correspond en l'accrochant à la punaise. \n\nAinsi, vous gagnerez un nouvel objet magique, qui aidera les personnages de contes à échapper à la sorcière...\n\nClique sur le livre pour l'ouvrir.\n\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\10_chaperon_rouge\\le_chaperon_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -22710,7 +22807,7 @@
       "name": "10-2-Chaperon Rouge CP",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -23169,8 +23266,8 @@
           "name": "TexteErreur",
           "persistentUuid": "c9b32793-83ea-4216-9bda-ae2a99af2afc",
           "width": 546,
-          "x": 441,
-          "y": 337,
+          "x": 438,
+          "y": 277,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -24048,16 +24145,6 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"En s'enfuyant, le Petit Chaperon a laissé tomber son album souvenir qu'elle voulait montrer à sa grand-mère.\n\nEt les étiquettes qui étaient collées près des images se sont décollées.\nElles sont toutes mélangées...\n\nPouvez-vous l'aider à remettre ces étiquettes à leur place ? Ce serait très gentil...\nIl faut que vous déplaciez chaque étiquette vers l'image qui lui correspond. \n\nAinsi, vous gagnerez un nouvel objet magique, qui aidera les personnages de contes à échapper à la sorcière...\n\nClique sur le livre pour l'ouvrir.\n\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -24611,7 +24698,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -24636,7 +24722,7 @@
                   "parameters": [
                     "etiquette1",
                     "punaise",
-                    "80",
+                    "100",
                     ""
                   ]
                 }
@@ -24674,7 +24760,7 @@
                   "parameters": [
                     "etiquette2",
                     "punaise",
-                    "80",
+                    "100",
                     ""
                   ]
                 }
@@ -24712,7 +24798,7 @@
                   "parameters": [
                     "etiquette3",
                     "punaise",
-                    "80",
+                    "100",
                     ""
                   ]
                 }
@@ -24750,7 +24836,7 @@
                   "parameters": [
                     "etiquette4",
                     "punaise",
-                    "80",
+                    "100",
                     ""
                   ]
                 }
@@ -24788,7 +24874,7 @@
                   "parameters": [
                     "etiquette5",
                     "punaise",
-                    "80",
+                    "100",
                     ""
                   ]
                 }
@@ -24826,7 +24912,7 @@
                   "parameters": [
                     "etiquette6",
                     "punaise",
-                    "80",
+                    "100",
                     ""
                   ]
                 }
@@ -25242,8 +25328,8 @@
               "parameters": [
                 "CloseButton",
                 "CloseButton",
-                "910",
-                "280",
+                "918",
+                "253",
                 "\"erreur\""
               ]
             },
@@ -25254,7 +25340,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Vous avez fait une ou plusieurs erreurs... \n\nRéessayez...  \""
+                "\"Vous avez fait une ou plusieurs erreurs... \nPensez à vérifier que chaque image est bien attachée à la punaise. \n\nRéessayez... \""
               ]
             },
             {
@@ -25522,7 +25608,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "name": "indice",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -25910,7 +25996,19 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"En s'enfuyant, le Petit Chaperon a laissé tomber son album souvenir qu'elle voulait montrer à sa grand-mère.\n\nEt les étiquettes qui étaient collées près des images se sont décollées.\nElles sont toutes mélangées...\n\nPouvez-vous l'aider à remettre ces étiquettes à leur place ? Ce serait très gentil...\nIl faut que vous déplaciez chaque étiquette vers l'image qui lui correspond. \n\nAinsi, vous gagnerez un nouvel objet magique, qui aidera les personnages de contes à échapper à la sorcière...\n\nClique sur le livre pour l'ouvrir.\n\""
+                "\"En s'enfuyant, le Petit Chaperon a laissé tomber son album souvenir qu'elle voulait montrer à sa grand-mère.\n\nEt les étiquettes qui étaient collées près des images se sont décollées.\nElles sont toutes mélangées...\n\nPouvez-vous l'aider à remettre ces étiquettes à leur place ? Ce serait très gentil...\nIl faut que vous déplaciez chaque étiquette vers l'image qui lui correspond en l'accrochant à la punaise. \n\nAinsi, vous gagnerez un nouvel objet magique, qui aidera les personnages de contes à échapper à la sorcière...\n\nCliquez sur le livre pour l'ouvrir.\n\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\10_chaperon_rouge\\le_chaperon_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -26052,7 +26150,7 @@
       "name": "10-2-Chaperon Rouge CE2",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -27552,16 +27650,6 @@
           "actions": [
             {
               "type": {
-                "value": "BBText::SetBBText"
-              },
-              "parameters": [
-                "consigne",
-                "=",
-                "\"En s'enfuyant, le Petit Chaperon a laissé tomber son album souvenir qu'elle voulait montrer à sa grand-mère.\n\nEt les étiquettes qui étaient collées près des images se sont décollées.\nElles sont toutes mélangées...\n\nPouvez-vous l'aider à remettre ces étiquettes à leur place ? Ce serait très gentil...\nIl faut que vous déplaciez chaque étiquette vers l'image qui lui correspond. \n\nAinsi, vous gagnerez un nouvel objet magique, qui aidera les personnages de contes à échapper à la sorcière...\n\nClique sur le livre pour l'ouvrir.\n\""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -27598,6 +27686,18 @@
               },
               "parameters": [
                 "indiceChaperon"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\10_chaperon_rouge\\le_chaperon_norm.mp3",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -29028,7 +29128,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Vous avez fait une ou plusieurs erreurs... \n\nRéessayez...  \""
+                "\"Vous avez fait une ou plusieurs erreurs... \nPensez à vérifier que chaque image est bien attachée à la punaise. \n\nRéessayez... \""
               ]
             },
             {
@@ -29339,7 +29439,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998329973,
+        "zoomFactor": 0.5117784035210173,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -29900,6 +30000,18 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\11_chat_botte\\le_chat_botte_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -30966,6 +31078,18 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\11_chat_botte\\le_chat_botte_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -32574,7 +32698,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Le vent ou l’air peuvent faire fonctionner un objet ou ces éléments peuvent être produits par un objet…\nParmi les 6 images, retrouve l’objet qui produira du vent mais n’en aura pas besoin pour fonctionner. Ecris ta réponse dans la case et clique sur le bouton vert pour valider.\""
+                "\"Le vent ou l’air peuvent faire fonctionner un objet ou ces éléments peuvent être produits par un objet…\nParmi les 6 images, retrouvez l’objet qui produira du vent mais n’en aura pas besoin pour fonctionner. Ecrivez votre réponse dans la case et cliquez sur le bouton vert pour valider.\""
               ]
             },
             {
@@ -32607,6 +32731,18 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\12_3petits_cochons\\les_3_petits_cochons_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -32828,7 +32964,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! Ce n’est pas le bon objet.\n\nContinue de chercher...\""
+                "\"Oh non !! Ce n’est pas le bon objet.\n\nContinuez de chercher...\""
               ]
             },
             {
@@ -34955,7 +35091,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Le vent ou l’air  peuvent faire fonctionner un objet ou ces éléments peuvent être produits par un objet.\n\nParmi ces 12 images, sélectionne les deux objets qui produisent du vent mais n’en auront pas besoin pour fonctionner.\""
+                "\"Le vent ou l’air  peuvent faire fonctionner un objet ou ces éléments peuvent être produits par un objet.\n\nParmi ces 12 images, sélectionnez les deux objets qui produisent du vent mais n’en auront pas besoin pour fonctionner.\""
               ]
             },
             {
@@ -34988,6 +35124,18 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\12_3petits_cochons\\les_3_petits_cochons_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -36586,7 +36734,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! Ce n’est pas les bons objets.\nContinue de chercher...\""
+                "\"Oh non !! Ce n’est pas les bons objets.\nContinuez de chercher...\""
               ]
             },
             {
@@ -37170,6 +37318,36 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "indice",
+          "name": "indiceHG",
+          "persistentUuid": "49105a1d-efef-4862-b7e6-6483a7a3b6c5",
+          "width": 0,
+          "x": 200,
+          "y": 228,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 121,
+          "layer": "indice",
+          "name": "TexteIndice",
+          "persistentUuid": "7464a941-11df-4c22-8e44-b8f4921134b1",
+          "width": 613,
+          "x": 304,
+          "y": 290,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -37416,6 +37594,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\suede2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -37446,6 +37653,35 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\13_hansel_gretel\\norvege0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\norvege2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -37510,6 +37746,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\suisse2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -37540,6 +37805,35 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\13_hansel_gretel\\islande0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\islande2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -37811,6 +38105,47 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "indiceHG",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\bloc3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -37861,7 +38196,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Le drapeau du Royaume-Uni représente un mélange de 3 drapeaux de 3 grands territoires de ce Royaume. Sauras-tu les retrouver afin de le créer ? Attention aux pièges !!\n\nDéplaces les bons drapeaux dans la case pour pouvoir le reconstituer.\""
+                "\"Le drapeau du Royaume-Uni représente un mélange de 3 drapeaux de 3 grands territoires de ce Royaume. Saurez-vous les retrouver afin de le créer ? Attention aux pièges !!\n\nDéplacez les bons drapeaux dans la case pour pouvoir le reconstituer.\""
               ]
             },
             {
@@ -37886,6 +38221,26 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "indiceHG"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\13_hansel_gretel\\hansel_et_gretel_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -38194,6 +38549,16 @@
                 "=",
                 "Cadre.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Islande",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -38232,6 +38597,16 @@
                 "Cadre.X()",
                 "=",
                 "Cadre.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Norvege",
+                "=",
+                "1"
               ]
             }
           ]
@@ -38272,6 +38647,16 @@
                 "=",
                 "Cadre.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suede",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -38310,6 +38695,16 @@
                 "Cadre.X()",
                 "=",
                 "Cadre.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suisse",
+                "=",
+                "1"
               ]
             }
           ]
@@ -38404,6 +38799,110 @@
               },
               "parameters": [
                 "Irelande",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Islande",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Islande",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Norvege",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Norvege",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Suede",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suede",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Suisse",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suisse",
                 "=",
                 "0"
               ]
@@ -38627,7 +39126,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Tu y es presque mais il y a quelques erreurs ! Retente ta chance !\""
+                "\"Vous y êtes presque mais il y a quelques erreurs ! Retentez votre chance !\""
               ]
             },
             {
@@ -38708,7 +39207,6 @@
           "comment2": ""
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -38749,7 +39247,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\" Tu ne dois utiliser que 3 drapeaux pour réussir cette énigme.\""
+                "\" Regardez bien le drapeau à côté de la consigne.\""
               ]
             },
             {
@@ -38768,8 +39266,8 @@
               "parameters": [
                 "CloseButton2",
                 "CloseButton2",
-                "980",
-                "230",
+                "962",
+                "253",
                 "\"indice\""
               ]
             }
@@ -38781,7 +39279,6 @@
           "actions": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -39474,6 +39971,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\suede2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -39504,6 +40030,35 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\13_hansel_gretel\\norvege0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\norvege2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -39568,6 +40123,35 @@
                   ]
                 }
               ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\suisse2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -39598,6 +40182,46 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\13_hansel_gretel\\islande0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\13_hansel_gretel\\islande2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -39878,7 +40502,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Le drapeau du Royaume-Uni représente un mélange de plusieurs drapeaux de territoires de ce Royaume. Sauras-tu les retrouver afin de le reconstituer ? Attention aux pièges!!\n\nDéplaces les bons drapeaux dans la case pour pouvoir le reconstituer.\""
+                "\"Le drapeau du Royaume-Uni représente un mélange de plusieurs drapeaux de territoires de ce Royaume. Saurez-vous les retrouver afin de le reconstituer ? Attention aux pièges!!\n\nDéplacez les bons drapeaux dans la case pour pouvoir le reconstituer.\""
               ]
             },
             {
@@ -39911,6 +40535,18 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\13_hansel_gretel\\hansel_et_gretel_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -40219,6 +40855,16 @@
                 "=",
                 "Cadre.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Islande",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -40257,6 +40903,16 @@
                 "Cadre.X()",
                 "=",
                 "Cadre.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Norvege",
+                "=",
+                "1"
               ]
             }
           ]
@@ -40297,6 +40953,16 @@
                 "=",
                 "Cadre.Y()"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suede",
+                "=",
+                "1"
+              ]
             }
           ]
         },
@@ -40335,6 +41001,16 @@
                 "Cadre.X()",
                 "=",
                 "Cadre.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suisse",
+                "=",
+                "1"
               ]
             }
           ]
@@ -40434,6 +41110,115 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Islande",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Islande",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Norvege",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Norvege",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Suede",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suede",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DraggableBehavior::Dragged"
+              },
+              "parameters": [
+                "Suisse",
+                "Déplaçable"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeAnimation"
+              },
+              "parameters": [
+                "Suisse",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
@@ -40652,7 +41437,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Tu y es presque mais il y a quelques erreurs ! Retente ta chance !\""
+                "\"Vous y êtes presque mais il y a quelques erreurs ! Retentez votre chance !\""
               ]
             },
             {
@@ -40773,7 +41558,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\" Tu ne dois utiliser que 3 drapeaux pour réussir cette énigme.\""
+                "\" Vous ne devez utiliser que 3 drapeaux pour réussir cette énigme.\""
               ]
             },
             {
@@ -41415,13 +42200,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 201,
+          "height": 243,
           "layer": "erreur",
           "name": "TexteErreur",
           "persistentUuid": "507dd96e-0f91-4d26-a2f4-ca17d4962fbf",
           "width": 559,
-          "x": 394,
-          "y": 356,
+          "x": 392,
+          "y": 312,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -42234,7 +43019,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Zut, tous mes instruments sont complètement mélangés. Pour résoudre cette énigme tu vas devoir associer chaque mélodie au bon instrument en les glissant dans les bonnes cases.\""
+                "\"Zut, tous mes instruments sont complètement mélangés. Pour résoudre cette énigme vous allez devoir associer chaque mélodie au bon instrument en les glissant dans les bonnes cases.\""
               ]
             },
             {
@@ -42477,7 +43262,7 @@
                   "parameters": [
                     "piano",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -42507,7 +43292,7 @@
                   "parameters": [
                     "batterie",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -42537,7 +43322,7 @@
                   "parameters": [
                     "flute",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -42567,7 +43352,7 @@
                   "parameters": [
                     "trompette",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -42597,7 +43382,7 @@
                   "parameters": [
                     "guitare",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -42627,7 +43412,7 @@
                   "parameters": [
                     "violon",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -42657,7 +43442,7 @@
                   "parameters": [
                     "triangle",
                     "case",
-                    "40",
+                    "80",
                     ""
                   ]
                 }
@@ -43324,7 +44109,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Nooooon, dommage ce n'est pas tout à fait ça. \n\nRéécoute bien chaque mélodie et vérifie que chaque instrument est bien ancré dans la bonne case..\""
+                "\"Nooooon, dommage ce n'est pas tout à fait ça. \n\nRéécoutez bien chaque mélodie et vérifiez que chaque instrument est bien ancré dans la bonne case.\""
               ]
             },
             {
@@ -43454,7 +44239,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Vérifie que chaque instrument est bien ancré dans la bonne case.\n\nUn petit indice, la guitare se trouve sur la première ligne et le violon sur la deuxième.\""
+                "\"Vérifiez que chaque instrument est bien ancré dans la bonne case.\n\nUn petit indice, la guitare se trouve sur la première ligne et le violon sur la deuxième.\""
               ]
             },
             {
@@ -45256,7 +46041,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Mon instrument est complètement ensorcelé et il joue des notes bizarres. Aide moi à lever le sortilège.\nEcoute la mélodie en cliquant sur le bouton « lecture ». Essaye de la reconstituer à l’aide des touches du piano.\nEcris le numéro de chaque note dans les cases puis clique sur le bouton de validation.\n\""
+                "\"Mon instrument est complètement ensorcelé et il joue des notes bizarres. Aidez moi à lever le sortilège.\nEcoutez la mélodie en cliquant sur le bouton « lecture ». Essayez de la reconstituer à l’aide des touches du piano.\nEcrivez le numéro de chaque note dans les cases puis cliquez sur le bouton de validation.\n\""
               ]
             },
             {
@@ -48436,7 +49221,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Nooooon, ce n'est pas tout \nà fait la même chose, réécoute bien la mélodie.\""
+                "\"Nooooon, ce n'est pas tout \nà fait la même chose, réécoutez bien la mélodie.\""
               ]
             },
             {
@@ -48566,7 +49351,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Voici un petit indice pour t'aider : \n\n- La note 1 et la note 2 sont identiques ;\n- La note 3 et la note 4 sont identiques ;\n- La note 5 et la note 6 sont identiques ;\n- La note 7 et la note 8 sont identiques.\""
+                "\"Voici un petit indice pour vous aider : \n\n- La note 1 et la note 2 sont identiques ;\n- La note 3 et la note 4 sont identiques ;\n- La note 5 et la note 6 sont identiques ;\n- La note 7 et la note 8 sont identiques.\""
               ]
             },
             {
@@ -49210,16 +49995,6 @@
             },
             {
               "type": {
-                "value": "TextInput::TextInputObject::SetText"
-              },
-              "parameters": [
-                "reponse",
-                "=",
-                "ToLowerCase(reponse.Text())"
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -49273,6 +50048,22 @@
                 "yes",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "reponse",
+                "=",
+                "ToLowerCase(reponse.Text())"
               ]
             }
           ]
@@ -49434,7 +50225,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Tu t’es trompé, réfléchis et donne-moi une autre réponse.\""
+                "\"Vous vous êtes trompés, réfléchissez et donnez-moi une autre réponse.\""
               ]
             },
             {
@@ -49632,7 +50423,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Tu sais qu’on est un samedi aujourd’hui et tu sais qu’elle a jusqu’au jeudi suivant. \n\nCompte combien cela fait de jours entre samedi et jeudi en sachant qu’on compte le samedi et le jeudi.\n\""
+                "\"Vous savez qu’on est un samedi aujourd’hui et vous savez qu’elle a jusqu’au jeudi suivant. \n\nComptez combien cela fait de jours entre samedi et jeudi en sachant qu’on compte le samedi et le jeudi.\n\""
               ]
             },
             {
@@ -50300,16 +51091,6 @@
             },
             {
               "type": {
-                "value": "TextInput::TextInputObject::SetText"
-              },
-              "parameters": [
-                "reponse",
-                "=",
-                "ToLowerCase(reponse.Text())"
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -50363,6 +51144,22 @@
                 "yes",
                 "",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextInput::TextInputObject::SetText"
+              },
+              "parameters": [
+                "reponse",
+                "=",
+                "ToLowerCase(reponse.Text())"
               ]
             }
           ]
@@ -50524,7 +51321,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Tu t’es trompé, réfléchis et donne-moi une autre réponse.\""
+                "\"Vous vous êtes trompés, réfléchissez et donnez-moi une autre réponse.\""
               ]
             },
             {
@@ -50722,7 +51519,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Trouve l’heure affichée par l’horloge et compte le nombre d’heure qu’il y a entre son arrivée et son départ.\n\""
+                "\"Trouvez l’heure affichée par l’horloge et comptez le nombre d’heures qu’il y a entre son arrivée et son départ.\n\""
               ]
             },
             {
@@ -50799,11 +51596,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -52308,7 +53100,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Ecris la couleur obtenue par les « opérations » des seaux ci-dessous. \nTu retrouveras ensuite le mots mystère à renseigner en dessous de l’énigme.\n\""
+                "\"Ecrivez la couleur obtenue par les « opérations » des seaux ci-dessous. \nVous retrouverez ensuite le mots mystère à renseigner en dessous de l’énigme.\n\""
               ]
             },
             {
@@ -52357,6 +53149,18 @@
               },
               "parameters": [
                 "CloseButton2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\16_alice\\alice_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -52603,7 +53407,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! Ce n’est pas le bon mot.\n\nContinue de chercher… \n\""
+                "\"Oh non !! Ce n’est pas le bon mot.\n\nContinuez de chercher… \n\""
               ]
             },
             {
@@ -52807,7 +53611,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Fais attention aux signes des opérations.\nPour mélanger les couleurs, tu peux t’aider de ce schéma.\n\""
+                "\"Faites attention aux signes des opérations.\nPour mélanger les couleurs, vous pouvez vous aider de ce schéma.\n\""
               ]
             },
             {
@@ -54362,7 +55166,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Ecris la couleur obtenue par les « opérations » des seaux ci-dessous. \nTu retrouveras ensuite le mots mystère à renseigner en dessous de l’énigme.\n\""
+                "\"Ecrivez la couleur obtenue par les « opérations » des seaux ci-dessous. \nVous retrouverez ensuite le mots mystère à renseigner en dessous de l’énigme.\n\""
               ]
             },
             {
@@ -54411,6 +55215,18 @@
               },
               "parameters": [
                 "CloseButton2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\16_alice\\alice_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -54657,7 +55473,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Oh non !! Ce n’est pas le bon mot.\n\nContinue de chercher… \n\""
+                "\"Oh non !! Ce n’est pas le bon mot.\n\nContinuez de chercher… \n\""
               ]
             },
             {
@@ -54861,7 +55677,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\"Fais attention aux signes des opérations.\nPour mélanger les couleurs, tu peux t’aider de ce schéma.\n\""
+                "\"Faites attention aux signes des opérations.\nPour mélanger les couleurs, vous pouvez vous aider de ce schéma.\n\""
               ]
             },
             {
@@ -56289,6 +57105,18 @@
               "parameters": [
                 "indiceBelle"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\17_belle_bete\\la__belle_et_la_bete_norm.mp3",
+                "yes",
+                "50",
+                ""
+              ]
             }
           ]
         },
@@ -57197,6 +58025,18 @@
               },
               "parameters": [
                 "indiceBelle"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\17_belle_bete\\la__belle_et_la_bete_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -58356,7 +59196,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Pour pouvoir échapper au sort de la sorcière, le petit Poucet doit chausser les bottes de 7 lieues. Pour l’aider à les ajuster, il te faut résoudre une énigme.\n\nCombien de pas doit faire le petit poucet pour parcourir la même distance que lorsqu’il fait un pas avec les bottes de 7 lieues ?\n\nTu peux déplacer les unités de mesure pour t'aider.\""
+                "\"Pour pouvoir échapper au sort de la sorcière, le petit Poucet doit chausser les bottes de 7 lieues. Pour l’aider à les ajuster, il vous faut résoudre une énigme.\n\nCombien de pas doit faire le petit poucet pour parcourir la même distance que lorsqu’il fait un pas avec les bottes de 7 lieues ?\n\nVous pouvez déplacer les unités de mesure pour vous aider.\""
               ]
             },
             {
@@ -58389,6 +59229,18 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\18_petitpoucet\\le_petit_poucet_norm.mp3",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -58588,7 +59440,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Ce n’est pas la\nbonne réponse. Cherche encore ! \""
+                "\"Ce n’est pas la\nbonne réponse. Cherchez encore ! \""
               ]
             },
             {
@@ -59649,7 +60501,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Le petit Poucet, en chaussant les bottes de l’ogre, parcours 7 lieues, à chaque fois qu’il fait un pas.\nEn combien de pas rejoindra-t-il sa maison, sachant que celle-ci se trouve à 420 kilomètres de sa position ?\n\nPour t'aider tu peux consulter la page :\n\n\n\nTu utiliseras la correspondance avec la lieue métrique.\""
+                "\"Le petit Poucet, en chaussant les bottes de l’ogre, parcours 7 lieues, à chaque fois qu’il fait un pas.\nEn combien de pas rejoindra-t-il sa maison, sachant que celle-ci se trouve à 420 kilomètres de sa position ?\n\nPour vous aider vous pouvez consulter la page :\n\n\n\nVous utiliserez la correspondance avec la lieue métrique.\""
               ]
             },
             {
@@ -59690,6 +60542,18 @@
               },
               "parameters": [
                 "PageWiki"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sons\\18_petitpoucet\\le_petit_poucet_norm.mp3",
+                "yes",
+                "",
+                ""
               ]
             }
           ]
@@ -59889,7 +60753,7 @@
               "parameters": [
                 "TexteErreur",
                 "=",
-                "\"Ce n’est pas la\nbonne réponse. Cherche encore ! \""
+                "\"Ce n’est pas la\nbonne réponse. Cherchez encore ! \""
               ]
             },
             {
@@ -60736,8 +61600,8 @@
           "name": "TexteIndice",
           "persistentUuid": "d62e8606-292b-4ac2-9e39-8ddee2c329fe",
           "width": 673,
-          "x": 335,
-          "y": 338,
+          "x": 289,
+          "y": 346,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -61527,7 +62391,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Remets les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis clique sur le bouton de validation quand tu auras terminé.\""
+                "\"Remetez les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis cliquez sur le bouton de validation quand vous aurez terminé.\""
               ]
             },
             {
@@ -61560,6 +62424,19 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sons\\18_petitpoucet\\le_petit_poucet_norm.mp3",
+                "18",
+                "50",
+                "50",
+                ""
               ]
             }
           ]
@@ -62395,7 +63272,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\" Pour remettre les images dans l'ordre, tu peux t'aider en écoutant le résumé de l'histoire.\""
+                "\" Pour remettre les images dans l'ordre, vous pouvez vous aider en écoutant le résumé de l'histoire.\""
               ]
             },
             {
@@ -62458,6 +63335,15 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "18"
+              ]
+            },
             {
               "type": {
                 "value": "PlaySoundCanal"
@@ -62539,6 +63425,15 @@
               "parameters": [
                 "",
                 "19"
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "18"
               ]
             }
           ]
@@ -63093,8 +63988,8 @@
           "name": "TexteIndice",
           "persistentUuid": "d62e8606-292b-4ac2-9e39-8ddee2c329fe",
           "width": 673,
-          "x": 335,
-          "y": 338,
+          "x": 291,
+          "y": 356,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -63884,7 +64779,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"Remets les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis clique sur le bouton de validation quand tu auras terminé.\""
+                "\"Remetez les images de l'histoire de La Belle au Bois Dormant dans le bon ordre puis cliquez sur le bouton de validation quand vous aurez terminé.\""
               ]
             },
             {
@@ -63917,6 +64812,19 @@
               },
               "parameters": [
                 "TexteIndice"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sons\\18_petitpoucet\\le_petit_poucet_norm.mp3",
+                "18",
+                "50",
+                "50",
+                ""
               ]
             }
           ]
@@ -64753,7 +65661,7 @@
               "parameters": [
                 "TexteIndice",
                 "=",
-                "\" Pour remettre les images dans l'ordre, tu peux t'aider en écoutant le résumé de l'histoire.\""
+                "\" Pour remettre les images dans l'ordre, vous pouvez vous aider en écoutant le résumé de l'histoire.\""
               ]
             },
             {
@@ -64816,6 +65724,15 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "18"
+              ]
+            },
             {
               "type": {
                 "value": "PlaySoundCanal"
@@ -64897,6 +65814,15 @@
               "parameters": [
                 "",
                 "19"
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "18"
               ]
             }
           ]
