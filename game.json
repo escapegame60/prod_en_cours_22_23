@@ -2612,7 +2612,7 @@
       "content": {
         "text": "[b]bold[/b] [i]italic[/i] [size=15]smaller[/size] [font=times]times[/font] font\n[spacing=12]spaced out[/spacing]\n[outline=yellow]outlined[/outline] [shadow=red]DropShadow[/shadow] ",
         "opacity": 255,
-        "fontSize": 24,
+        "fontSize": 20,
         "visible": true,
         "color": "0;0;0",
         "fontFamily": "polices\\Fredoka-Medium.ttf",
@@ -6584,7 +6584,7 @@
                 "sons\\00-general\\contoise_musique_1_02.mp3",
                 "1",
                 "yes",
-                "",
+                "50",
                 ""
               ]
             },
@@ -9829,7 +9829,7 @@
                 "sons\\00-general\\contoise_musique_1_02.mp3",
                 "1",
                 "yes",
-                "",
+                "50",
                 ""
               ]
             },
@@ -26843,18 +26843,6 @@
               "parameters": [
                 "indiceChaperon"
               ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "sons\\10_chaperon_rouge\\le_chaperon_norm.mp3",
-                "yes",
-                "",
-                ""
-              ]
             }
           ]
         },
@@ -30944,8 +30932,8 @@
           "name": "consigne",
           "persistentUuid": "fb687e0a-1374-4410-a9d7-d1ab1e9b8d69",
           "width": 828,
-          "x": 307,
-          "y": 18,
+          "x": 298,
+          "y": 16,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -62707,7 +62695,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "Chrono CE2"
+          "target": "Chrono CP"
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
