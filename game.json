@@ -3269,7 +3269,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5828074294436583,
+        "zoomFactor": 0.5276135089313353,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4283,13 +4283,13 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 100,
+          "height": 64,
           "layer": "",
           "name": "TexteChoix",
           "persistentUuid": "6f78df62-ab13-44de-a6af-af52bf42484a",
-          "width": 503,
-          "x": 400,
-          "y": 180,
+          "width": 499,
+          "x": 412,
+          "y": 196,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -75988,7 +75988,7 @@
               "parameters": [
                 "consigne",
                 "=",
-                "\"[size=40]Bravo ! Le petit Poucet est en route vers la sortie ! \nIl t’a laissé un [b]caillou[/b]. Mets le dans ton sac.[/size=40] \""
+                "\"[size=40]Bravo ! Le petit Poucet est en route vers la sortie ! \nIl t’a laissé un [b]caillou[/b]. Mets-le dans ton sac.[/size=40] \""
               ]
             },
             {
