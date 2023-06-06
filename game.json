@@ -17,8 +17,8 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.0.0",
-    "name": "Escape Cont'Oise",
+    "version": "1.2.0",
+    "name": "Escape Cont'Oise 1.2",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -2533,6 +2533,33 @@
         "name": "images\\19_belle_bois_dormant\\cadre1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/Balluchon_vert1_300.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\Balluchon_vert1_300.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/01-foret/Balluchon_vert_2_300.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\01-foret\\Balluchon_vert_2_300.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/00_interface/licence.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\00_interface\\licence.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3379,6 +3406,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 57,
+          "layer": "",
+          "name": "licence",
+          "persistentUuid": "616d6c85-cf26-49b0-932f-c167a35bfa91",
+          "width": 151,
+          "x": 1115,
+          "y": 649,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -3516,6 +3558,47 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\01-foret\\carte_gdev_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "licence",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\00_interface\\licence.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -11469,7 +11552,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5783126044910414,
+        "zoomFactor": 0.44354552025376554,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -11633,8 +11716,8 @@
           "name": "sac",
           "persistentUuid": "7281b5ba-0ebe-4ddf-bb11-1eb9fb40894d",
           "width": 300,
-          "x": -39,
-          "y": 422,
+          "x": -7,
+          "y": 416,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -11663,8 +11746,8 @@
           "name": "caillou",
           "persistentUuid": "889c7783-d990-4211-9ee8-7a4d8f07c31d",
           "width": 22,
-          "x": 67,
-          "y": 688,
+          "x": 87,
+          "y": 679,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -11678,8 +11761,8 @@
           "name": "montre",
           "persistentUuid": "ef1bb604-bbc9-47bf-a20d-9fd8c2cbbe69",
           "width": 48,
-          "x": 102,
-          "y": 516,
+          "x": 106,
+          "y": 520,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -11708,8 +11791,8 @@
           "name": "brique",
           "persistentUuid": "1f1b30ea-6bd3-4542-b728-fb3146543a37",
           "width": 71,
-          "x": 143,
-          "y": 626,
+          "x": 190,
+          "y": 611,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -11723,8 +11806,8 @@
           "name": "panier",
           "persistentUuid": "c25906be-e7af-444a-8f14-3b2eb623f96d",
           "width": 67,
-          "x": 92,
-          "y": 646,
+          "x": 131,
+          "y": 631,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -11738,8 +11821,8 @@
           "name": "fuseau",
           "persistentUuid": "d7b50657-2cef-4d73-9c07-7cd0e91f34eb",
           "width": 0,
-          "x": 50,
-          "y": 603,
+          "x": 67,
+          "y": 598,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -11753,8 +11836,8 @@
           "name": "bottes",
           "persistentUuid": "429dbc4a-a682-4d9b-9b2a-7b1585b8af47",
           "width": 66,
-          "x": 135,
-          "y": 564,
+          "x": 168,
+          "y": 559,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -11768,8 +11851,8 @@
           "name": "Rose",
           "persistentUuid": "54f98797-546d-4c5c-9fce-264c12bb4e6f",
           "width": 54,
-          "x": 106,
-          "y": 567,
+          "x": 142,
+          "y": 524,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -11798,8 +11881,8 @@
           "name": "pantoufle",
           "persistentUuid": "536f721c-93ec-4417-a6db-ae7980b46d95",
           "width": 72,
-          "x": 56,
-          "y": 580,
+          "x": 71,
+          "y": 579,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -13898,7 +13981,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\01-foret\\baluchon.png",
+                      "image": "images\\01-foret\\Balluchon_vert_2_300.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16355,7 +16438,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5978134964040419,
+        "zoomFactor": 0.523544359765639,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -16519,7 +16602,7 @@
           "name": "sac",
           "persistentUuid": "7281b5ba-0ebe-4ddf-bb11-1eb9fb40894d",
           "width": 300,
-          "x": -39,
+          "x": -14,
           "y": 422,
           "zOrder": 16,
           "numberProperties": [],
@@ -16549,8 +16632,8 @@
           "name": "caillou",
           "persistentUuid": "889c7783-d990-4211-9ee8-7a4d8f07c31d",
           "width": 22,
-          "x": 67,
-          "y": 688,
+          "x": 89,
+          "y": 676,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -16564,8 +16647,8 @@
           "name": "montre",
           "persistentUuid": "ef1bb604-bbc9-47bf-a20d-9fd8c2cbbe69",
           "width": 48,
-          "x": 102,
-          "y": 516,
+          "x": 117,
+          "y": 502,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -16594,8 +16677,8 @@
           "name": "brique",
           "persistentUuid": "1f1b30ea-6bd3-4542-b728-fb3146543a37",
           "width": 71,
-          "x": 143,
-          "y": 626,
+          "x": 179,
+          "y": 619,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -16609,8 +16692,8 @@
           "name": "panier",
           "persistentUuid": "c25906be-e7af-444a-8f14-3b2eb623f96d",
           "width": 67,
-          "x": 92,
-          "y": 646,
+          "x": 124,
+          "y": 640,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -16624,8 +16707,8 @@
           "name": "fuseau",
           "persistentUuid": "d7b50657-2cef-4d73-9c07-7cd0e91f34eb",
           "width": 0,
-          "x": 50,
-          "y": 603,
+          "x": 87,
+          "y": 591,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -16639,7 +16722,7 @@
           "name": "bottes",
           "persistentUuid": "429dbc4a-a682-4d9b-9b2a-7b1585b8af47",
           "width": 66,
-          "x": 135,
+          "x": 166,
           "y": 564,
           "zOrder": 23,
           "numberProperties": [],
@@ -16654,8 +16737,8 @@
           "name": "Rose",
           "persistentUuid": "54f98797-546d-4c5c-9fce-264c12bb4e6f",
           "width": 54,
-          "x": 106,
-          "y": 567,
+          "x": 121,
+          "y": 543,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -16684,8 +16767,8 @@
           "name": "pantoufle",
           "persistentUuid": "536f721c-93ec-4417-a6db-ae7980b46d95",
           "width": 72,
-          "x": 56,
-          "y": 580,
+          "x": 61,
+          "y": 575,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -17223,8 +17306,8 @@
           "name": "brouillard1",
           "persistentUuid": "f183cc76-aaed-4b6d-9e5c-db5b07e333f8",
           "width": 0,
-          "x": 429,
-          "y": 535,
+          "x": 424,
+          "y": 540,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -18784,7 +18867,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\01-foret\\baluchon.png",
+                      "image": "images\\01-foret\\Balluchon_vert_2_300.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -68480,7 +68563,7 @@
               "parameters": [
                 "ParcheminTexte",
                 "=",
-                "\"Félicitations, tu as récupéré tous les objets de personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maître pour obtenir ton diplôme. Retiens-le bien.\""
+                "\"Félicitations, tu as récupéré tous les objets des personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maître pour obtenir ton diplôme. Retiens-le bien.\""
               ]
             }
           ]
@@ -70820,7 +70903,7 @@
               "parameters": [
                 "ParcheminTexte",
                 "=",
-                "\"Félicitations, tu as récupéré tous les objets de personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maître pour obtenir ton diplôme. Retiens-le bien.\""
+                "\"Félicitations, tu as récupéré tous les objets des personnages pour lever la malédiction de la sorcière.\n\nVoici le mot magique que tu vas pouvoir communiquer avec ta maîtresse ou ton maître pour obtenir ton diplôme. Retiens-le bien.\""
               ]
             }
           ]
